@@ -23,6 +23,10 @@ jobs:
             echo "토큰이 없어 건너뜁니다"
             exit 0
           fi
+          for q in 'stats/total' 'stats/hits?limit=1' 'stats/browsers' 'stats/locations' 'stats/locations?limit=100' 'stats/locations?start=2026-11-03T00:00:00Z' 'stats/locations?start=2026-11-03T00%3A00%3A00Z&limit=100'; do
+            code=$(curl -sS -o /tmp/probe.json -w '%{http_code}' -H "Authorization: Bearer $GOATCOUNTER_TOKEN" -H 'Content-Type: application/json' "https://slrtm3tp.goatcounter.com/api/v0/$q")
+            echo "$q => $code $(jq -c 'if type == "object" then (keys + [(.error // "")]) else . end' /tmp/probe.json 2>/dev/null | cut -c1-160)"
+          done
           curl -fsS -H "Authorization: Bearer $GOATCOUNTER_TOKEN" -H 'Content-Type: application/json' \
             'https://slrtm3tp.goatcounter.com/api/v0/stats/locations?start=2026-11-03T00:00:00Z&limit=100' -o /tmp/raw.json
           jq '{countries: ([.stats[] | select(.id | test("^[A-Z]{2}$")) | select(.count >= 3) | {code: .id, count: .count}] | sort_by(-.count))}' /tmp/raw.json > visitors.json
