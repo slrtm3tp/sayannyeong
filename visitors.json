@@ -1,1 +1,8 @@
-{"countries":[]}
+{
+  "countries": [
+    {
+      "code": "US",
+      "count": 4
+    }
+  ]
+}
