@@ -170,6 +170,8 @@
   /* 움직임과 이벤트 */
   #fx { position: fixed; inset: 0; width: 100%; height: 100%; pointer-events: none; z-index: 20; }
   .eyebrow { color: var(--muted); font-size: clamp(1rem, 2vw, 1.25rem); min-height: 1.75em; }
+  /* 폰에서 누를 때 생기는 기본 색 상자를 없앤다. 눌림 표시는 각 요소의 효과가 맡는다 */
+  html { -webkit-tap-highlight-color: transparent; }
   #hello {
     display: inline-flex; font: inherit; letter-spacing: inherit; color: inherit;
     background: none; border: 0; padding: 0; cursor: pointer;
