@@ -1,0 +1,2550 @@
+<!doctype html><html lang="ja" data-page-lang="ja"><head><meta charset="utf-8"><meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self' 'unsafe-inline' 'wasm-unsafe-eval'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data: https://slrtm3tp.goatcounter.com; media-src 'self' blob:; connect-src 'self' https://slrtm3tp.goatcounter.com; worker-src 'self' blob:; base-uri 'none'; form-action 'none'"><meta name="referrer" content="strict-origin-when-cross-origin"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>アンニョン(안녕)・韓国語のあいさつをゲームで学ぶ</title><meta name="description" content="アンニョンの意味や韓国語のあいさつをゲームで覚えて、タイのワイやインドのナマステなど世界のあいさつ9種類をカメラでまねしてみましょう。無料で遊べます。"><meta name="naver-site-verification" content="afb20bf6dbe4691156c9f3f90fa4ab622c9c2b8c"><meta name="google-site-verification" content="OoKM6nyI-NBARjSAhlC0-VuTZ4BgaDKXk1LiqgXabec"><link rel="canonical" href="https://sayannyeong.com/ja/"><link rel="alternate" hreflang="x-default" href="https://sayannyeong.com/"><link rel="alternate" hreflang="ko" href="https://sayannyeong.com/ko/"><link rel="alternate" hreflang="en" href="https://sayannyeong.com/en/"><link rel="alternate" hreflang="ja" href="https://sayannyeong.com/ja/"><link rel="alternate" hreflang="zh-Hans" href="https://sayannyeong.com/zh/"><link rel="alternate" hreflang="es" href="https://sayannyeong.com/es/"><link rel="alternate" hreflang="fr" href="https://sayannyeong.com/fr/"><link rel="icon" href="/favicon.svg" type="image/svg+xml"><meta property="og:type" content="website"><meta property="og:url" content="https://sayannyeong.com/ja/"><meta property="og:locale" content="ja_JP"><meta property="og:title" content="アンニョン(안녕)・韓国語のあいさつをゲームで学ぶ"><meta property="og:description" content="アンニョンの意味や韓国語のあいさつをゲームで覚えて、タイのワイやインドのナマステなど世界のあいさつ9種類をカメラでまねしてみましょう。無料で遊べます。"><meta property="og:image" content="https://sayannyeong.com/og.png"><meta name="twitter:card" content="summary_large_image"><script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebApplication", "name": "アンニョン(안녕)・韓国語のあいさつをゲームで学ぶ", "url": "https://sayannyeong.com/ja/", "description": "アンニョンの意味や韓国語のあいさつをゲームで覚えて、タイのワイやインドのナマステなど世界のあいさつ9種類をカメラでまねしてみましょう。無料で遊べます。", "applicationCategory": "EducationalApplication", "operatingSystem": "Any", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}}</script><script data-goatcounter="https://slrtm3tp.goatcounter.com/count" async src="/vendor/count.js"></script><style>:root{color-scheme:light;padding-top:env(safe-area-inset-top,0);padding-bottom:env(safe-area-inset-bottom,0)}body{margin:0;font:14px system-ui,sans-serif}img{max-width:100%}[hidden]{display:none!important}</style></head><body>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=Hahmlet:wght@300;500;800&family=Noto+Serif+KR:wght@400&display=swap">
+<style>
+  /* Layout: 왼쪽으로 기운 거대한 글자 하나, 그 아래로 인사를 고르는 도구와 뜻풀이. ㅇ의 동그라미를 유일한 장식으로 반복한다. */
+  :root {
+    --bg: #dde9e1;       /* 청자 */
+    --surface: #cfdfd5;
+    --ink: #1b2a57;      /* 쪽빛 */
+    --muted: #47557d;
+    --line: #a9bcb6;
+    --accent: #a92038;   /* 홍 */
+    --on-ink: #eef4ef;
+    --display: "Hahmlet", "Noto Serif KR", "Apple SD Gothic Neo", serif;
+    --body: "Gowun Dodum", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+    --hanja: "Noto Serif KR", "AppleMyungjo", "Batang", serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #131a30; --surface: #1c2542; --ink: #dfeae3; --muted: #a2b1b8;
+      --line: #36425f; --accent: #ff8a8f; --on-ink: #131a30; color-scheme: dark;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #131a30; --surface: #1c2542; --ink: #dfeae3; --muted: #a2b1b8;
+    --line: #36425f; --accent: #ff8a8f; --on-ink: #131a30; color-scheme: dark;
+  }
+
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: var(--body);
+    font-size: 1.0625rem;
+    line-height: 1.75;
+    word-break: keep-all;
+    overflow-wrap: break-word;
+  }
+  .wrap {
+    position: relative;
+    z-index: 1;
+    max-width: 1120px;
+    margin-inline: auto;
+    padding-left: max(16px, env(safe-area-inset-left, 0px));
+    padding-right: max(16px, env(safe-area-inset-right, 0px));
+    padding-block: clamp(24px, 5vw, 56px) 48px;
+    display: grid;
+    gap: clamp(56px, 9vw, 112px);
+  }
+  h1, h2, p, dl, dd, fieldset, legend { margin: 0; padding: 0; border: 0; }
+  h2 {
+    font-family: var(--display);
+    font-weight: 500;
+    font-size: clamp(1.5rem, 3.4vw, 2.25rem);
+    line-height: 1.3;
+    text-wrap: balance;
+  }
+
+  /* 첫 화면 */
+  .hero { display: grid; gap: clamp(16px, 3vw, 32px); }
+  h1 {
+    font-family: var(--display);
+    font-weight: 800;
+    font-size: clamp(7rem, 37vw, 25rem);
+    line-height: 1;
+    letter-spacing: -0.04em;
+  }
+  .hero-foot {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: clamp(24px, 5vw, 64px);
+    align-items: start;
+  }
+  .lead { font-family: var(--display); font-weight: 300; font-size: clamp(1.375rem, 3vw, 2rem); line-height: 1.4; text-wrap: balance; }
+  .jamo { display: flex; flex-wrap: wrap; gap: 4px 10px; font-family: var(--display); font-weight: 500; font-size: clamp(1.75rem, 4vw, 2.5rem); line-height: 1.2; margin: 0 0 8px; padding: 0; list-style: none; }
+  .jamo .ring { color: var(--accent); font-weight: 800; }
+  .jamo .gap { margin-left: 10px; }
+  .note { color: var(--muted); max-width: 34em; }
+
+  /* 인사 고르기 */
+  .picker {
+    display: grid;
+    grid-template-columns: minmax(0, 5fr) minmax(0, 7fr);
+    gap: clamp(28px, 5vw, 64px);
+    align-items: stretch;
+  }
+  .controls { display: grid; gap: 28px; align-content: start; }
+  .controls h2 { margin-bottom: 4px; }
+  legend { color: var(--muted); font-size: 0.9375rem; margin-bottom: 6px; }
+  .opt { display: flex; align-items: center; gap: 12px; padding: 7px 0; cursor: pointer; }
+  .opt input { position: absolute; opacity: 0; width: 1px; height: 1px; }
+  .dot {
+    flex: none;
+    width: 18px; height: 18px;
+    border: 2px solid var(--muted);
+    border-radius: 50%;
+    transition: border-width .15s, border-color .15s;
+  }
+  .opt input:checked + .dot { border: 6px solid var(--accent); }
+  .opt input:checked ~ .opt-text { font-weight: 700; }
+  .opt input:focus-visible + .dot { outline: 2px solid var(--ink); outline-offset: 3px; }
+  .opt:hover .dot { border-color: var(--accent); }
+
+  .result {
+    background: var(--ink);
+    color: var(--on-ink);
+    padding: clamp(24px, 4vw, 48px);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 10px;
+    min-height: 320px;
+    min-width: 0;
+  }
+  .say { font-family: var(--display); font-weight: 800; font-size: clamp(2.5rem, 7vw, 4.75rem); line-height: 1.15; letter-spacing: -0.02em; text-wrap: balance; }
+  .roman { font-size: 1.0625rem; letter-spacing: 0.02em; opacity: .8; }
+  .why { max-width: 32em; }
+  .say .word { display: inline-block; white-space: nowrap; }
+  .say .ch { display: inline-block; animation: rise .42s cubic-bezier(.2, 1.5, .4, 1) backwards; animation-delay: calc(var(--i) * 35ms); }
+  @keyframes rise { from { transform: translateY(.5em) scale(.8); opacity: .2; } to { transform: none; opacity: 1; } }
+  @media (prefers-reduced-motion: reduce) {
+    .say .ch { animation: none; }
+    .dot { transition: none; }
+  }
+
+  /* 뜻 */
+  .meaning {
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr);
+    gap: clamp(28px, 6vw, 80px);
+    align-items: center;
+    border-top: 1px solid var(--line);
+    padding-top: clamp(32px, 5vw, 56px);
+  }
+  .hanja { font-family: var(--hanja); font-size: clamp(5rem, 15vw, 10rem); line-height: 1; display: flex; gap: .08em; }
+  .hanja span { display: grid; justify-items: center; gap: 12px; }
+  .hanja small { font-family: var(--body); font-size: 0.9375rem; line-height: 1.3; color: var(--muted); }
+  .meaning-text { display: grid; gap: 12px; max-width: 34em; }
+
+  /* 가세요와 계세요 */
+  .rule { display: grid; gap: 24px; }
+  .pair { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+  .pair > div { background: var(--surface); padding: clamp(20px, 3vw, 32px); display: grid; gap: 8px; align-content: start; }
+  .pair dt { color: var(--muted); font-size: 0.9375rem; }
+  .pair .big { font-family: var(--display); font-weight: 500; font-size: clamp(1.5rem, 3.6vw, 2.25rem); line-height: 1.25; }
+  .pair em { font-style: normal; color: var(--accent); font-weight: 800; }
+
+  .bye {
+    justify-self: start;
+    font-family: var(--display); font-weight: 300; font-size: clamp(1.375rem, 3vw, 2rem);
+    color: inherit; background: none; border: 0; border-bottom: 2px solid var(--accent);
+    padding: 4px 0; cursor: pointer; transition: color .15s;
+  }
+  .bye:hover { color: var(--accent); }
+
+  /* 언어 */
+  .rom { flex: 1 1 100%; font-size: .8125rem; font-weight: 400; opacity: .75; line-height: 1.3; }
+  :root[lang="ko"] .rom { display: none; }
+  .hero-rom { font-family: var(--display); font-size: clamp(1.25rem, 3vw, 2rem); font-weight: 500; opacity: 1; }
+  :root:not([lang="ko"]) .balloon:not(.gold) { font-size: .8125rem; }
+  :root:not([lang="ko"]) .slot:not(.on)::before { content: attr(data-hint); opacity: .3; }
+  :root:not([lang="ko"]) .answer { flex-wrap: wrap; row-gap: 2px; }
+  .lang-pick { font: inherit; font-size: .9375rem; color: var(--ink); background: var(--bg); border: 1.5px solid var(--line); padding: 4px 8px; min-height: 36px; cursor: pointer; }
+  .lang-pick:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+  :root:not([lang="ko"]) body { word-break: normal; }
+  :root[lang="ja"] { --body: "Hiragino Sans", "Yu Gothic", "Gowun Dodum", sans-serif; --display: "Hiragino Mincho ProN", "Yu Mincho", "Hahmlet", serif; }
+  :root[lang="zh"] { --body: "PingFang SC", "Microsoft YaHei", "Gowun Dodum", sans-serif; --display: "Songti SC", "SimSun", "Hahmlet", serif; }
+  [lang="ko"] { --display: "Hahmlet", "Noto Serif KR", "Apple SD Gothic Neo", serif; }
+
+  /* 움직임과 이벤트 */
+  #fx { position: fixed; inset: 0; width: 100%; height: 100%; pointer-events: none; z-index: 20; }
+  .eyebrow { color: var(--muted); font-size: clamp(1rem, 2vw, 1.25rem); min-height: 1.75em; }
+  /* 폰에서 누를 때 생기는 기본 색 상자를 없앤다. 눌림 표시는 각 요소의 효과가 맡는다 */
+  html { -webkit-tap-highlight-color: transparent; }
+  #hello {
+    display: inline-flex; font: inherit; letter-spacing: inherit; color: inherit;
+    background: none; border: 0; padding: 0; cursor: pointer;
+    touch-action: manipulation; user-select: none; -webkit-user-select: none;
+  }
+  #hello:focus-visible, .bye:focus-visible, .btn:focus-visible, .answer:focus-visible { outline: 3px solid var(--accent); outline-offset: 4px; }
+  .letter {
+    display: inline-block; transform-origin: 50% 100%;
+    translate: calc(var(--px, 0) * var(--dir) * 12px) calc(var(--py, 0) * var(--dir) * 8px);
+    transition: translate .25s ease-out;
+    animation: stamp .7s cubic-bezier(.2, 1.4, .4, 1) backwards;
+  }
+  .letter:nth-child(2) { animation-delay: .12s; }
+  .letter.boing { animation: boing .5s ease-out; }
+  .letter:nth-child(2).boing { animation-delay: .06s; }
+  @keyframes stamp { from { transform: translateY(-18%) scale(1.12); opacity: .25; } to { transform: none; opacity: 1; } }
+  @keyframes boing {
+    0% { transform: none; }
+    25% { transform: scale(1.1, .82); }
+    55% { transform: scale(.94, 1.1) translateY(-5%); }
+    80% { transform: scale(1.03, .97); }
+    100% { transform: none; }
+  }
+  .jamo li { animation: pop .45s cubic-bezier(.2, 1.6, .4, 1) backwards; }
+  .jamo li:nth-child(1) { animation-delay: .3s; }
+  .jamo li:nth-child(2) { animation-delay: .36s; }
+  .jamo li:nth-child(3) { animation-delay: .42s; }
+  .jamo li:nth-child(4) { animation-delay: .48s; }
+  .jamo li:nth-child(5) { animation-delay: .54s; }
+  .jamo li:nth-child(6) { animation-delay: .6s; }
+  @keyframes pop { from { transform: scale(.4); opacity: .3; } to { transform: none; opacity: 1; } }
+  .lead-col { display: grid; gap: 16px; justify-items: start; min-width: 0; }
+  .tally { display: flex; align-items: center; gap: 10px; color: var(--muted); }
+  .pulse { flex: none; width: 12px; height: 12px; border: 3px solid var(--accent); border-radius: 50%; animation: pulse 1.8s ease-in-out infinite; }
+  @keyframes pulse { 50% { transform: scale(1.45); opacity: .55; } }
+  #count { display: inline-block; color: var(--ink); font-weight: 700; font-variant-numeric: tabular-nums; }
+  #count.bump { animation: pop .3s cubic-bezier(.2, 1.6, .4, 1); }
+  .btn {
+    font: inherit; font-weight: 700; color: var(--on-ink); background: var(--ink);
+    border: 0; padding: 12px 22px; min-height: 48px; cursor: pointer;
+    transition: transform .12s, background .15s;
+  }
+  .btn:hover { background: var(--accent); transform: translateY(-2px); }
+  .btn:active { transform: translateY(1px) scale(.98); }
+  .in { animation: slide-in .6s cubic-bezier(.2, .9, .3, 1); }
+  @keyframes slide-in { from { transform: translateY(32px); opacity: .35; } to { transform: none; opacity: 1; } }
+
+  .game { display: grid; gap: 24px; scroll-margin-top: 24px; }
+  .game-head { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: end; gap: 20px 40px; }
+  .game-intro { display: grid; gap: 6px; flex: 1 1 320px; min-width: 0; }
+  .tag { color: var(--accent); font-weight: 700; letter-spacing: .08em; font-size: .9375rem; }
+  .scores { display: flex; gap: 28px; }
+  .scores dt { color: var(--muted); font-size: .875rem; }
+  .scores dd { font-family: var(--display); font-weight: 800; font-size: 1.75rem; line-height: 1.2; font-variant-numeric: tabular-nums; }
+  .stage { background: var(--surface); padding: clamp(20px, 4vw, 40px); display: grid; gap: 20px; }
+  .stage.shake { animation: shake .36s ease-in-out; }
+  @keyframes shake { 20% { transform: translateX(-9px); } 40% { transform: translateX(8px); } 60% { transform: translateX(-5px); } 80% { transform: translateX(3px); } }
+  .clock { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: center; gap: 14px; }
+  .track { height: 8px; background: var(--line); overflow: hidden; }
+  #bar { height: 100%; background: var(--ink); transform-origin: 0 50%; }
+  .low #bar { background: var(--accent); }
+  #left { font-variant-numeric: tabular-nums; font-weight: 700; min-width: 3.4em; text-align: right; }
+  .low #left { color: var(--accent); }
+  #scene { font-family: var(--display); font-weight: 500; font-size: clamp(1.5rem, 4.4vw, 2.75rem); line-height: 1.3; text-wrap: balance; min-height: 2.6em; }
+  #scene.next { animation: scene-in .22s ease-out; }
+  @keyframes scene-in { from { transform: translateX(18px); opacity: .3; } to { transform: none; opacity: 1; } }
+  .answers { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; }
+  .answer {
+    font: inherit; font-weight: 700; color: var(--ink); background: var(--bg);
+    border: 2px solid var(--ink); padding: 12px 14px; min-height: 64px; cursor: pointer;
+    display: flex; align-items: center; gap: 10px; text-align: left;
+    transition: transform .1s, background .12s, color .12s;
+  }
+  .answer:hover:not(:disabled) { background: var(--ink); color: var(--on-ink); transform: translateY(-2px); }
+  .answer:active:not(:disabled) { transform: scale(.97); }
+  .answer:disabled { cursor: default; opacity: .6; }
+  .key { flex: none; font-size: .8125rem; font-weight: 400; opacity: .7; }
+  .game-foot { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 20px; }
+  #status { color: var(--muted); flex: 1 1 240px; min-width: 0; }
+
+  .toast {
+    position: fixed; z-index: 30;
+    left: max(16px, env(safe-area-inset-left, 0px));
+    bottom: calc(16px + env(safe-area-inset-bottom, 0px));
+    max-width: min(30em, calc(100% - 32px));
+    background: var(--accent); color: var(--bg); font-weight: 700;
+    padding: 12px 18px; opacity: 0; transform: translateY(14px); pointer-events: none;
+    transition: opacity .2s, transform .28s cubic-bezier(.2, 1.5, .4, 1);
+  }
+  .toast.show { opacity: 1; transform: none; }
+
+  /* 계절 배경 */
+  #bg-fx { position: fixed; inset: 0; width: 100%; height: 100%; pointer-events: none; z-index: 0; }
+  body, .stage, .sky, .stamps, .face, .pair > div { transition: background-color .35s ease; }
+  :root[data-season="spring"] { --bg: #f9e4ec; --surface: #f3d3df; }
+  :root[data-season="summer"] { --bg: #cfeaf8; --surface: #b9dff3; }
+  :root[data-season="autumn"] { --bg: #f4e0c0; --surface: #ecd2a8; }
+  :root[data-season="winter"] { --bg: #dbe6f1; --surface: #c9d8e7; }
+  @media (prefers-color-scheme: dark) {
+    :root[data-season="spring"]:not([data-theme="light"]) { --bg: #2b1c30; --surface: #3a2740; }
+    :root[data-season="summer"]:not([data-theme="light"]) { --bg: #0f2a40; --surface: #173a55; }
+    :root[data-season="autumn"]:not([data-theme="light"]) { --bg: #2e2114; --surface: #3e2e1c; }
+    :root[data-season="winter"]:not([data-theme="light"]) { --bg: #1a2536; --surface: #263449; }
+  }
+  :root[data-theme="dark"][data-season="spring"] { --bg: #2b1c30; --surface: #3a2740; }
+  :root[data-theme="dark"][data-season="summer"] { --bg: #0f2a40; --surface: #173a55; }
+  :root[data-theme="dark"][data-season="autumn"] { --bg: #2e2114; --surface: #3e2e1c; }
+  :root[data-theme="dark"][data-season="winter"] { --bg: #1a2536; --surface: #263449; }
+  /* 큰 글자의 글꼴 상자는 보이는 글자보다 위아래로 넓어서, 위아래 줄을 그 위에 올려 눌리게 한다 */
+  .hero-top, .hero-foot { position: relative; z-index: 2; }
+  .hero-top { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 8px 20px; }
+  .seasons { display: flex; flex-wrap: wrap; gap: 6px; }
+  .chip {
+    font: inherit; font-size: .9375rem; color: var(--ink); background: none;
+    border: 1.5px solid var(--line); padding: 4px 13px; min-height: 36px; cursor: pointer;
+    transition: background .15s, color .15s, border-color .15s;
+  }
+  @media (pointer: coarse) { .chip, .lang-pick { min-height: 44px; } }
+  @media (max-width: 640px) { .toast { top: 12px; bottom: auto; transform: translateY(-14px); } }
+  .chip:hover { border-color: var(--ink); }
+  .chip[aria-pressed="true"] { background: var(--ink); color: var(--on-ink); border-color: var(--ink); }
+  .chip:focus-visible, .tab:focus-visible, .tile:focus-visible, .balloon:focus-visible, .card:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+
+  /* 놀이터 탭 */
+  h3 { margin: 0; font-family: var(--display); font-weight: 500; font-size: clamp(1.25rem, 2.6vw, 1.75rem); line-height: 1.3; }
+  .play-head { display: grid; gap: 6px; }
+  .tabs { display: flex; flex-wrap: wrap; gap: 4px 22px; border-bottom: 1px solid var(--line); }
+  .tab {
+    font: inherit; font-weight: 700; color: var(--muted); background: none; border: 0;
+    border-bottom: 3px solid transparent; padding: 8px 0; margin-bottom: -1px; min-height: 44px; cursor: pointer;
+  }
+  .tab:hover { color: var(--ink); }
+  .tab[aria-selected="true"] { color: var(--ink); border-bottom-color: var(--accent); }
+  .panel { display: grid; gap: 24px; min-width: 0; }
+
+  /* ㅇ 잡기 */
+  .sky { position: relative; overflow: hidden; height: clamp(340px, 46vw, 440px); background: var(--surface); touch-action: manipulation; }
+  .sky.shake { animation: shake .36s ease-in-out; }
+  .balloon {
+    position: absolute; top: 0; left: 0; padding: 0; border: 0; border-radius: 50%;
+    font: inherit; font-weight: 700; line-height: 1.2; color: var(--on-ink); background: var(--ink);
+    cursor: pointer; will-change: transform; user-select: none; -webkit-user-select: none;
+  }
+  .balloon.gold { background: var(--accent); color: var(--bg); font-family: var(--display); font-size: 1.75rem; }
+  .balloon.bad { background: var(--bg); color: var(--muted); border: 2px dashed var(--muted); }
+  .balloon.sample { display: grid; place-items: center; width: 76px; height: 76px; cursor: default; }
+  .sky-msg { position: absolute; inset: 0; display: grid; place-content: center; justify-items: center; gap: 14px; padding: 16px; text-align: center; pointer-events: none; }
+  .sky-msg > * { pointer-events: auto; }
+  #pop-msg { font-family: var(--display); font-weight: 500; font-size: clamp(1.25rem, 3vw, 1.75rem); text-wrap: balance; }
+
+  /* 자모 맞추기 */
+  .target { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 14px; }
+  #jamo-word { font-family: var(--display); font-weight: 800; font-size: clamp(2.25rem, 6vw, 3.5rem); line-height: 1.15; }
+  #jamo-hint { color: var(--muted); }
+  .slots { display: flex; flex-wrap: wrap; gap: 6px; }
+  .slots.shake { animation: shake .36s ease-in-out; }
+  .slot { display: grid; place-items: center; width: 44px; height: 44px; border-bottom: 3px solid var(--muted); font-family: var(--display); font-weight: 800; font-size: 1.5rem; }
+  .slot.on { color: var(--accent); border-bottom-color: var(--accent); animation: pop .3s cubic-bezier(.2, 1.6, .4, 1); }
+  .tiles { display: flex; flex-wrap: wrap; gap: 8px; }
+  .tile {
+    width: 56px; height: 56px; font-family: var(--display); font-weight: 500; font-size: 1.5rem;
+    color: var(--ink); background: var(--bg); border: 2px solid var(--ink); cursor: pointer;
+    transition: transform .1s, background .12s, color .12s;
+  }
+  .tile:hover:not(:disabled) { background: var(--ink); color: var(--on-ink); transform: translateY(-2px); }
+  .tile:disabled { cursor: default; opacity: .35; }
+
+  /* 세계의 안녕 */
+  .world { display: grid; gap: 20px; }
+  .world-head { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: end; gap: 12px 24px; }
+  .world-intro { display: grid; gap: 6px; flex: 1 1 320px; min-width: 0; }
+  .cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 156px), 1fr)); gap: 10px; }
+  .card { font: inherit; color: var(--ink); background: none; border: 0; padding: 0; cursor: pointer; perspective: 700px; text-align: left; }
+  .card-inner { display: grid; transform-style: preserve-3d; transition: transform .45s cubic-bezier(.3, 1.3, .5, 1); }
+  .card.flip .card-inner { transform: rotateY(180deg); }
+  .face { grid-area: 1 / 1; backface-visibility: hidden; -webkit-backface-visibility: hidden; background: var(--surface); padding: 16px; min-height: 124px; display: grid; align-content: space-between; gap: 8px; }
+  .card:hover .face { background: var(--line); }
+  .face.back { transform: rotateY(180deg); background: var(--ink); color: var(--on-ink); }
+  .card:hover .face.back { background: var(--ink); }
+  .word-big { font-family: var(--display); font-weight: 500; font-size: 1.5rem; line-height: 1.25; overflow-wrap: anywhere; }
+  .lang { font-size: .875rem; color: var(--muted); }
+  .face.back .lang { color: inherit; opacity: .8; }
+  .both { color: var(--accent); font-weight: 700; }
+
+  /* 뽑기와 도장판 */
+  .lucky { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+  .draw { background: var(--ink); color: var(--on-ink); padding: clamp(20px, 4vw, 40px); display: grid; gap: 14px; align-content: start; min-width: 0; }
+  #draw-grade { font-weight: 700; letter-spacing: .04em; opacity: .85; min-height: 1.75em; }
+  #draw-text { font-family: var(--display); font-weight: 500; font-size: clamp(1.375rem, 3vw, 2rem); line-height: 1.35; min-height: 5.4em; text-wrap: balance; }
+  #draw-text.rolling { opacity: .55; }
+  #draw-btn { justify-self: start; background: var(--accent); color: var(--bg); }
+  #draw-btn:hover { background: var(--accent); }
+  #draw-btn:disabled { opacity: .6; cursor: default; }
+  .stamps { background: var(--surface); padding: clamp(20px, 4vw, 40px); display: grid; gap: 18px; align-content: start; min-width: 0; }
+  .stamps-head { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; }
+  #stamp-count { font-weight: 700; font-variant-numeric: tabular-nums; }
+  .stamp-grid { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px 8px; }
+  .stamp-grid li { display: grid; justify-items: center; gap: 6px; text-align: center; font-size: .8125rem; line-height: 1.35; color: var(--muted); }
+  .seal { display: grid; place-items: center; width: 54px; height: 54px; border-radius: 50%; border: 2px dashed var(--line); font-family: var(--display); font-weight: 800; font-size: .9375rem; color: transparent; }
+  .stamp-grid .got { color: var(--ink); }
+  .got .seal { border: 3px solid var(--accent); color: var(--accent); transform: rotate(-12deg); }
+  .got.new .seal { animation: thud .45s cubic-bezier(.2, 1.4, .4, 1); }
+  @keyframes thud { from { transform: scale(2.2) rotate(8deg); opacity: 0; } to { transform: rotate(-12deg); opacity: 1; } }
+
+  @media (max-width: 720px) {
+    .answers { grid-template-columns: minmax(0, 1fr); }
+    .answer { min-height: 54px; }
+    .lucky { grid-template-columns: minmax(0, 1fr); }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .sky.shake, .slots.shake, .slot.on, .got.new .seal { animation: none; }
+    .card-inner, .chip, .tile { transition: none; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .letter, .letter.boing, .jamo li, .pulse, #count.bump, .in, .stage.shake, #scene.next { animation: none; }
+    .letter { translate: none; }
+    .btn, .answer, .toast { transition: none; }
+  }
+
+  @media (max-width: 720px) {
+    .hero-foot, .picker, .meaning { grid-template-columns: minmax(0, 1fr); }
+    .result { min-height: 260px; }
+  }
+  @media (max-width: 460px) {
+    .pair { grid-template-columns: minmax(0, 1fr); }
+  }
+
+  /* 세계의 인사 제스처 */
+  .cam { display: grid; gap: 24px; min-width: 0; }
+  .cam-head { display: grid; gap: 6px; }
+  #cam-count { font-variant-numeric: tabular-nums; }
+  .start-guide { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; }
+  .start-guide li { background: var(--surface); padding: 14px 16px; display: grid; gap: 2px; min-width: 0; }
+  .start-guide span { color: var(--muted); font-size: .9375rem; line-height: 1.5; }
+  .cam-main { display: grid; grid-template-columns: minmax(0, 7fr) minmax(0, 5fr); gap: clamp(16px, 3vw, 32px); align-items: start; }
+  .cam-left { display: grid; gap: 14px; min-width: 0; }
+  .cam-view { position: relative; aspect-ratio: 4 / 3; max-width: 100%; background: var(--surface); overflow: hidden; display: grid; place-items: center; }
+  #cam-video, #cam-overlay { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; transform: scaleX(-1); }
+  .cam-empty { color: var(--muted); }
+  .cam-live { position: absolute; left: 10px; right: 10px; bottom: 10px; display: grid; gap: 6px; padding: 8px 12px; background: var(--ink); color: var(--on-ink); font-weight: 700; }
+  .cam-hold { display: block; height: 6px; background: color-mix(in srgb, var(--on-ink) 25%, transparent); overflow: hidden; }
+  #cam-hold-bar { display: block; height: 100%; width: 100%; background: var(--accent); transform: scaleX(0); transform-origin: 0 50%; }
+  .cam-controls { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 16px; }
+  .cam-controls .note { flex: 1 1 240px; min-width: 0; }
+
+  .coach { background: var(--surface); padding: clamp(16px, 3vw, 24px); display: grid; gap: 14px; min-width: 0; }
+  .coach-top { display: flex; align-items: center; gap: 14px; }
+  .coach-fig { flex: none; width: 112px; height: 112px; background: var(--bg); }
+  .coach-name { min-width: 0; display: grid; gap: 2px; }
+  .coach-where { color: var(--accent); font-weight: 700; font-size: .9375rem; }
+  .coach-steps { margin: 0; padding-left: 1.3em; display: grid; gap: 4px; line-height: 1.55; }
+  .coach-checks { list-style: none; margin: 0; padding: 0; display: grid; gap: 6px; }
+  .coach-checks li { display: flex; align-items: center; gap: 8px; color: var(--muted); line-height: 1.4; }
+  .coach-checks li::before { content: ""; flex: none; width: 14px; height: 14px; border: 2px solid var(--line); border-radius: 50%; }
+  .coach-checks li.ok { color: var(--ink); font-weight: 700; }
+  .coach-checks li.ok::before { border: 5px solid var(--accent); }
+
+  .gesture-bar { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 8px 16px; }
+  #gesture-done { color: var(--muted); font-weight: 400; font-variant-numeric: tabular-nums; }
+  .gesture-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; }
+  .gesture-card {
+    font: inherit; color: var(--ink); background: var(--surface); border: 2px solid transparent;
+    padding: 10px; cursor: pointer; display: grid; grid-template-columns: 72px minmax(0, 1fr); grid-template-rows: auto auto;
+    align-content: center; column-gap: 12px; text-align: left; position: relative;
+    transition: transform .12s, border-color .12s;
+  }
+  .gesture-card svg { grid-row: 1 / span 2; }
+  .gesture-card b { align-self: end; }
+  .gesture-card small { align-self: start; }
+  .gesture-card:hover { transform: translateY(-2px); border-color: var(--line); }
+  .gesture-card:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+  .gesture-card[aria-pressed="true"] { border-color: var(--ink); }
+  .gesture-card svg { width: 100%; max-width: 100%; aspect-ratio: 1; background: var(--bg); display: block; }
+  .gesture-card b { line-height: 1.3; }
+  .gesture-card small { color: var(--muted); line-height: 1.35; font-size: .8125rem; }
+  .gesture-card.done::after {
+    content: "성공"; position: absolute; top: 8px; right: 8px; padding: 1px 7px;
+    background: var(--accent); color: var(--bg); font-size: .75rem; font-weight: 700;
+  }
+  .fig-body { fill: none; stroke: var(--muted); stroke-width: 3.5; stroke-linecap: round; stroke-linejoin: round; }
+  .fig-arm { fill: none; stroke: var(--accent); stroke-width: 3.5; stroke-linecap: round; stroke-linejoin: round; }
+  .fig-head { fill: var(--muted); }
+
+  .others { background: var(--surface); padding: 12px 16px; }
+  .others summary { cursor: pointer; font-weight: 700; min-height: 28px; }
+  @media (pointer: coarse) { .others summary { min-height: 44px; display: flex; align-items: center; } }
+  .others ul { margin: 10px 0 2px; padding-left: 1.2em; display: grid; gap: 4px; }
+
+  @media (max-width: 640px) {
+    .cam-main { grid-template-columns: minmax(0, 1fr); }
+  }
+  @media (max-width: 760px) {
+    .gesture-grid { grid-template-columns: minmax(0, 1fr); }
+  }
+  @media (max-width: 560px) {
+    .start-guide { grid-template-columns: minmax(0, 1fr); }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .gesture-card { transition: none; }
+  }
+  .visitors { display: grid; gap: 20px; }
+  .visitor-list { display: grid; gap: 8px; margin: 0; padding: 0; list-style: none; }
+  .visitor-list li { position: relative; display: flex; justify-content: space-between; gap: 16px; padding: 10px 14px; background: var(--surface); overflow: hidden; }
+  .visitor-list .bar { position: absolute; inset: 0 auto 0 0; background: var(--line); opacity: .45; }
+  .visitor-list .name, .visitor-list .num { position: relative; }
+  .visitor-list .num { font-weight: 700; font-variant-numeric: tabular-nums; }
+  .stats-note { margin: 48px 0 24px; font-size: .875rem; }
+</style>
+
+<main class="wrap">
+  <header class="hero">
+    <div class="hero-top">
+      <p class="eyebrow" id="eyebrow">어서 오세요.</p>
+      <div class="seasons" role="group" aria-label="계절 배경 고르기">
+        <button type="button" class="chip" data-season="spring" aria-pressed="false">봄</button>
+        <button type="button" class="chip" data-season="summer" aria-pressed="false">여름</button>
+        <button type="button" class="chip" data-season="autumn" aria-pressed="false">가을</button>
+        <button type="button" class="chip" data-season="winter" aria-pressed="false">겨울</button>
+        <button type="button" class="chip" data-season="off" aria-pressed="false">끄기</button>
+      </div>
+      <select id="lang-pick" class="lang-pick" aria-label="언어">
+        <option value="ko">한국어</option>
+        <option value="en">English</option>
+        <option value="ja">日本語</option>
+        <option value="zh">中文</option>
+        <option value="es">Español</option>
+        <option value="fr">Français</option>
+      </select>
+    </div>
+    <h1 lang="ko"><button type="button" id="hello" aria-label="안녕, 눌러서 인사하기"><span class="letter" style="--dir: -1">안</span><span class="letter" style="--dir: 1">녕</span></button></h1>
+    <p class="rom hero-rom">annyeong</p>
+    <div class="hero-foot">
+      <div class="lead-col">
+        <p class="lead">만날 때도 안녕,<br>헤어질 때도 안녕.</p>
+        <p class="tally"><span class="pulse"></span><span>큰 글자를 눌러 보세요. 지금까지 <b id="count">0</b>번 인사했어요.</span></p>
+        <button type="button" class="btn" id="to-game">안녕 놀이터 가기</button>
+      </div>
+      <div>
+        <ul class="jamo" lang="ko" aria-label="안녕의 자모: 이응, 아, 니은, 니은, 여, 이응">
+          <li class="ring">ㅇ</li><li>ㅏ</li><li>ㄴ</li>
+          <li class="gap">ㄴ</li><li>ㅕ</li><li class="ring">ㅇ</li>
+        </ul>
+        <p class="rom">ieung · a · nieun · nieun · yeo · ieung</p>
+        <p class="note">ㅇ으로 시작해서 ㅇ으로 끝납니다. 첫 ㅇ은 소리가 없고, 마지막 ㅇ은 콧소리 [ŋ]로 울립니다. 오는 사람과 가는 사람을 모두 맞는 말답게 처음과 끝이 닮았습니다.</p>
+      </div>
+    </div>
+  </header>
+
+  <section class="cam" aria-labelledby="cam-title">
+    <div class="cam-head">
+      <p class="tag">카메라 이벤트</p>
+      <h2 id="cam-title">세계의 인사를 몸으로 해 보기</h2>
+      <p class="note">나라마다 다른 인사 9가지를 따라 해 보세요. 성공할 때마다 인사 횟수가 올라갑니다. 지금까지 <b id="cam-count">0</b>번 인사했어요.</p>
+    </div>
+
+    <ol class="start-guide" aria-label="시작 안내">
+      <li><b>1. 카메라 켜기</b><span>버튼을 누르고 권한을 허용하세요.</span></li>
+      <li><b>2. 상반신 보이기</b><span>머리부터 배꼽까지 화면에 들어오게 물러나세요.</span></li>
+      <li><b>3. 인사 고르기</b><span>아래 카드를 고르고, 거울처럼 따라 하세요.</span></li>
+    </ol>
+
+    <div class="cam-main">
+      <div class="cam-left">
+        <div class="cam-view">
+          <video id="cam-video" playsinline muted hidden></video>
+          <canvas id="cam-overlay" aria-hidden="true" hidden></canvas>
+          <p class="cam-empty" id="cam-empty">카메라가 꺼져 있어요</p>
+          <div class="cam-live" id="cam-live" hidden><span id="cam-live-text">동작을 찾는 중</span><span class="cam-hold"><span id="cam-hold-bar"></span></span></div>
+        </div>
+        <div class="cam-controls">
+          <button type="button" class="btn" id="cam-toggle">카메라 켜기</button>
+          <p class="note" id="cam-status" aria-live="polite">영상은 이 브라우저 안에서만 분석하고, 저장하거나 어디로도 보내지 않습니다.</p>
+        </div>
+      </div>
+
+      <div class="coach" id="coach" aria-live="polite">
+        <div class="coach-top">
+          <div class="coach-fig" id="coach-fig" aria-hidden="true"></div>
+          <div class="coach-name">
+            <p class="coach-where" id="coach-where"></p>
+            <h3 id="coach-title"></h3>
+          </div>
+        </div>
+        <ol class="coach-steps" id="coach-steps"></ol>
+        <ul class="coach-checks" id="coach-checks" aria-label="지금 인식된 상태"></ul>
+        <p class="note" id="coach-tip"></p>
+      </div>
+    </div>
+
+    <div class="gesture-bar">
+      <h3>인사 고르기 <span id="gesture-done">0/9</span></h3>
+      <button type="button" class="chip" id="gesture-free" aria-pressed="false">아무 인사나 자유롭게</button>
+    </div>
+    <div class="gesture-grid" id="gesture-grid"></div>
+
+    <details class="others">
+      <summary>카메라로 세지 못하는 세계의 인사</summary>
+      <ul>
+        <li><b>악수</b> · 세계 곳곳. 상대가 있어야 하는 인사입니다.</li>
+        <li><b>홍이</b> · 뉴질랜드 마오리. 서로 코를 맞댑니다. 이마를 함께 대기도 합니다.</li>
+        <li><b>라 비즈</b> · 프랑스. 볼을 가볍게 맞대며 인사합니다. 횟수는 지역마다 다릅니다.</li>
+        <li><b>마노</b> · 필리핀. 어른의 손등을 자기 이마에 댑니다.</li>
+        <li><b>혀 내밀기</b> · 티베트 전통. 존경의 뜻으로 혀를 살짝 내밉니다.</li>
+      </ul>
+    </details>
+  </section>
+
+  <section class="picker" aria-labelledby="picker-title">
+    <form class="controls" id="picker-form">
+      <h2 id="picker-title">지금은 어떤 안녕인가요?</h2>
+      <fieldset>
+        <legend>누구에게</legend>
+        <label class="opt"><input type="radio" name="who" id="who-elder" value="elder" checked><span class="dot"></span><span class="opt-text">어른이나 처음 만난 사람</span></label>
+        <label class="opt"><input type="radio" name="who" id="who-friend" value="friend"><span class="dot"></span><span class="opt-text">친구나 동생</span></label>
+      </fieldset>
+      <fieldset>
+        <legend>언제</legend>
+        <label class="opt"><input type="radio" name="when" id="when-meet" value="meet"><span class="dot"></span><span class="opt-text">만났을 때</span></label>
+        <label class="opt"><input type="radio" name="when" id="when-ileave" value="ileave" checked><span class="dot"></span><span class="opt-text">내가 떠나고 상대가 남을 때</span></label>
+        <label class="opt"><input type="radio" name="when" id="when-theyleave" value="theyleave"><span class="dot"></span><span class="opt-text">상대가 떠나고 내가 남을 때</span></label>
+        <label class="opt"><input type="radio" name="when" id="when-sleep" value="sleep"><span class="dot"></span><span class="opt-text">잠자리에 들 때</span></label>
+        <label class="opt"><input type="radio" name="when" id="when-longtime" value="longtime"><span class="dot"></span><span class="opt-text">오랜만에 만났을 때</span></label>
+        <label class="opt"><input type="radio" name="when" id="when-meal" value="meal"><span class="dot"></span><span class="opt-text">밥상 앞에서</span></label>
+        <label class="opt"><input type="radio" name="when" id="when-newyear" value="newyear"><span class="dot"></span><span class="opt-text">새해 첫날에</span></label>
+        <label class="opt"><input type="radio" name="when" id="when-phone" value="phone"><span class="dot"></span><span class="opt-text">전화를 받을 때</span></label>
+      </fieldset>
+    </form>
+    <div class="result" aria-live="polite">
+      <p class="say" id="say" lang="ko">안녕히 계세요</p>
+      <p class="roman" id="roman">annyeonghi gyeseyo</p>
+      <p class="why" id="why">그곳에 편안히 머무시라는 말입니다. 남아 있는 사람에게 건넵니다.</p>
+    </div>
+  </section>
+
+  <section class="game" id="game" aria-labelledby="game-title">
+    <div class="play-head">
+      <p class="tag">이벤트</p>
+      <h2 id="game-title">안녕 놀이터</h2>
+    </div>
+    <div class="tabs" role="tablist" aria-label="게임 고르기">
+      <button type="button" class="tab" role="tab" id="tab-quiz" aria-controls="panel-quiz" aria-selected="true">인사 챌린지</button>
+      <button type="button" class="tab" role="tab" id="tab-pop" aria-controls="panel-pop" aria-selected="false" tabindex="-1">ㅇ 잡기</button>
+      <button type="button" class="tab" role="tab" id="tab-jamo" aria-controls="panel-jamo" aria-selected="false" tabindex="-1">자모 맞추기</button>
+    </div>
+    <div class="panel" id="panel-quiz" role="tabpanel" aria-labelledby="tab-quiz">
+    <div class="game-head">
+      <div class="game-intro">
+        <h3>20초 인사 챌린지</h3>
+        <p class="note">상황에 맞는 인사를 빠르게 고르세요. 연속으로 맞히면 점수가 커지고, 틀리면 2초가 줄어듭니다.</p>
+      </div>
+      <dl class="scores">
+        <div><dt>점수</dt><dd id="score">0</dd></div>
+        <div><dt>연속</dt><dd id="combo">0</dd></div>
+        <div><dt>최고 기록</dt><dd id="best">0</dd></div>
+      </dl>
+    </div>
+    <div class="stage" id="stage">
+      <div class="clock">
+        <div class="track"><div id="bar"></div></div>
+        <span id="left">20.0초</span>
+      </div>
+      <p id="scene">가게를 나오면서 주인에게</p>
+      <div class="answers">
+        <button type="button" class="answer" id="answer-1" disabled><span class="key">1</span><span class="txt">안녕히 가세요</span></button>
+        <button type="button" class="answer" id="answer-2" disabled><span class="key">2</span><span class="txt">안녕히 계세요</span></button>
+        <button type="button" class="answer" id="answer-3" disabled><span class="key">3</span><span class="txt">안녕히 주무세요</span></button>
+      </div>
+      <div class="game-foot">
+        <button type="button" class="btn" id="start">시작하기</button>
+        <p id="status" aria-live="polite">위 문제는 예시입니다. 키보드 1, 2, 3으로도 고를 수 있어요.</p>
+      </div>
+    </div>
+    </div>
+
+    <div class="panel" id="panel-pop" role="tabpanel" aria-labelledby="tab-pop" hidden>
+      <div class="game-head">
+        <div class="game-intro">
+          <h3>20초 ㅇ 잡기</h3>
+          <p class="note">떠오르는 풍선을 눌러 터뜨리세요. 인사말은 10점, 빨간 ㅇ은 30점입니다. ‘메롱’을 누르면 15점이 깎입니다.</p>
+        </div>
+        <dl class="scores">
+          <div><dt>점수</dt><dd id="pop-score">0</dd></div>
+          <div><dt>남은 시간</dt><dd id="pop-left">20</dd></div>
+          <div><dt>최고 기록</dt><dd id="pop-best">0</dd></div>
+        </dl>
+      </div>
+      <div class="sky" id="sky">
+        <span class="balloon sample" data-word="안녕" style="transform: translate(8%, 40px)">안녕</span>
+        <span class="balloon sample gold" style="transform: translate(60px, 230px)">ㅇ</span>
+        <span class="balloon sample bad" data-word="메롱" style="left: auto; right: 24px; top: 60px">메롱</span>
+        <div class="sky-msg" id="sky-msg">
+          <p id="pop-msg" aria-live="polite">풍선이 올라오기 시작합니다</p>
+          <button type="button" class="btn" id="pop-start">시작하기</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="panel" id="panel-jamo" role="tabpanel" aria-labelledby="tab-jamo" hidden>
+      <div class="game-head">
+        <div class="game-intro">
+          <h3>자모 맞추기</h3>
+          <p class="note">낱자를 순서대로 눌러 단어 다섯 개를 완성하세요. 잘못 누르면 기록에 2초가 더해집니다.</p>
+        </div>
+        <dl class="scores">
+          <div><dt>완성</dt><dd id="jamo-done">0/5</dd></div>
+          <div><dt>시간</dt><dd id="jamo-time">0.0</dd></div>
+          <div><dt>최고 기록</dt><dd id="jamo-best">없음</dd></div>
+        </dl>
+      </div>
+      <div class="stage" id="jamo-stage">
+        <div class="target"><p id="jamo-word">안녕</p><p id="jamo-hint">편안함을 묻는 인사</p><p class="rom" id="jamo-roman">annyeong</p></div>
+        <div class="slots" id="jamo-slots"></div>
+        <div class="tiles" id="jamo-tiles"></div>
+        <div class="game-foot">
+          <button type="button" class="btn" id="jamo-start">시작하기</button>
+          <p id="jamo-status" aria-live="polite">위 단어는 예시입니다. 시작하면 단어가 바뀝니다.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="world" aria-labelledby="world-title">
+    <div class="world-head">
+      <div class="world-intro">
+        <h2 id="world-title">세계의 안녕</h2>
+        <p class="note">카드를 누르면 읽는 법이 나옵니다. 어떤 말은 안녕처럼 헤어질 때도 씁니다.</p>
+      </div>
+      <div class="seasons" role="group" aria-label="카드 거르기">
+        <button type="button" class="chip" id="world-all" aria-pressed="true">전체</button>
+        <button type="button" class="chip" id="world-both" aria-pressed="false">헤어질 때도 쓰는 말</button>
+      </div>
+    </div>
+    <div class="cards" id="cards"></div>
+  </section>
+
+  <section class="visitors" id="visitors" aria-labelledby="visitors-title" hidden>
+    <div>
+      <h2 id="visitors-title">어디에서 찾아왔을까요</h2>
+      <p class="note">나라별 방문자 수입니다. 접속 위치로 추정하고 약 1시간마다 갱신하며, 3명 이상인 나라만 보여 줍니다.</p>
+    </div>
+    <ol class="visitor-list" id="visitor-list" aria-label="나라별 방문자"></ol>
+  </section>
+
+  <section class="lucky" aria-label="뽑기와 도장판">
+    <div class="draw">
+      <h2>오늘의 안녕 뽑기</h2>
+      <p id="draw-grade">미션 카드</p>
+      <p id="draw-text" aria-live="polite">버튼을 누르면 오늘 해 볼 인사 미션이 나옵니다.</p>
+      <button type="button" class="btn" id="draw-btn">뽑기</button>
+    </div>
+    <div class="stamps">
+      <div class="stamps-head"><h2>안녕 도장판</h2><span id="stamp-count">0/9</span></div>
+      <ul class="stamp-grid" id="stamps"></ul>
+    </div>
+  </section>
+
+  <section class="meaning" aria-label="안녕의 뜻">
+    <div class="hanja" lang="zh-Hant">
+      <span>安<small lang="ko">편안 안</small></span>
+      <span>寧<small lang="ko">편안할 녕</small></span>
+    </div>
+    <div class="meaning-text">
+      <h2>아무 탈 없이 편안함</h2>
+      <p>안녕의 본래 뜻입니다. 두 글자 모두 편안하다는 뜻을 담고 있어요.</p>
+      <p>그래서 “안녕하세요?”는 잘 지내시는지, 별일 없으신지 묻는 질문입니다. 헤어질 때의 인사도 다음에 만날 때까지 편안하기를 바라는 말이고요.</p>
+    </div>
+  </section>
+
+  <section class="rule" aria-labelledby="rule-title">
+    <h2 id="rule-title">가는 사람에게는 가세요, 남는 사람에게는 계세요</h2>
+    <dl class="pair">
+      <div>
+        <dt>길을 나서는 사람에게</dt>
+        <dd class="big" lang="ko">안녕히 <em>가</em>세요</dd>
+        <dd class="rom">annyeonghi gaseyo</dd>
+        <dd>둘 다 떠나는 길이라면 서로 이렇게 인사합니다.</dd>
+      </div>
+      <div>
+        <dt>그 자리에 남는 사람에게</dt>
+        <dd class="big" lang="ko">안녕히 <em>계</em>세요</dd>
+        <dd class="rom">annyeonghi gyeseyo</dd>
+        <dd>가게를 나오면서 주인에게, 집을 나서면서 어른께 하는 말입니다.</dd>
+      </div>
+    </dl>
+  </section>
+
+  <button type="button" class="bye" id="bye">또 만나요. 안녕.</button>
+  <p class="note stats-note">방문 통계를 위해 페이지 주소, 브라우저 정보, 기능 사용 횟수를 GoatCounter로 보냅니다. 이때 IP 주소도 전달될 수 있습니다. 카메라 영상, 동작 좌표, 점수는 보내지 않습니다.</p>
+</main>
+
+<canvas id="bg-fx" aria-hidden="true"></canvas>
+<canvas id="fx" aria-hidden="true"></canvas>
+<div class="toast" id="toast" role="status"></div>
+
+<script>
+  /* 여러 언어: 한국어 문구를 열쇠로 삼아 화면에 그려지는 글자를 바꾼다 */
+  const I18N_DATA = {"strings":{"계절 배경 고르기":["Choose a seasonal background","季節の背景を選ぶ","选择季节背景","Elegir fondo de temporada","Choisir un décor de saison"],"안녕, 눌러서 인사하기":["Annyeong, press to say hello","アンニョン、押してあいさつ","annyeong,点击打招呼","Annyeong, pulsa para saludar","Annyeong, appuyez pour saluer"],"안녕의 자모: 이응, 아, 니은, 니은, 여, 이응":["The letters of annyeong: ieung, a, nieun, nieun, yeo, ieung","annyeongの字母:イウン、ア、ニウン、ニウン、ヨ、イウン","annyeong 的字母:ㅇ、ㅏ、ㄴ、ㄴ、ㅕ、ㅇ","Las letras de annyeong: ieung, a, nieun, nieun, yeo, ieung","Les lettres de annyeong : ieung, a, nieun, nieun, yeo, ieung"],"게임 고르기":["Choose a game","ゲームを選ぶ","选择游戏","Elegir juego","Choisir un jeu"],"카드 거르기":["Filter cards","カードを絞り込む","筛选卡片","Filtrar tarjetas","Filtrer les cartes"],"뽑기와 도장판":["Draw and stamp card","くじとスタンプカード","抽签与印章卡","Sorteo y tarjeta de sellos","Tirage et carte de tampons"],"안녕의 뜻":["The meaning of annyeong","アンニョンの意味","annyeong 的含义","El significado de annyeong","Le sens de annyeong"],"어서 오세요.":["Welcome.","ようこそ。","欢迎光临。","Te damos la bienvenida.","Bienvenue."],"봄":["Spring","春","春","Primavera","Printemps"],"여름":["Summer","夏","夏","Verano","Été"],"가을":["Autumn","秋","秋","Otoño","Automne"],"겨울":["Winter","冬","冬","Invierno","Hiver"],"끄기":["Off","オフ","关闭","Apagar","Désactiver"],"언어":["Language","言語","语言","Idioma","Langue"],"만날 때도 안녕,":["Annyeong when you meet,","会うときもアンニョン、","见面时说 annyeong,","Annyeong al encontrarse,","Annyeong quand on se retrouve,"],"헤어질 때도 안녕.":["annyeong when you part.","別れるときもアンニョン。","分别时也说 annyeong。","annyeong al despedirse.","annyeong quand on se quitte."],"큰 글자를 눌러 보세요. 지금까지":["Press the big letters. Total so far:","大きな文字を押してみてください。これまでに","点一点大字。到目前为止:","Pulsa las letras grandes. Llevas","Appuyez sur les grandes lettres. Total :"],"번 인사했어요.":[" greetings.","回あいさつしました。","次问候。"," saludos."," salutations."],"안녕 놀이터 가기":["Go to the Annyeong playground","アンニョン広場へ","前往 annyeong 游乐场","Ir al parque Annyeong","Aller à l’aire de jeux Annyeong"],"ㅇ으로 시작해서 ㅇ으로 끝납니다. 첫 ㅇ은 소리가 없고, 마지막 ㅇ은 콧소리 [ŋ]로 울립니다. 오는 사람과 가는 사람을 모두 맞는 말답게 처음과 끝이 닮았습니다.":["It begins and ends with ㅇ. The first ㅇ is silent, and the last rings as the nasal sound [ŋ]. Fittingly for a word used for both arrivals and departures, its start and end look alike.","ㅇで始まり、ㅇで終わります。最初のㅇは無音で、最後のㅇは鼻音[ŋ]として響きます。来る人にも去る人にも使う言葉らしく、始まりと終わりが似ています。","它以 ㅇ 开始,又以 ㅇ 结束。开头的 ㅇ 不发音,结尾的 ㅇ 发鼻音 [ŋ]。这个词既迎接来者也送别去者,首尾也正好相似。","Empieza y termina con ㅇ. La primera ㅇ es muda y la última suena como la nasal [ŋ]. Como corresponde a una palabra para quien llega y para quien se va, su inicio y su final se parecen.","Le mot commence et finit par ㅇ. Le premier ㅇ est muet, le dernier résonne comme la nasale [ŋ]. Comme il sert à accueillir et à quitter, son début et sa fin se ressemblent."],"지금은 어떤 안녕인가요?":["Which annyeong is it right now?","今はどのアンニョンですか?","现在该说哪种 annyeong?","¿Qué annyeong toca ahora?","Quel annyeong dire maintenant ?"],"누구에게":["To whom","だれに","对谁","A quién","À qui"],"어른이나 처음 만난 사람":["An elder or someone you just met","目上の人や初対面の人","长辈或初次见面的人","Una persona mayor o alguien a quien acabas de conocer","Une personne âgée ou que vous venez de rencontrer"],"친구나 동생":["A friend or younger sibling","友だちや年下のきょうだい","朋友或弟弟妹妹","Un amigo o un hermano menor","Un ami ou un frère ou une sœur plus jeune"],"언제":["When","いつ","什么时候","Cuándo","Quand"],"만났을 때":["When you meet","会ったとき","见面时","Al encontrarse","En se retrouvant"],"내가 떠나고 상대가 남을 때":["When you leave and they stay","自分が去り、相手が残るとき","我离开、对方留下时","Cuando tú te vas y la otra persona se queda","Quand vous partez et que l’autre reste"],"상대가 떠나고 내가 남을 때":["When they leave and you stay","相手が去り、自分が残るとき","对方离开、我留下时","Cuando la otra persona se va y tú te quedas","Quand l’autre part et que vous restez"],"잠자리에 들 때":["When going to bed","寝るとき","睡觉前","Al irse a dormir","En allant se coucher"],"오랜만에 만났을 때":["After a long time apart","久しぶりに会ったとき","久别重逢时","Tras mucho tiempo sin verse","Après une longue absence"],"밥상 앞에서":["At the table","食卓で","在饭桌前","En la mesa","À table"],"새해 첫날에":["On New Year’s Day","元日に","新年第一天","El día de Año Nuevo","Le jour de l’An"],"전화를 받을 때":["When answering the phone","電話に出るとき","接电话时","Al contestar el teléfono","En répondant au téléphone"],"그곳에 편안히 머무시라는 말입니다. 남아 있는 사람에게 건넵니다.":["It means “stay in peace.” Say it to the person staying behind.","「そこで安らかにお過ごしください」という意味です。残る人に伝えます。","意思是“请您安好地留在这里”,对留下的人说。","Significa «quédese en paz». Se dice a quien se queda.","Cela signifie « restez en paix ». On le dit à la personne qui reste."],"이벤트":["Events","イベント","活动","Eventos","Événements"],"안녕 놀이터":["Annyeong Playground","アンニョン広場","annyeong 游乐场","Parque Annyeong","Aire de jeux Annyeong"],"인사 챌린지":["Greeting Challenge","あいさつチャレンジ","问候挑战","Reto de saludos","Défi des salutations"],"ㅇ 잡기":["Catch the ㅇ","ㅇキャッチ","抓 ㅇ","Atrapa la ㅇ","Attrapez le ㅇ"],"자모 맞추기":["Letter Match","字母合わせ","字母拼合","Une las letras","Assemblez les lettres"],"20초 인사 챌린지":["20-Second Greeting Challenge","20秒あいさつチャレンジ","20 秒问候挑战","Reto de saludos de 20 segundos","Défi des salutations en 20 secondes"],"상황에 맞는 인사를 빠르게 고르세요. 연속으로 맞히면 점수가 커지고, 틀리면 2초가 줄어듭니다.":["Quickly pick the Korean greeting that fits. Correct streaks score more; a wrong answer costs 2 seconds.","場面に合う韓国語のあいさつを素早く選びましょう。連続正解で得点が増え、間違えると2秒減ります。","快速选出符合情境的韩语问候。连续答对得分更高,答错减少 2 秒。","Elige rápido el saludo coreano adecuado. Las rachas suman más; cada error resta 2 segundos.","Choisissez vite la salutation coréenne qui convient. Les séries rapportent plus ; une erreur coûte 2 secondes."],"점수":["Score","スコア","得分","Puntos","Score"],"연속":["Streak","連続","连击","Racha","Série"],"최고 기록":["Best","最高記録","最高纪录","Récord","Record"],"가게를 나오면서 주인에게":["To the owner, as you leave a shop","店を出るときに店主へ","离开商店时对店主说","Al dueño, al salir de una tienda","Au commerçant, en quittant la boutique"],"시작하기":["Start","スタート","开始","Empezar","Commencer"],"위 문제는 예시입니다. 키보드 1, 2, 3으로도 고를 수 있어요.":["This question is a sample. You can also answer with keys 1, 2 and 3.","この問題は例です。キーボードの1、2、3でも選べます。","这道题是示例。也可以用键盘 1、2、3 选择。","Esta pregunta es un ejemplo. También puedes usar las teclas 1, 2 y 3.","Cette question est un exemple. Vous pouvez aussi utiliser les touches 1, 2 et 3."],"20초 ㅇ 잡기":["20-Second Catch the ㅇ","20秒ㅇキャッチ","20 秒抓 ㅇ","Atrapa la ㅇ en 20 segundos","Attrapez le ㅇ en 20 secondes"],"떠오르는 풍선을 눌러 터뜨리세요. 인사말은 10점, 빨간 ㅇ은 30점입니다. ‘메롱’을 누르면 15점이 깎입니다.":["Pop the rising balloons. Greetings score 10 and the red ㅇ scores 30. Pressing ‘merong’ (“nyah nyah”) costs 15.","上がってくる風船を押して割りましょう。あいさつは10点、赤いㅇは30点です。「merong(あっかんべー)」を押すと15点減ります。","点破升起的气球。问候语 10 分,红色 ㅇ 30 分。点到“merong”(略略略)扣 15 分。","Revienta los globos que suben. Los saludos valen 10 y la ㅇ roja, 30. Pulsar ‘merong’ («burla») resta 15.","Éclatez les ballons qui montent. Les salutations valent 10 et le ㅇ rouge 30. Appuyer sur ‘merong’ (« na na na ») coûte 15."],"남은 시간":["Time left","残り時間","剩余时间","Restante","Restant"],"풍선이 올라오기 시작합니다":["The balloons are about to rise","風船が上がり始めます","气球即将升起","Los globos van a subir","Les ballons vont monter"],"낱자를 순서대로 눌러 단어 다섯 개를 완성하세요. 잘못 누르면 기록에 2초가 더해집니다.":["Press the letters in order to complete five Korean words. Each mistake adds 2 seconds.","字母を順番に押して韓国語の単語を5つ完成させましょう。間違えると2秒加算されます。","按顺序点击字母,拼出 5 个韩语单词。点错加 2 秒。","Pulsa las letras en orden para completar cinco palabras coreanas. Cada error suma 2 segundos.","Appuyez sur les lettres dans l’ordre pour former cinq mots coréens. Chaque erreur ajoute 2 secondes."],"완성":["Done","完成","完成","Hechas","Faits"],"시간":["Time","時間","时间","Tiempo","Temps"],"없음":["None","なし","无","Ninguno","Aucun"],"편안함을 묻는 인사":["A greeting asking after your peace","安否を尋ねるあいさつ","询问是否安好的问候","Un saludo que pregunta si estás bien","Une salutation qui demande si tout va bien"],"위 단어는 예시입니다. 시작하면 단어가 바뀝니다.":["This word is a sample. Words change when you start.","この単語は例です。始めると単語が変わります。","这个单词是示例。开始后单词会变化。","Esta palabra es un ejemplo. Cambiará al empezar.","Ce mot est un exemple. Il changera au démarrage."],"세계의 안녕":["Hello Around the World","世界のあいさつ","世界各地的问候","Saludos del mundo","Bonjour dans le monde"],"카드를 누르면 읽는 법이 나옵니다. 어떤 말은 안녕처럼 헤어질 때도 씁니다.":["Press a card to see how to pronounce it. Some of these words, like annyeong, are also used to say goodbye.","カードを押すと読み方が出ます。アンニョンのように、別れるときにも使う言葉があります。","点击卡片可查看读法。有些词和 annyeong 一样,告别时也能用。","Pulsa una tarjeta para ver cómo se pronuncia. Algunas palabras, como annyeong, también sirven para despedirse.","Appuyez sur une carte pour voir la prononciation. Certains mots, comme annyeong, servent aussi à dire au revoir."],"전체":["All","すべて","全部","Todas","Toutes"],"헤어질 때도 쓰는 말":["Also used for goodbye","別れにも使う言葉","告别时也用的词","También para despedirse","Aussi pour dire au revoir"],"오늘의 안녕 뽑기":["Today’s Annyeong Draw","今日のアンニョンくじ","今日 annyeong 抽签","Sorteo Annyeong de hoy","Tirage Annyeong du jour"],"미션 카드":["Mission card","ミッションカード","任务卡","Tarjeta de misión","Carte mission"],"버튼을 누르면 오늘 해 볼 인사 미션이 나옵니다.":["Press the button to get today’s greeting mission.","ボタンを押すと、今日のあいさつミッションが出ます。","点击按钮,获取今天的问候任务。","Pulsa el botón para recibir la misión de saludo de hoy.","Appuyez sur le bouton pour obtenir la mission du jour."],"뽑기":["Draw","引く","抽签","Sacar","Tirer"],"안녕 도장판":["Annyeong Stamp Card","アンニョン・スタンプカード","annyeong 印章卡","Tarjeta de sellos Annyeong","Carte de tampons Annyeong"],"편안 안":["“peace” (an)","安らか「アン」","安(安宁)","«paz» (an)","« paix » (an)"],"편안할 녕":["“peaceful” (nyeong)","安らか「ニョン」","宁(安宁)","«tranquilo» (nyeong)","« paisible » (nyeong)"],"아무 탈 없이 편안함":["Being at peace, free from trouble","何事もなく安らかなこと","平安无事","Estar en paz, sin problemas","Être en paix, sans souci"],"안녕의 본래 뜻입니다. 두 글자 모두 편안하다는 뜻을 담고 있어요.":["That is the original meaning of annyeong. Both characters carry the sense of peace.","これがアンニョンの本来の意味です。どちらの文字にも「安らか」という意味があります。","这是 annyeong 的本义。两个字都有“平安”的意思。","Ese es el significado original de annyeong. Ambos caracteres expresan paz.","C’est le sens premier de annyeong. Les deux caractères évoquent la paix."],"그래서 “안녕하세요?”는 잘 지내시는지, 별일 없으신지 묻는 질문입니다. 헤어질 때의 인사도 다음에 만날 때까지 편안하기를 바라는 말이고요.":["So “annyeonghaseyo?” really asks whether you are well and nothing is wrong. The goodbye, too, wishes you peace until you next meet.","だから「annyeonghaseyo?」は、お元気か、変わりはないかを尋ねる質問です。別れのあいさつも、次に会うまで安らかであるようにと願う言葉です。","所以“annyeonghaseyo?”其实是在问您过得好不好、有没有什么事。告别时的问候,也是祝愿对方在下次见面前一切平安。","Por eso, «¿annyeonghaseyo?» pregunta en realidad si estás bien y sin novedad. La despedida también desea paz hasta el próximo encuentro.","Ainsi, « annyeonghaseyo ? » demande vraiment si vous allez bien. L’au revoir, lui aussi, souhaite la paix jusqu’à la prochaine rencontre."],"가는 사람에게는 가세요, 남는 사람에게는 계세요":["gaseyo for the one leaving, gyeseyo for the one staying","去る人にはgaseyo、残る人にはgyeseyo","对离开的人说 gaseyo,对留下的人说 gyeseyo","gaseyo para quien se va, gyeseyo para quien se queda","gaseyo pour qui part, gyeseyo pour qui reste"],"길을 나서는 사람에게":["To someone setting off","出かける人へ","对上路的人","A quien se pone en camino","À qui se met en route"],"둘 다 떠나는 길이라면 서로 이렇게 인사합니다.":["If you are both leaving, you say this to each other.","二人とも去るなら、互いにこう言います。","如果双方都要离开,就这样互相问候。","Si los dos se van, se lo dicen mutuamente.","Si vous partez tous les deux, vous vous le dites mutuellement."],"그 자리에 남는 사람에게":["To someone staying behind","その場に残る人へ","对留在原地的人","A quien se queda","À qui reste sur place"],"가게를 나오면서 주인에게, 집을 나서면서 어른께 하는 말입니다.":["You say it to the owner as you leave a shop, or to your elders as you leave home.","店を出るときに店主へ、家を出るときに目上の人へ言います。","离开商店时对店主说,出门时对长辈说。","Se dice al dueño al salir de una tienda, o a los mayores al salir de casa.","On le dit au commerçant en sortant, ou à ses aînés en quittant la maison."],"또 만나요. 안녕.":["See you again. Annyeong.","また会いましょう。アンニョン。","下次见。annyeong。","Hasta pronto. Annyeong.","À bientôt. Annyeong."],"편안하신지 묻는 말입니다. 처음 만난 사람에게도, 매일 보는 어른께도 씁니다.":["It asks whether you are at peace. Use it with people you just met and elders you see every day.","安らかかどうかを尋ねる言葉です。初対面の人にも、毎日会う目上の人にも使います。","意思是询问您是否安好。对初次见面的人和每天见到的长辈都可以用。","Pregunta si estás en paz. Se usa con quien acabas de conocer y con los mayores que ves cada día.","Cela demande si vous êtes en paix. On l’emploie avec les inconnus comme avec les aînés qu’on voit chaque jour."],"가시는 길이 편안하기를 바라는 말입니다. 떠나는 사람에게 건넵니다.":["It wishes a peaceful journey. Say it to the person leaving.","道中の安らかさを願う言葉です。去る人に伝えます。","祝愿对方一路平安,对离开的人说。","Desea un camino tranquilo. Se dice a quien se va.","Cela souhaite un chemin paisible. On le dit à la personne qui part."],"편안히 주무시라는 말입니다. ‘자다’의 높임말 ‘주무시다’를 씁니다.":["It means “sleep peacefully.” It uses ‘jumusida’, the honorific form of ‘jada’ (to sleep).","「安らかにお休みください」という意味です。「jada(寝る)」の敬語「jumusida」を使います。","意思是“请安睡”。这里用“jada”(睡)的敬语“jumusida”。","Significa «duerma en paz». Usa ‘jumusida’, la forma honorífica de ‘jada’ (dormir).","Cela signifie « dormez paisiblement ». On utilise ‘jumusida’, forme honorifique de ‘jada’ (dormir)."],"“잘 지내셨어요?”를 이어서 말하면 더 다정합니다.":["Adding “jal jinaesyeosseoyo?” (“How have you been?”) sounds warmer.","「jal jinaesyeosseoyo?(お元気でしたか)」と続けると、より温かく聞こえます。","接着说“jal jinaesyeosseoyo?”(您过得好吗?)会更亲切。","Añadir «¿jal jinaesyeosseoyo?» («¿Cómo ha estado?») suena más cálido.","Ajouter « jal jinaesyeosseoyo ? » (« Comment allez-vous ? ») est plus chaleureux."],"음식을 권하거나 함께 먹기 시작할 때 건넵니다.":["Say it when offering food or starting to eat together.","食事をすすめるときや、一緒に食べ始めるときに言います。","请人用餐或一起开动时说。","Se dice al ofrecer comida o al empezar a comer juntos.","On le dit en offrant à manger ou en commençant le repas ensemble."],"설날이나 새해 첫날에 빠지지 않는 인사입니다.":["An essential greeting at Lunar New Year and on New Year’s Day.","旧正月や元日に欠かせないあいさつです。","这是春节和元旦必不可少的问候。","Un saludo imprescindible en el Año Nuevo lunar y el 1 de enero.","Une salutation incontournable au Nouvel An lunaire et au 1er janvier."],"편한 사이에서는 이 두 글자면 충분합니다.":["Among close friends, these two syllables are enough.","親しい間柄なら、この2文字で十分です。","关系亲近时,这两个字就够了。","Entre amigos, bastan estas dos sílabas.","Entre proches, ces deux syllabes suffisent."],"남아 있는 친구에게 하는 말입니다. ‘안녕’만 말해도 됩니다.":["Say it to a friend staying behind. ‘annyeong’ alone is fine too.","残る友だちに言います。「annyeong」だけでも大丈夫です。","对留下的朋友说。只说“annyeong”也可以。","Se dice a un amigo que se queda. Basta con ‘annyeong’.","On le dit à un ami qui reste. ‘annyeong’ seul suffit aussi."],"떠나는 친구에게 하는 말입니다. ‘안녕’만 말해도 됩니다.":["Say it to a friend who is leaving. ‘annyeong’ alone is fine too.","去る友だちに言います。「annyeong」だけでも大丈夫です。","对离开的朋友说。只说“annyeong”也可以。","Se dice a un amigo que se va. Basta con ‘annyeong’.","On le dit à un ami qui part. ‘annyeong’ seul suffit aussi."],"잠자리 인사는 ‘안녕’ 대신 이렇게 말합니다.":["At bedtime, you say this instead of ‘annyeong’.","寝るときは「annyeong」の代わりにこう言います。","睡前不说“annyeong”,而是这样说。","Al acostarse se dice esto en lugar de ‘annyeong’.","Au coucher, on dit ceci plutôt que ‘annyeong’."],"“잘 지냈어?”까지 묻는 것이 보통입니다.":["People usually add “jal jinaesseo?” (“How’ve you been?”).","「jal jinaesseo?(元気だった?)」まで聞くのが普通です。","通常还会问一句“jal jinaesseo?”(过得好吗?)。","Lo normal es añadir «¿jal jinaesseo?» («¿Qué tal has estado?»).","On ajoute généralement « jal jinaesseo ? » (« Ça va depuis ? »)."],"편한 사이에서 밥을 권할 때 하는 말입니다.":["Said among close friends when offering food.","親しい間柄で食事をすすめるときの言葉です。","关系亲近时劝人吃饭说的话。","Se dice entre amigos al ofrecer comida.","On le dit entre proches en offrant à manger."],"친구나 동생에게는 이렇게 짧게 말합니다.":["To friends or younger siblings, you can say it this briefly.","友だちや年下にはこう短く言います。","对朋友或弟弟妹妹可以这样简短地说。","A amigos o hermanos menores se dice así, más corto.","Aux amis et aux plus jeunes, on le dit ainsi, plus court."],"전화 첫마디는 친구 사이에도 같습니다.":["The first word on the phone is the same among friends.","電話の第一声は友だちどうしでも同じです。","朋友之间接电话时也一样这样说。","Entre amigos, la primera palabra al teléfono es la misma.","Entre amis, le premier mot au téléphone est le même."],"꽃구경은 다녀오셨어요?":["Have you been out to see the flowers?","お花見には行かれましたか?","去赏花了吗?","¿Ya has ido a ver las flores?","Avez-vous pu voir les fleurs ?"],"더위 조심하세요.":["Take care in the heat.","暑さに気をつけてください。","请注意防暑。","Cuídate del calor.","Prenez garde à la chaleur."],"하늘이 참 높아요. 잘 지내시죠?":["The sky looks so high. Are you doing well?","空がとても高いですね。お元気ですか?","天空真高。您过得好吗?","Qué alto está el cielo. ¿Cómo te va?","Le ciel est si haut. Vous allez bien ?"],"따뜻하게 입고 다니세요.":["Dress warmly when you go out.","暖かくしてお出かけください。","出门请穿暖和些。","Abrígate bien al salir.","Couvrez-vous bien en sortant."],"좋은 아침이에요.":["Good morning.","おはようございます。","早上好。","Buenos días.","Bonjour."],"점심은 드셨어요?":["Have you had lunch?","お昼は食べましたか?","吃过午饭了吗?","¿Ya has almorzado?","Avez-vous déjeuné ?"],"오후도 편안하게 보내세요.":["Have a peaceful afternoon.","午後も穏やかにお過ごしください。","祝您下午过得平安舒适。","Que tengas una tarde tranquila.","Passez un après-midi paisible."],"오늘 하루 어떠셨어요?":["How was your day?","今日はいかがでしたか?","今天过得怎么样?","¿Qué tal tu día?","Comment s’est passée votre journée ?"],"늦은 시간이네요. 아직 안 주무셨군요.":["It’s late. You’re still up.","遅い時間ですね。まだ起きていらしたのですね。","已经很晚了,您还没睡呀。","Es tarde. Todavía sigues despierto.","Il est tard. Vous êtes encore debout."],"반가워요":["Nice to see you","会えてうれしいです","很高兴见到你","Un placer","Ravi de vous voir"],"또 봐요":["See you","またね","再见","Hasta luego","À bientôt"],"잘 지냈어요?":["How’ve you been?","お元気でしたか?","过得好吗?","¿Qué tal?","Ça va ?"],"좋은 하루요":["Have a good day","よい一日を","祝你今天愉快","Buen día","Bonne journée"],"벌써 다섯 번째예요. 우리 조금 친해졌네요.":["Already your fifth. We’re getting to know each other.","もう5回目です。少し仲良くなりましたね。","已经第五次了。我们熟一点了呢。","Ya van cinco. Nos vamos conociendo.","Déjà la cinquième. On commence à se connaître."],"열 번째 안녕! 이제 말 놓아도 될까요?":["Tenth annyeong! Can we drop the formal speech now?","10回目のアンニョン!そろそろタメ口でもいいですか?","第十次 annyeong!现在可以不用敬语了吗?","¡Décimo annyeong! ¿Podemos tutearnos ya?","Dixième annyeong ! On peut se tutoyer maintenant ?"],"서른 번째 안녕! 동네에서 제일 인사성이 밝으시네요.":["Thirtieth annyeong! You must be the friendliest person in the neighborhood.","30回目のアンニョン!町でいちばんあいさつ上手ですね。","第三十次 annyeong!您是这一带最有礼貌的人了。","¡Trigésimo annyeong! Eres quien mejor saluda del barrio.","Trentième annyeong ! Personne n’est plus poli que vous dans le quartier."],"백 번째 안녕! 안녕 명예 홍보대사로 임명합니다.":["Hundredth annyeong! You are now an honorary Annyeong ambassador.","100回目のアンニョン!アンニョン名誉大使に任命します。","第一百次 annyeong!现任命您为 annyeong 荣誉大使。","¡Centésimo annyeong! Te nombramos embajador honorario de Annyeong.","Centième annyeong ! Vous recevez le titre d’ambassadeur honoraire d’Annyeong."],"다시 만났네요. 안녕하세요!":["We meet again. annyeonghaseyo!","また会いましたね。annyeonghaseyo!","我们又见面了。annyeonghaseyo!","Nos volvemos a ver. ¡annyeonghaseyo!","On se retrouve. annyeonghaseyo !"],"집에 오신 손님이 돌아가실 때":["When a guest is leaving your home","家に来たお客さまが帰るとき","来家里的客人要回去时","Cuando una visita se va de tu casa","Quand un invité quitte votre maison"],"아침에 선생님을 만났을 때":["When you meet your teacher in the morning","朝、先生に会ったとき","早上遇到老师时","Al ver a tu profesor por la mañana","En croisant votre professeur le matin"],"밤에 할머니가 주무시러 들어가실 때":["When your grandmother goes to bed at night","夜、おばあさんが寝に行くとき","晚上奶奶要去睡觉时","Cuando tu abuela se va a dormir","Quand votre grand-mère va se coucher"],"학교 앞에서 친구를 만났을 때":["When you meet a friend outside school","学校の前で友だちに会ったとき","在学校门口遇到朋友时","Al ver a un amigo frente a la escuela","En croisant un ami devant l’école"],"밤늦게 동생이 자러 갈 때":["When your younger sibling goes to bed late","夜遅く、年下のきょうだいが寝に行くとき","深夜弟弟妹妹要去睡觉时","Cuando tu hermano menor se va a dormir tarde","Quand votre petit frère ou petite sœur va se coucher tard"],"먼저 집에 가는 친구에게":["To a friend heading home first","先に帰る友だちへ","对先回家的朋友","A un amigo que se va antes a casa","À un ami qui rentre avant vous"],"먼저 집에 가면서 남아 있는 친구에게":["To a friend staying as you head home first","先に帰るときに残る友だちへ","自己先回家时,对留下的朋友","A un amigo que se queda cuando tú te vas antes","À un ami qui reste quand vous rentrez le premier"],"먼저 퇴근하면서 사무실에 남은 어른들께":["To senior colleagues still in the office as you leave first","先に退勤するとき、残っている目上の同僚へ","先下班时,对办公室里留下的长辈","A los mayores que siguen en la oficina cuando sales antes","Aux aînés restés au bureau quand vous partez le premier"],"길에서 함께 걷다가 헤어져 각자 가는 어른께":["To an elder you walked with, as you go separate ways","一緒に歩いて別々の道へ向かう目上の人へ","一起走后分开各自离去的长辈","A un mayor con quien caminabas, al separarse","À un aîné avec qui vous marchiez, en vous séparant"],"이사 온 날 처음 만난 이웃에게":["To a neighbor you first meet on moving day","引っ越しの日に初めて会った隣人へ","搬家当天第一次见到的邻居","A un vecino que conoces el día de la mudanza","À un voisin rencontré le jour du déménagement"],"맞아요!":["Correct!","正解!","答对了!","¡Correcto!","Exact !"],"시작!":["Go!","スタート!","开始!","¡Ya!","C’est parti !"],"안녕 명인":["Annyeong Master","アンニョン名人","annyeong 大师","Maestro de Annyeong","Maître Annyeong"],"동네 인사왕":["Neighborhood Greeting Champion","町のあいさつ王","街坊问候王","Campeón de saludos del barrio","Champion de salutations du quartier"],"인사성 밝은 이웃":["Friendly Neighbor","あいさつ上手なご近所さん","热情的邻居","Vecino amable","Voisin aimable"],"첫인사 단계":["Beginner","あいさつ初級","问候入门","Nivel principiante","Niveau débutant"],"최고 기록을 새로 세웠어요!":["New best score!","最高記録を更新しました!","刷新了最高纪录!","¡Nuevo récord!","Nouveau record !"],"다시 도전하기":["Try again","もう一度挑戦","再次挑战","Intentar de nuevo","Réessayer"],"인사 열 번":["Ten greetings","あいさつ10回","问候 10 次","Diez saludos","Dix salutations"],"챌린지 100점":["100 in the Challenge","チャレンジ100点","挑战赛 100 分","100 en el reto","100 au défi"],"ㅇ 잡기 200점":["200 in Catch the ㅇ","ㅇキャッチ200点","抓 ㅇ 200 分","200 en Atrapa la ㅇ","200 à Attrapez le ㅇ"],"자모 5단어":["Five words in Letter Match","字母合わせ5語","拼出 5 个单词","Cinco palabras","Cinq mots"],"세계 인사 6개":["Six world greetings","世界のあいさつ6つ","6 种世界问候","Seis saludos del mundo","Six salutations du monde"],"뽑기 3번":["Three draws","くじ3回","抽签 3 次","Tres sorteos","Trois tirages"],"사계절 구경":["All four seasons","四季めぐり","四季游览","Las cuatro estaciones","Les quatre saisons"],"작별 인사":["A farewell","お別れのあいさつ","告别问候","Una despedida","Un au revoir"],"도장판을 다 채웠어요! 축하합니다.":["Stamp card complete! Congratulations.","スタンプカードが埋まりました!おめでとうございます。","印章卡集满了!恭喜。","¡Tarjeta de sellos completa! Felicidades.","Carte de tampons complète ! Félicitations."],"만나고 헤어질 때 건네는 말":["Words exchanged when meeting and parting","会うときと別れるときの言葉","见面和分别时说的话","Palabras al encontrarse y despedirse","Paroles échangées en se voyant et en se quittant"],"오래 사귄 벗":["A long-time companion","長い付き合いの仲間","相交已久的伙伴","Un compañero de toda la vida","Un compagnon de longue date"],"아침부터 밤까지":["From morning to night","朝から夜まで","从早到晚","De la mañana a la noche","Du matin au soir"],"나와 너를 함께 부르는 말":["A word for you and me together","わたしとあなたを合わせた呼び方","把你我合起来的称呼","Una palabra para tú y yo juntos","Un mot pour toi et moi ensemble"],"지금 지나가는 이날":["This very day","いま過ぎていくこの日","正在度过的这一天","Este mismo día","Ce jour même"],"만나서 기쁠 때 하는 말":["Said when you’re glad to meet","会えてうれしいときの言葉","见面高兴时说的话","Se dice al alegrarse de ver a alguien","Se dit quand on est content de se voir"],"아끼고 위하는 마음":["A heart that cherishes and cares","大切に思う心","珍惜和关爱的心","Un corazón que aprecia y cuida","Un cœur qui chérit et prend soin"],"함께 사는 가까운 사람들":["The close people you live with","一緒に暮らす身近な人たち","一起生活的亲近之人","Las personas cercanas con quienes vives","Les proches avec qui l’on vit"],"스페인어":["Spanish","スペイン語","西班牙语","Español","Espagnol"],"프랑스어":["French","フランス語","法语","Francés","Français"],"일본어":["Japanese","日本語","日语","Japonés","Japonais"],"중국어":["Chinese","中国語","中文","Chino","Chinois"],"베트남어":["Vietnamese","ベトナム語","越南语","Vietnamita","Vietnamien"],"태국어":["Thai","タイ語","泰语","Tailandés","Thaï"],"아랍어":["Arabic","アラビア語","阿拉伯语","Árabe","Arabe"],"힌디어":["Hindi","ヒンディー語","印地语","Hindi","Hindi"],"러시아어":["Russian","ロシア語","俄语","Ruso","Russe"],"이탈리아어":["Italian","イタリア語","意大利语","Italiano","Italien"],"하와이어":["Hawaiian","ハワイ語","夏威夷语","Hawaiano","Hawaïen"],"히브리어":["Hebrew","ヘブライ語","希伯来语","Hebreo","Hébreu"],"· 헤어질 때도":["· also goodbye","· 別れにも","· 告别也用","· también adiós","· aussi au revoir"],"미션":["Mission","ミッション","任务","Misión","Mission"],"오늘은 내가 먼저 인사해 보세요.":["Today, be the first to say hello.","今日は自分から先にあいさつしてみましょう。","今天试着主动先打招呼吧。","Hoy, saluda tú primero.","Aujourd’hui, saluez le premier."],"엘리베이터에서 만난 이웃에게 인사해 보세요.":["Greet a neighbor you meet in the elevator.","エレベーターで会った隣人にあいさつしてみましょう。","向在电梯里遇到的邻居打个招呼吧。","Saluda a un vecino en el ascensor.","Saluez un voisin dans l’ascenseur."],"오래 연락 못 한 친구에게 “잘 지내?”를 보내 보세요.":["Send “How are you?” to a friend you haven’t contacted in a while.","しばらく連絡していない友だちに「元気?」と送ってみましょう。","给很久没联系的朋友发一句“过得好吗?”。","Envía «¿Cómo estás?» a un amigo con quien no hablas hace tiempo.","Envoyez « Ça va ? » à un ami perdu de vue."],"가게를 나올 때 “안녕히 계세요”를 또렷하게 말해 보세요.":["Say “annyeonghi gyeseyo” clearly as you leave a shop.","店を出るときに「annyeonghi gyeseyo」とはっきり言ってみましょう。","离开商店时清楚地说一句“annyeonghi gyeseyo”。","Di «annyeonghi gyeseyo» con claridad al salir de una tienda.","Dites clairement « annyeonghi gyeseyo » en quittant une boutique."],"오늘 만나는 사람의 이름을 불러서 인사해 보세요.":["Greet someone today by calling them by name.","今日会う人の名前を呼んであいさつしてみましょう。","今天叫出对方的名字来打招呼吧。","Saluda hoy a alguien llamándolo por su nombre.","Saluez aujourd’hui quelqu’un en l’appelant par son prénom."],"부모님께 안부 전화를 한 통 드려 보세요.":["Give your parents a call to check in.","ご両親に安否の電話を一本かけてみましょう。","给父母打个电话问候一下吧。","Llama a tus padres para saber cómo están.","Appelez vos parents pour prendre de leurs nouvelles."],"귀한 미션":["Rare mission","レアミッション","稀有任务","Misión rara","Mission rare"],"오늘 처음 보는 사람에게 웃으며 인사해 보세요.":["Smile and greet someone new today.","今日初めて会う人に笑顔であいさつしてみましょう。","今天对第一次见的人微笑打招呼吧。","Saluda con una sonrisa a alguien nuevo hoy.","Saluez en souriant une personne inconnue aujourd’hui."],"어제 고마웠던 사람에게 고맙다고 말해 보세요.":["Thank someone who helped you yesterday.","昨日お世話になった人にありがとうと言ってみましょう。","向昨天帮助过你的人说声谢谢吧。","Da las gracias a quien te ayudó ayer.","Remerciez une personne qui vous a aidé hier."],"아주 귀한 미션":["Very rare mission","超レアミッション","极稀有任务","Misión muy rara","Mission très rare"],"오늘은 인사 세 번마다 스스로를 칭찬해 주세요.":["Today, praise yourself after every third greeting.","今日はあいさつ3回ごとに自分をほめてあげましょう。","今天每问候三次就夸夸自己吧。","Hoy, felicítate cada tres saludos.","Aujourd’hui, félicitez-vous toutes les trois salutations."],"다시 뽑기":["Draw again","もう一度引く","再抽一次","Sacar otra vez","Tirer à nouveau"],"시작 안내":["Getting started","はじめかた","开始指南","Cómo empezar","Pour commencer"],"지금 인식된 상태":["What the camera sees now","現在の認識状態","当前识别状态","Lo que detecta ahora","Ce qui est détecté"],"카메라 이벤트":["Camera event","カメライベント","摄像头活动","Evento con cámara","Événement caméra"],"세계의 인사를 몸으로 해 보기":["Try the World’s Greetings with Your Body","世界のあいさつを体でやってみる","用身体试试世界各地的问候","Prueba los saludos del mundo con el cuerpo","Essayez les salutations du monde avec le corps"],"나라마다 다른 인사 9가지를 따라 해 보세요. 성공할 때마다 인사 횟수가 올라갑니다. 지금까지":["Follow 9 greetings from different cultures. Each success raises your count. Total so far:","国ごとに違う9つのあいさつをまねしてみましょう。成功するたびに回数が増えます。これまでに","跟着做 9 种不同文化的问候。每成功一次,次数就会增加。到目前为止:","Imita 9 saludos de distintas culturas. Cada acierto suma a tu cuenta. Llevas","Imitez 9 salutations de différentes cultures. Chaque réussite augmente le compteur. Total :"],"1. 카메라 켜기":["1. Turn on the camera","1. カメラをオン","1. 打开摄像头","1. Enciende la cámara","1. Activez la caméra"],"버튼을 누르고 권한을 허용하세요.":["Press the button and allow access.","ボタンを押して権限を許可してください。","点击按钮并允许访问。","Pulsa el botón y permite el acceso.","Appuyez sur le bouton et autorisez l’accès."],"2. 상반신 보이기":["2. Show your upper body","2. 上半身を映す","2. 露出上半身","2. Muestra el torso","2. Montrez le haut du corps"],"머리부터 배꼽까지 화면에 들어오게 물러나세요.":["Step back until your head to waist fits in the frame.","頭からおへそまで画面に入るよう下がってください。","向后退,让头到肚脐都进入画面。","Retrocede hasta que se vea de la cabeza a la cintura.","Reculez pour que la tête et le buste tiennent dans le cadre."],"3. 인사 고르기":["3. Choose a greeting","3. あいさつを選ぶ","3. 选择问候","3. Elige un saludo","3. Choisissez une salutation"],"아래 카드를 고르고, 거울처럼 따라 하세요.":["Pick a card below and copy it like a mirror.","下のカードを選び、鏡のようにまねしてください。","选择下方卡片,像照镜子一样跟着做。","Elige una tarjeta y cópiala como un espejo.","Choisissez une carte et imitez-la comme un miroir."],"카메라가 꺼져 있어요":["The camera is off","カメラはオフです","摄像头已关闭","La cámara está apagada","La caméra est désactivée"],"동작을 찾는 중":["Looking for a gesture","動作を探しています","正在寻找动作","Buscando un gesto","Recherche d’un geste"],"카메라 켜기":["Turn on camera","カメラをオン","打开摄像头","Encender cámara","Activer la caméra"],"영상은 이 브라우저 안에서만 분석하고, 저장하거나 어디로도 보내지 않습니다.":["Video is analyzed only in this browser. It is never saved or sent anywhere.","映像はこのブラウザ内でのみ分析し、保存も送信もしません。","视频仅在此浏览器内分析,不会保存或发送到任何地方。","El vídeo se analiza solo en este navegador y nunca se guarda ni se envía.","La vidéo est analysée uniquement dans ce navigateur, sans être enregistrée ni envoyée."],"인사 고르기":["Choose a greeting","あいさつを選ぶ","选择问候","Elige un saludo","Choisir une salutation"],"아무 인사나 자유롭게":["Any greeting, freely","どのあいさつでも自由に","任意问候,自由发挥","Cualquier saludo, libremente","N’importe quelle salutation"],"카메라로 세지 못하는 세계의 인사":["World greetings the camera can’t count","カメラでは数えられない世界のあいさつ","摄像头无法计数的世界问候","Saludos del mundo que la cámara no cuenta","Salutations du monde que la caméra ne compte pas"],"악수":["Handshake","握手","握手","Apretón de manos","Poignée de main"],"· 세계 곳곳. 상대가 있어야 하는 인사입니다.":["· Worldwide. It takes two people.","· 世界各地。相手が必要なあいさつです。","· 世界各地。需要有对方才能进行。","· En todo el mundo. Hacen falta dos personas.","· Dans le monde entier. Il faut être deux."],"홍이":["Hongi","ホンギ","碰鼻礼(Hongi)","Hongi","Hongi"],"라 비즈":["La bise","ラ・ビズ","贴面礼(La bise)","La bise","La bise"],"· 프랑스. 볼을 가볍게 맞대며 인사합니다. 횟수는 지역마다 다릅니다.":["· France. Cheeks touch lightly; the number of kisses varies by region.","· フランス。頬を軽く合わせます。回数は地域によって違います。","· 法国。轻贴脸颊问候,次数因地区而异。","· Francia. Las mejillas se rozan; el número varía según la región.","· France. Les joues se touchent légèrement ; le nombre varie selon les régions."],"마노":["Mano","マノ","触额礼(Mano)","Mano","Mano"],"· 필리핀. 어른의 손등을 자기 이마에 댑니다.":["· Philippines. You touch the back of an elder’s hand to your forehead.","· フィリピン。年長者の手の甲を自分の額に当てます。","· 菲律宾。把长辈的手背贴在自己额头上。","· Filipinas. Se lleva el dorso de la mano de un mayor a la frente.","· Philippines. On pose le dos de la main d’un aîné sur son front."],"혀 내밀기":["Sticking out the tongue","舌を出す","伸舌","Sacar la lengua","Tirer la langue"],"· 티베트 전통. 존경의 뜻으로 혀를 살짝 내밉니다.":["· Tibetan tradition. A slight show of the tongue expresses respect.","· チベットの伝統。敬意を込めて舌を少し出します。","· 西藏传统。微微伸舌以示尊敬。","· Tradición tibetana. Sacar un poco la lengua expresa respeto.","· Tradition tibétaine. Montrer un peu la langue exprime le respect."],"손 흔들기":["Waving","手を振る","挥手","Saludar con la mano","Signe de la main"],"세계 곳곳":["Worldwide","世界各地","世界各地","Todo el mundo","Monde entier"],"손바닥을 펴서 어깨 높이로 올립니다.":["Open your palm and raise it to shoulder height.","手のひらを開いて肩の高さまで上げます。","张开手掌,举到肩膀高度。","Abre la palma y súbela a la altura del hombro.","Ouvrez la paume et levez-la à hauteur d’épaule."],"좌우로 크게 세 번 흔듭니다.":["Wave it widely side to side three times.","左右に大きく3回振ります。","左右大幅挥动三次。","Muévela de lado a lado tres veces.","Balancez-la largement trois fois."],"그리스에서는 손바닥을 상대에게 불쑥 내미는 동작이 모욕이 될 수 있어요. 흔드는 동작으로 해 주세요.":["In Greece, thrusting an open palm at someone can be an insult. Be sure to wave it.","ギリシャでは手のひらを相手に突き出す動作が侮辱になることがあります。必ず振ってください。","在希腊,突然把手掌伸向对方可能是一种侮辱。请用挥手的方式。","En Grecia, empujar la palma hacia alguien puede ser un insulto. Asegúrate de agitarla.","En Grèce, tendre brusquement la paume peut être une insulte. Veillez à l’agiter."],"절":["Bow","お辞儀","鞠躬","Reverencia","Révérence"],"한국 · 일본":["Korea · Japan","韓国・日本","韩国 · 日本","Corea · Japón","Corée · Japon"],"먼저 정면을 보고 바로 섭니다.":["First stand straight, facing the camera.","まず正面を向いてまっすぐ立ちます。","先面向前方站直。","Primero ponte recto de frente.","Redressez-vous d’abord, de face."],"허리와 고개를 앞으로 숙입니다.":["Bend forward at the waist and lower your head.","腰と頭を前に傾けます。","腰和头向前弯下。","Inclina la cintura y la cabeza hacia delante.","Penchez la taille et la tête vers l’avant."],"잠깐 멈췄다가 천천히 일어납니다.":["Pause briefly, then rise slowly.","少し止まってからゆっくり起き上がります。","稍作停顿,再慢慢起身。","Haz una pausa y levántate despacio.","Marquez une pause, puis relevez-vous lentement."],"일본에서는 숙이는 각도가 깊을수록 더 공손한 인사가 됩니다.":["In Japan, a deeper bow shows greater respect.","日本では、深く傾けるほど丁寧なあいさつになります。","在日本,鞠躬越深越显恭敬。","En Japón, cuanto más profunda la reverencia, mayor el respeto.","Au Japon, plus l’inclinaison est profonde, plus elle est respectueuse."],"와이":["Wai","ワイ","合十礼(Wai)","Wai","Wai"],"태국":["Thailand","タイ","泰国","Tailandia","Thaïlande"],"두 손바닥을 붙입니다.":["Press your palms together.","両手のひらを合わせます。","双手掌心相合。","Junta las palmas.","Joignez les paumes."],"손끝을 코 높이까지 올립니다.":["Raise your fingertips to nose height.","指先を鼻の高さまで上げます。","把指尖抬到鼻子高度。","Sube las puntas de los dedos a la nariz.","Levez le bout des doigts à hauteur du nez."],"고개를 살짝 숙입니다.":["Bow your head slightly.","頭を軽く下げます。","微微低头。","Inclina un poco la cabeza.","Inclinez légèrement la tête."],"손을 높이 올릴수록 상대를 더 높이는 뜻이 됩니다.":["The higher the hands, the greater the respect shown.","手を高く上げるほど相手への敬意が高まります。","手举得越高,表示越尊敬对方。","Cuanto más altas las manos, mayor el respeto.","Plus les mains sont hautes, plus le respect est grand."],"나마스테":["Namaste","ナマステ","Namaste","Namasté","Namasté"],"인도 · 네팔":["India · Nepal","インド・ネパール","印度 · 尼泊尔","India · Nepal","Inde · Népal"],"가슴 앞에 두고 손끝이 위를 향하게 합니다.":["Hold them at your chest with fingertips pointing up.","胸の前で指先を上に向けます。","放在胸前,指尖朝上。","Ponlas ante el pecho con los dedos hacia arriba.","Placez-les devant la poitrine, doigts vers le haut."],"포권":["Baoquan","抱拳","抱拳","Baoquan","Baoquan"],"중국 전통":["Chinese tradition","中国の伝統","中国传统","Tradición china","Tradition chinoise"],"오른손으로 주먹을 쥡니다.":["Make a fist with your right hand.","右手で握りこぶしを作ります。","右手握拳。","Cierra el puño derecho.","Fermez le poing droit."],"왼손으로 주먹을 감쌉니다.":["Wrap your left hand around the fist.","左手でこぶしを包みます。","左手包住拳头。","Envuelve el puño con la mano izquierda.","Enveloppez le poing de la main gauche."],"가슴 앞에 두고 살짝 앞뒤로 흔듭니다.":["Hold them at your chest and shake gently back and forth.","胸の前で軽く前後に振ります。","放在胸前,轻轻前后摆动。","Ponlos ante el pecho y muévelos un poco.","Placez-les devant la poitrine et agitez doucement."],"요즘은 명절이나 무술에서 주로 볼 수 있어요. 어느 손이 주먹인지는 카메라가 구분하지 않아요.":["Today it is seen mostly at festivals and in martial arts. The camera doesn’t check which hand is the fist.","今は主に祝日や武術で見られます。どちらの手がこぶしかはカメラでは区別しません。","如今多见于节日和武术中。摄像头不区分哪只手握拳。","Hoy se ve sobre todo en fiestas y artes marciales. La cámara no distingue qué mano es el puño.","On le voit surtout lors des fêtes et dans les arts martiaux. La caméra ne distingue pas quelle main forme le poing."],"가슴에 손 얹기":["Hand on heart","胸に手を当てる","手放胸前","Mano en el corazón","Main sur le cœur"],"말레이시아 · 중동 일부":["Malaysia · parts of the Middle East","マレーシア・中東の一部","马来西亚 · 中东部分地区","Malasia · parte de Oriente Medio","Malaisie · une partie du Moyen-Orient"],"오른손을 폅니다.":["Open your right hand.","右手を開きます。","张开右手。","Abre la mano derecha.","Ouvrez la main droite."],"가슴 위에 가볍게 얹습니다.":["Rest it lightly on your chest.","胸の上に軽く当てます。","轻轻放在胸口。","Apóyala suavemente en el pecho.","Posez-la doucement sur la poitrine."],"다른 손은 아래로 내립니다.":["Keep the other hand down.","もう片方の手は下ろします。","另一只手放下。","Baja la otra mano.","Gardez l’autre main baissée."],"샤카":["Shaka","シャカ","Shaka 手势","Shaka","Shaka"],"하와이":["Hawaii","ハワイ","夏威夷","Hawái","Hawaï"],"엄지와 새끼손가락만 폅니다.":["Extend only your thumb and little finger.","親指と小指だけを伸ばします。","只伸出拇指和小指。","Extiende solo el pulgar y el meñique.","Tendez seulement le pouce et l’auriculaire."],"나머지 세 손가락은 접습니다.":["Fold the other three fingers.","残りの3本は折ります。","其余三根手指弯起。","Dobla los otros tres dedos.","Repliez les trois autres doigts."],"손등이나 손바닥을 카메라에 보여 줍니다.":["Show your hand to the camera.","手の甲か手のひらをカメラに見せます。","把手背或手掌朝向摄像头。","Muestra la mano a la cámara.","Montrez la main à la caméra."],"여유롭게 잘 지내자는 알로하 정신을 담은 인사예요.":["A greeting in the relaxed aloha spirit.","ゆったり過ごそうというアロハの精神を込めたあいさつです。","这是蕴含悠闲“阿罗哈”精神的问候。","Un saludo con el relajado espíritu aloha.","Une salutation dans l’esprit détendu de l’aloha."],"주먹 인사":["Fist bump","フィストバンプ","碰拳","Choque de puños","Check du poing"],"미국 등 여러 나라":["USA and many countries","アメリカなど多くの国","美国等多个国家","EE. UU. y muchos países","États-Unis et de nombreux pays"],"주먹을 쥡니다.":["Make a fist.","握りこぶしを作ります。","握拳。","Cierra el puño.","Fermez le poing."],"카메라 쪽으로 쭉 내밉니다.":["Push it toward the camera.","カメラの方へぐっと出します。","向摄像头伸出去。","Acércalo a la cámara.","Avancez-le vers la caméra."],"주먹이 크게 보이면 그대로 잠깐 멈춥니다.":["When it looks big, hold it for a moment.","こぶしが大きく見えたら少し止めます。","拳头看起来变大时,停一下。","Cuando se vea grande, mantenlo un momento.","Quand il paraît grand, gardez-le un instant."],"서로 주먹을 살짝 맞대는 가벼운 인사예요.":["A casual greeting where two fists lightly touch.","互いのこぶしを軽く合わせる気軽なあいさつです。","两人轻碰拳头的轻松问候。","Un saludo informal en el que se rozan los puños.","Une salutation décontractée où deux poings se touchent."],"거수경례":["Salute","挙手の敬礼","举手礼","Saludo militar","Salut militaire"],"세계 여러 나라의 군대":["Militaries around the world","世界各国の軍隊","世界多国的军队","Ejércitos de todo el mundo","Armées du monde entier"],"오른손을 곧게 폅니다.":["Straighten your right hand.","右手をまっすぐ伸ばします。","右手伸直。","Estira la mano derecha.","Tendez la main droite."],"손끝을 눈썹 옆에 붙입니다.":["Touch your fingertips beside your eyebrow.","指先を眉の横につけます。","指尖贴在眉毛旁。","Lleva los dedos junto a la ceja.","Placez le bout des doigts près du sourcil."],"팔꿈치를 옆으로 들고 잠깐 멈춥니다.":["Raise your elbow to the side and hold.","肘を横に上げて少し止めます。","手肘向侧抬起,停一下。","Levanta el codo al lado y mantén.","Levez le coude sur le côté et tenez."],"손의 각도와 방식은 나라와 군대마다 조금씩 달라요.":["Hand angle and style differ slightly between countries and forces.","手の角度や形は国や軍によって少しずつ違います。","手的角度和方式因国家和军队而略有不同。","El ángulo y el estilo varían según el país y el ejército.","L’angle et le style varient selon les pays et les armées."],"손바닥을 폈어요":["Palm is open","手のひらを開きました","手掌已张开","Palma abierta","Paume ouverte"],"상반신이 보여요":["Upper body visible","上半身が見えます","可见上半身","Se ve el torso","Haut du corps visible"],"바로 선 자세를 기억했어요":["Upright pose remembered","まっすぐ立った姿勢を記憶しました","已记住站直姿势","Postura recta memorizada","Posture droite mémorisée"],"허리를 숙였어요":["You bowed","腰を傾けました","已弯腰","Te has inclinado","Buste incliné"],"두 손을 붙였어요":["Hands are together","両手を合わせました","双手已合拢","Manos juntas","Mains jointes"],"손끝이 위를 향해요":["Fingertips point up","指先が上を向いています","指尖朝上","Dedos hacia arriba","Doigts vers le haut"],"손끝이 얼굴 높이예요":["Fingertips at face height","指先が顔の高さです","指尖在脸部高度","Dedos a la altura de la cara","Doigts à hauteur du visage"],"가슴 앞에 있어요":["In front of your chest","胸の前にあります","在胸前","Ante el pecho","Devant la poitrine"],"주먹을 쥐었어요":["Fist is closed","こぶしを握りました","已握拳","Puño cerrado","Poing fermé"],"두 손이 붙어 있어요":["Hands are close together","両手がくっついています","双手靠在一起","Manos cerca","Mains rapprochées"],"손을 폈어요":["Hand is open","手を開きました","手已张开","Mano abierta","Main ouverte"],"가슴 위에 있어요":["On your chest","胸の上にあります","在胸口","Sobre el pecho","Sur la poitrine"],"손이 보여요":["Hand visible","手が見えます","可见手部","Se ve la mano","Main visible"],"엄지와 새끼만 폈어요":["Only thumb and little finger out","親指と小指だけ伸ばしました","只伸出拇指和小指","Solo pulgar y meñique","Seuls le pouce et l’auriculaire"],"카메라 가까이 내밀었어요":["Held close to the camera","カメラの近くへ出しました","已靠近摄像头","Cerca de la cámara","Près de la caméra"],"손을 곧게 폈어요":["Hand is straight","手をまっすぐ伸ばしました","手已伸直","Mano recta","Main droite"],"손끝이 눈썹 옆에 있어요":["Fingertips beside your eyebrow","指先が眉の横にあります","指尖在眉毛旁","Dedos junto a la ceja","Doigts près du sourcil"],"자유 모드":["Free mode","フリーモード","自由模式","Modo libre","Mode libre"],"아무 인사나 해 보세요":["Try any greeting","どのあいさつでもどうぞ","试试任意问候","Prueba cualquier saludo","Essayez une salutation"],"9가지 인사 중 무엇이든 하면 알아서 찾아 줍니다.":["Do any of the 9 greetings and it will be recognized.","9つのあいさつのどれをしても自動で見つけます。","做 9 种问候中的任何一种,都会自动识别。","Haz cualquiera de los 9 saludos y se reconocerá.","Faites l’une des 9 salutations et elle sera reconnue."],"같은 인사를 다시 하려면 손을 내렸다가 하세요.":["To repeat a greeting, lower your hands first.","同じあいさつをもう一度するには、一度手を下ろしてください。","要重复同一问候,请先放下手。","Para repetir un saludo, baja antes las manos.","Pour répéter une salutation, baissez d’abord les mains."],"9가지 인사를 모두 해 봤어요! 축하합니다.":["You’ve done all 9 greetings! Congratulations.","9つのあいさつをすべてやりました!おめでとうございます。","9 种问候全部完成!恭喜。","¡Has hecho los 9 saludos! Felicidades.","Vous avez fait les 9 salutations ! Félicitations."],"상반신이 보이도록 뒤로 물러나 주세요":["Step back so your upper body is visible","上半身が映るよう下がってください","请后退,让上半身入镜","Retrocede para que se vea el torso","Reculez pour montrer le haut du corps"],"어깨까지 화면에 들어오게 해 주세요":["Get your shoulders in the frame","肩まで画面に入れてください","请让肩膀进入画面","Haz que se vean los hombros","Faites entrer les épaules dans le cadre"],"카메라 권한이 막혀 있어요. 브라우저 주소창의 권한 설정에서 허용한 뒤 다시 눌러 주세요.":["Camera access is blocked. Allow it in the browser’s address-bar settings, then press again.","カメラの権限がブロックされています。アドレスバーの権限設定で許可してから、もう一度押してください。","摄像头权限被阻止。请在浏览器地址栏的权限设置中允许后再次点击。","El acceso a la cámara está bloqueado. Permítelo en la barra de direcciones y vuelve a pulsar.","L’accès à la caméra est bloqué. Autorisez-le dans la barre d’adresse, puis appuyez à nouveau."],"연결된 카메라를 찾지 못했어요.":["No connected camera was found.","接続されたカメラが見つかりません。","未找到已连接的摄像头。","No se encontró ninguna cámara.","Aucune caméra détectée."],"다른 앱이 카메라를 쓰고 있어요. 그 앱을 닫고 다시 눌러 주세요.":["Another app is using the camera. Close it and press again.","別のアプリがカメラを使っています。閉じてからもう一度押してください。","其他应用正在使用摄像头。请关闭后再次点击。","Otra app usa la cámara. Ciérrala y vuelve a pulsar.","Une autre application utilise la caméra. Fermez-la et réessayez."],"카메라를 켜지 못했어요. 브라우저를 새로 고친 뒤 다시 눌러 주세요.":["The camera couldn’t start. Refresh the browser and press again.","カメラを起動できませんでした。再読み込みしてもう一度押してください。","无法打开摄像头。请刷新浏览器后再次点击。","No se pudo encender la cámara. Recarga y vuelve a pulsar.","Impossible d’activer la caméra. Actualisez puis réessayez."],"카메라를 켜는 중이에요. 권한을 물으면 허용해 주세요.":["Starting the camera. Allow access if asked.","カメラを起動中です。権限を求められたら許可してください。","正在打开摄像头。如有提示请允许。","Encendiendo la cámara. Permite el acceso si se te pide.","Démarrage de la caméra. Autorisez l’accès si demandé."],"카메라 끄기":["Turn off camera","カメラをオフ","关闭摄像头","Apagar cámara","Désactiver la caméra"],"인식 준비 중":["Getting recognition ready","認識の準備中","正在准备识别","Preparando el reconocimiento","Préparation de la reconnaissance"],"처음에는 인식 모델을 받느라 조금 걸려요. 잠시만 기다려 주세요.":["The first time takes a moment while the recognition models download. Please wait.","初回は認識モデルの取得に少し時間がかかります。お待ちください。","首次需要下载识别模型,请稍候。","La primera vez tarda un poco en descargar los modelos. Espera, por favor.","La première fois, le téléchargement des modèles prend un instant. Patientez."],"손 흔들기만 인식 중":["Recognizing waving only","手を振る動作のみ認識中","仅识别挥手","Solo se reconoce el saludo con la mano","Reconnaissance du signe de la main uniquement"],"인식 모델을 받지 못했어요. 인터넷 연결을 확인하고 새로 고쳐 주세요. 지금은 손 흔들기만 셉니다.":["The recognition models couldn’t download. Check your connection and refresh. For now only waving is counted.","認識モデルを取得できませんでした。接続を確認して再読み込みしてください。今は手を振る動作だけ数えます。","无法下载识别模型。请检查网络后刷新。目前只统计挥手。","No se pudieron descargar los modelos. Revisa la conexión y recarga. Por ahora solo se cuenta el saludo con la mano.","Impossible de télécharger les modèles. Vérifiez la connexion et actualisez. Pour l’instant, seul le signe de la main compte."],"카메라를 껐어요.":["Camera turned off.","カメラをオフにしました。","已关闭摄像头。","Cámara apagada.","Caméra désactivée."],"다른 화면으로 나가서 카메라를 껐어요.":["The camera turned off because you left this screen.","別の画面に移動したのでカメラをオフにしました。","已离开此页面,摄像头已关闭。","La cámara se apagó porque saliste de esta pantalla.","La caméra s’est éteinte car vous avez quitté cet écran."],"올라":["ola","オラ","ola","ola","ola"],"봉주르":["bonjour","ボンジュール","bonjour","bonjour","bonjour"],"곤니치와":["konnichiwa","コンニチワ","konnichiwa","konnichiwa","konnichiwa"],"니하오":["ni hao","ニーハオ","nǐ hǎo","ni hao","ni hao"],"신짜오":["sin chao","シンチャオ","sin chao","sin chao","sin chao"],"사왓디":["sawatdi","サワディー","sawatdi","sawatdi","sawatdi"],"마르하바":["marhaba","マルハバ","marhaba","marhaba","marhaba"],"프리벳":["privet","プリヴィェート","privet","privet","privet"],"차오":["chao","チャオ","chao","chao","chao"],"알로하":["aloha","アロハ","aloha","aloha","aloha"],"샬롬":["shalom","シャローム","shalom","shalom","shalom"],"전화를 받을 때 쓰는 첫마디입니다. 상대가 어른이어도 그대로 씁니다.":["The first word when answering the phone, even with elders.","電話に出るときの第一声です。相手が目上でもそのまま使います。","这是接电话时的第一句话,对长辈也一样。","Es la primera palabra al contestar el teléfono, también con los mayores.","C’est le premier mot au téléphone, même avec les aînés."],"· 뉴질랜드 마오리. 서로 코를 맞댑니다. 이마를 함께 대기도 합니다.":["· Māori, New Zealand. Two people press noses, often touching foreheads too.","· ニュージーランドのマオリ。互いの鼻を合わせ、額も合わせることがあります。","· 新西兰毛利人。彼此碰触鼻子,也常同时碰额头。","· Maorí, Nueva Zelanda. Se juntan las narices y a menudo también la frente.","· Maori, Nouvelle-Zélande. On presse le nez, souvent aussi le front."],"주로 만날 때 쓰고, 헤어질 때 쓰기도 해요.":["Mainly used on meeting, and sometimes when parting.","主に会うときに使い、別れるときに使うこともあります。","主要在见面时使用,有时告别也用。","Se usa sobre todo al encontrarse y a veces al despedirse.","Surtout employé à l’arrivée, parfois aussi au départ."],"반갑고 진심이라는 뜻을 담아요. 말레이시아에서는 손을 가볍게 맞잡은 뒤 가슴에 얹기도 해요.":["It conveys warmth and sincerity. In Malaysia, people may lightly touch hands first, then bring a hand to the chest.","うれしさと真心を表します。マレーシアでは手を軽く合わせてから胸に当てることもあります。","表示喜悦和真诚。在马来西亚,人们也会先轻触双手,再把手放到胸前。","Expresa alegría y sinceridad. En Malasia a veces se tocan las manos y luego se lleva la mano al pecho.","Ce geste exprime la joie et la sincérité. En Malaisie, on se touche parfois d’abord les mains, puis on porte la main à la poitrine."],"첫인사네요. 반가워요!":["Your first greeting. Nice to meet you!","はじめてのあいさつですね。はじめまして!","这是第一次问候。很高兴认识你!","Tu primer saludo. ¡Un placer!","Votre première salutation. Bienvenue !"],"첫인사":["First greeting","はじめてのあいさつ","第一次问候","Primer saludo","Première salutation"],"준비됐어요. 안내를 보며 따라 해 보세요.":["Ready. Follow the guide.","準備できました。案内を見ながらまねしてください。","准备好了。请按指南跟着做。","Listo. Sigue la guía.","C’est prêt. Suivez le guide."],"이 브라우저에서는 카메라를 쓸 수 없어요. 최신 브라우저의 https 주소로 열어 주세요.":["The camera isn’t available in this browser. Open the https address in an up-to-date browser.","このブラウザではカメラを使えません。最新のブラウザでhttpsのアドレスを開いてください。","此浏览器无法使用摄像头。请用最新版浏览器打开 https 地址。","La cámara no está disponible en este navegador. Abre la dirección https en un navegador actualizado.","La caméra n’est pas disponible dans ce navigateur. Ouvrez l’adresse https dans un navigateur à jour."],"방문 통계를 위해 페이지 주소, 브라우저 정보, 기능 사용 횟수를 GoatCounter로 보냅니다. 이때 IP 주소도 전달될 수 있습니다. 카메라 영상, 동작 좌표, 점수는 보내지 않습니다.":["For visit statistics, this site sends the page address, browser details and feature usage counts to GoatCounter. Your IP address may also be passed along. Camera video, movement coordinates and scores are never sent.","訪問統計のため、ページのアドレス、ブラウザ情報、機能の利用回数をGoatCounterに送信します。その際IPアドレスも伝わることがあります。カメラ映像、動きの座標、スコアは送信しません。","为统计访问情况,本站会把页面地址、浏览器信息和功能使用次数发送给 GoatCounter,其间也可能传递 IP 地址。摄像头画面、动作坐标和分数不会发送。","Para las estadísticas de visitas, este sitio envía a GoatCounter la dirección de la página, datos del navegador y el número de usos de cada función. También puede transmitirse tu dirección IP. El vídeo de la cámara, las coordenadas de movimiento y las puntuaciones nunca se envían.","Pour les statistiques de visites, ce site envoie à GoatCounter l’adresse de la page, des informations sur le navigateur et le nombre d’utilisations des fonctions. Votre adresse IP peut aussi être transmise. La vidéo de la caméra, les coordonnées des mouvements et les scores ne sont jamais envoyés."],"어디에서 찾아왔을까요":["Where visitors come from","どこから来たのでしょう","大家来自哪里","¿De dónde vienen las visitas?","D’où viennent les visiteurs ?"],"나라별 방문자 수입니다. 접속 위치로 추정하고 약 1시간마다 갱신하며, 3명 이상인 나라만 보여 줍니다.":["Visitors by country, estimated from connection location and updated about every hour. Only countries with 3 or more visitors are shown.","国別の訪問者数です。接続場所から推定し、約1時間ごとに更新します。3人以上の国だけを表示します。","按国家统计的访客人数。根据连接位置估算,约每小时更新一次,只显示访客达到 3 人的国家。","Visitantes por país, estimados según la ubicación de conexión y actualizados aproximadamente cada hora. Solo se muestran los países con 3 o más visitantes.","Visiteurs par pays, estimés d’après le lieu de connexion et mis à jour environ toutes les heures. Seuls les pays comptant au moins 3 visiteurs sont affichés."],"나라별 방문자":["Visitors by country","国別の訪問者","各国访客","Visitantes por país","Visiteurs par pays"]},"patterns":[["([\\d.]+)초",["$1s","$1秒","$1 秒","$1 s","$1 s"]],["(\\d+)번 연속 정답!",["$1 in a row!","$1問連続正解!","连续答对 $1 题!","¡$1 seguidas!","$1 d’affilée !"]],["정답은 “(.+)”이에요\\. 2초 줄었어요\\.",["The answer is “$1”. You lost 2 seconds.","正解は「$1」です。2秒減りました。","正确答案是“$1”。减少 2 秒。","La respuesta es «$1». Pierdes 2 segundos.","La réponse est « $1 ». Vous perdez 2 secondes."]],["(\\d+)점, 새 기록이에요!",["$1 points, a new best!","$1点、新記録です!","$1 分,新纪录!","¡$1 puntos, nuevo récord!","$1 points, nouveau record !"]],["(-?\\d+)점, (.+)",["$1 points: $2","$1点、$2","$1 分,$2","$1 puntos: $2","$1 points : $2"]],["새 기록 (\\d+)점! 등급은 (.+)입니다\\.",["New best: $1! Your rank is $2.","新記録$1点!ランクは$2です。","新纪录 $1 分!等级为$2。","¡Nuevo récord: $1! Tu nivel es $2.","Nouveau record : $1 ! Votre rang : $2."]],["최고 기록은 (\\d+)점이에요\\. 한 번 더 해 볼까요\\?",["Your best is $1. One more try?","最高記録は$1点です。もう一度やりますか?","最高纪录是 $1 分。再来一次吗?","Tu récord es $1. ¿Otra vez?","Votre record est de $1. Encore une fois ?"]],["도장을 받았어요: (.+)",["Stamp earned: $1","スタンプ獲得:$1","获得印章:$1","Sello conseguido: $1","Tampon obtenu : $1"]],["(.+) \\(획득\\)",["$1 (earned)","$1(獲得)","$1(已获得)","$1 (conseguido)","$1 (obtenu)"]],["(\\d+)점이에요\\. 최고 기록은 (\\d+)점입니다\\.",["$1 points. Your best is $2.","$1点です。最高記録は$2点です。","$1 分。最高纪录是 $2 分。","$1 puntos. Tu récord es $2.","$1 points. Votre record est de $2."]],["‘(.+)’ 차례가 아니에요\\. 2초가 더해졌어요\\.",["It’s not ‘$1’ yet. 2 seconds added.","今は「$1」の番ではありません。2秒加算されました。","现在不该选“$1”。加 2 秒。","Aún no toca ‘$1’. Se suman 2 segundos.","Ce n’est pas encore ‘$1’. 2 secondes ajoutées."]],["‘(.+)’ 완성!",["‘$1’ complete!","「$1」完成!","“$1”完成!","¡‘$1’ completa!","‘$1’ terminé !"]],["([\\d.]+)초, 새 기록이에요!",["$1 s, a new best!","$1秒、新記録です!","$1 秒,新纪录!","¡$1 s, nuevo récord!","$1 s, nouveau record !"]],["([\\d.]+)초에 끝냈어요\\. 최고 기록은 ([\\d.]+)초입니다\\.",["Finished in $1 s. Your best is $2 s.","$1秒で終わりました。最高記録は$2秒です。","用时 $1 秒。最高纪录是 $2 秒。","Terminado en $1 s. Tu récord es $2 s.","Terminé en $1 s. Votre record : $2 s."]],["(.+) 인사 (.+)",["$1 greeting: $2","$1のあいさつ:$2","$1问候:$2","Saludo en $1: $2","Salutation en $1 : $2"]],["(.+)로 읽으면",["$1 pronunciation","$1の読み方","$1读法","$1: pronunciación","$1 : prononciation"]],["(.+) 동작 그림",["Picture of $1","$1の動作の絵","$1动作图","Dibujo de $1","Dessin : $1"]],["좌우로 흔들었어요 \\((\\d+)/(\\d+)\\)",["Waved side to side ($1/$2)","左右に振りました($1/$2)","已左右挥动($1/$2)","Movida de lado a lado ($1/$2)","Balancée de gauche à droite ($1/$2)"]],["(.+) 성공! \\((.+)\\)",["$1 done! ($2)","$1成功!($2)","$1成功!($2)","¡$1 conseguido! ($2)","$1 réussi ! ($2)"]],["(.+) 성공!",["$1 done!","$1成功!","$1成功!","¡$1 conseguido!","$1 réussi !"]]],"roman":{"안녕":"annyeong","안녕!":"annyeong!","안녕하세요":"annyeonghaseyo","안녕히 계세요":"annyeonghi gyeseyo","안녕히 가세요":"annyeonghi gaseyo","안녕히 주무세요":"annyeonghi jumuseyo","잘 자":"jal ja","잘 가":"jal ga","잘 있어":"jal isseo","반가워":"bangawo","또 봐":"tto bwa","메롱":"merong","인사":"insa","친구":"chingu","하루":"haru","우리":"uri","오늘":"oneul","사랑":"sarang","가족":"gajok"}};
+  const I18N_LANGS = ['en', 'ja', 'zh', 'es', 'fr'];
+  const i18nPatterns = I18N_DATA.patterns.map(([re, out]) => [new RegExp(`^${re}$`), out]);
+  let lang = 'ko';
+
+  function tr(text) {
+    if (lang === 'ko' || !text || !/[가-힣]/.test(text)) return text;
+    const [, before, core, after] = text.match(/^(\s*)([\s\S]*?)(\s*)$/);
+    const at = I18N_LANGS.indexOf(lang);
+    const hit = I18N_DATA.strings[core];
+    if (hit) return before + hit[at] + after;
+    for (const [re, out] of i18nPatterns) {
+      const found = core.match(re);
+      if (found) return before + out[at].replace(/\$(\d)/g, (_, n) => spoken(found[n])) + after;
+    }
+    return text;
+  }
+
+  /* 번역이 없는 한국어 낱말은 로마자 발음을 붙여 읽을 수 있게 한다 */
+  function spoken(word) {
+    if (lang === 'ko') return word;
+    const text = tr(word);
+    const roman = I18N_DATA.roman[word];
+    return text === word && roman ? `${word} (${roman})` : text;
+  }
+
+  const textSeen = new WeakMap();
+  const labelSeen = new WeakMap();
+
+  function translateText(node) {
+    const owner = node.parentElement;
+    if (!owner || owner.closest('script, style')) return;
+    const now = node.data;
+    const rec = textSeen.get(node);
+    const base = rec && rec.shown === now ? rec.base : now;
+    const next = tr(base);
+    if (next !== now) node.data = next;
+    textSeen.set(node, { base, shown: next });
+  }
+
+  function translateLabel(el) {
+    const now = el.getAttribute('aria-label');
+    if (now === null) return;
+    const rec = labelSeen.get(el);
+    const base = rec && rec.shown === now ? rec.base : now;
+    const next = tr(base);
+    if (next !== now) el.setAttribute('aria-label', next);
+    labelSeen.set(el, { base, shown: next });
+  }
+
+  function translateTree(root) {
+    if (root.nodeType === Node.TEXT_NODE) {
+      translateText(root);
+      return;
+    }
+    if (root.nodeType !== Node.ELEMENT_NODE) return;
+    translateLabel(root);
+    root.querySelectorAll('[aria-label]').forEach(translateLabel);
+    const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
+    while (walker.nextNode()) translateText(walker.currentNode);
+  }
+
+  new MutationObserver((records) => {
+    records.forEach((r) => {
+      if (r.type === 'characterData') translateText(r.target);
+      else if (r.type === 'attributes') translateLabel(r.target);
+      else r.addedNodes.forEach(translateTree);
+    });
+  }).observe(document.body, { subtree: true, childList: true, characterData: true, attributes: true, attributeFilter: ['aria-label'] });
+
+  function balloonLabel(word) {
+    return lang === 'ko' ? word : I18N_DATA.roman[word] || word;
+  }
+
+  /* 집계 스크립트가 있는 공개 사이트에서만 횟수를 센다. 영상, 좌표, 점수는 보내지 않는다 */
+  function track(name) {
+    window.goatcounter?.count?.({ path: name, title: name, event: true });
+  }
+
+  function setLanguage(code) {
+    lang = code;
+    document.documentElement.lang = code;
+    document.getElementById('lang-pick').value = code;
+    translateTree(document.body);
+    document.querySelectorAll('.balloon[data-word]').forEach((b) => { b.textContent = balloonLabel(b.dataset.word); });
+    try { localStorage.setItem('annyeong-lang', code); } catch {}
+  }
+
+  /* 언어별 주소에서는 그 언어로 고정하고, 언어를 바꾸면 해당 언어 주소로 옮긴다 */
+  const PAGE_LANG = document.documentElement.dataset.pageLang;
+  document.getElementById('lang-pick').addEventListener('change', (e) => {
+    track(`lang-${e.target.value}`);
+    if (PAGE_LANG) {
+      location.href = `/${e.target.value}/`;
+      return;
+    }
+    setLanguage(e.target.value);
+  });
+  {
+    let saved = null;
+    try { saved = localStorage.getItem('annyeong-lang'); } catch {}
+    const browser = (navigator.language || 'ko').slice(0, 2);
+    setLanguage(PAGE_LANG || saved || (browser === 'ko' || I18N_LANGS.includes(browser) ? browser : 'en'));
+  }
+
+  const greetings = {
+    elder: {
+      meet:      ['안녕하세요', 'annyeonghaseyo', '편안하신지 묻는 말입니다. 처음 만난 사람에게도, 매일 보는 어른께도 씁니다.'],
+      ileave:    ['안녕히 계세요', 'annyeonghi gyeseyo', '그곳에 편안히 머무시라는 말입니다. 남아 있는 사람에게 건넵니다.'],
+      theyleave: ['안녕히 가세요', 'annyeonghi gaseyo', '가시는 길이 편안하기를 바라는 말입니다. 떠나는 사람에게 건넵니다.'],
+      sleep:     ['안녕히 주무세요', 'annyeonghi jumuseyo', '편안히 주무시라는 말입니다. ‘자다’의 높임말 ‘주무시다’를 씁니다.'],
+      longtime:  ['오랜만이에요', 'oraenmanieyo', '“잘 지내셨어요?”를 이어서 말하면 더 다정합니다.'],
+      meal:      ['맛있게 드세요', 'masitge deuseyo', '음식을 권하거나 함께 먹기 시작할 때 건넵니다.'],
+      newyear:   ['새해 복 많이 받으세요', 'saehae bok mani badeuseyo', '설날이나 새해 첫날에 빠지지 않는 인사입니다.'],
+      phone:     ['여보세요', 'yeoboseyo', '전화를 받을 때 쓰는 첫마디입니다. 상대가 어른이어도 그대로 씁니다.']
+    },
+    friend: {
+      meet:      ['안녕!', 'annyeong', '편한 사이에서는 이 두 글자면 충분합니다.'],
+      ileave:    ['안녕, 잘 있어', 'annyeong, jal isseo', '남아 있는 친구에게 하는 말입니다. ‘안녕’만 말해도 됩니다.'],
+      theyleave: ['안녕, 잘 가', 'annyeong, jal ga', '떠나는 친구에게 하는 말입니다. ‘안녕’만 말해도 됩니다.'],
+      sleep:     ['잘 자', 'jal ja', '잠자리 인사는 ‘안녕’ 대신 이렇게 말합니다.'],
+      longtime:  ['오랜만이야', 'oraenmaniya', '“잘 지냈어?”까지 묻는 것이 보통입니다.'],
+      meal:      ['맛있게 먹어', 'masitge meogeo', '편한 사이에서 밥을 권할 때 하는 말입니다.'],
+      newyear:   ['새해 복 많이 받아', 'saehae bok mani bada', '친구나 동생에게는 이렇게 짧게 말합니다.'],
+      phone:     ['여보세요', 'yeoboseyo', '전화 첫마디는 친구 사이에도 같습니다.']
+    }
+  };
+
+  const form = document.getElementById('picker-form');
+  const say = document.getElementById('say');
+  const roman = document.getElementById('roman');
+  const why = document.getElementById('why');
+
+  form.addEventListener('submit', (e) => e.preventDefault());
+  form.addEventListener('change', () => {
+    const [text, latin, note] = greetings[form.elements.who.value][form.elements.when.value];
+    setSay(text);
+    roman.textContent = latin;
+    why.textContent = note;
+    const box = say.getBoundingClientRect();
+    burst(box.left + Math.min(box.width, 240) / 2, box.top + box.height / 2);
+  });
+
+  function setSay(text) {
+    say.textContent = '';
+    let i = 0;
+    text.split(' ').forEach((word, n) => {
+      if (n) say.append(' ');
+      const w = document.createElement('span');
+      w.className = 'word';
+      for (const c of word) {
+        const ch = document.createElement('span');
+        ch.className = 'ch';
+        ch.style.setProperty('--i', i++);
+        ch.textContent = c;
+        w.append(ch);
+      }
+      say.append(w);
+    });
+  }
+
+  const motionOK = !matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const store = {
+    get(key) { try { return Number(localStorage.getItem(key)) || 0; } catch { return 0; } },
+    set(key, value) { try { localStorage.setItem(key, String(value)); } catch {} }
+  };
+  const token = (name) => getComputedStyle(document.documentElement).getPropertyValue(name).trim();
+  const replay = (el, cls) => { el.classList.remove(cls); void el.offsetWidth; el.classList.add(cls); };
+  const rand = (a, b) => a + Math.random() * (b - a);
+
+  const SEASONS = {
+    spring: { line: '꽃구경은 다녀오셨어요?', shape: 'petal', burst: 'petal', count: 26, size: [7, 12], fall: [28, 62], drift: 28, spin: 1.4, alpha: 0.9, colors: ['#d9668c', '#e88fab'] },
+    summer: { line: '더위 조심하세요.', shape: 'rain', burst: 'snow', count: 70, size: [9, 16], fall: [320, 520], drift: 0, spin: 0, alpha: 0.8, slant: 0.1, colors: ['#4a86b8', '#6aa3cf'] },
+    autumn: { line: '하늘이 참 높아요. 잘 지내시죠?', shape: 'leaf', burst: 'leaf', count: 20, size: [8, 14], fall: [34, 72], drift: 36, spin: 1.6, alpha: 0.72, colors: ['#c8642b', '#b8283f', '#d19a2e'] },
+    winter: { line: '따뜻하게 입고 다니세요.', shape: 'snow', burst: 'snow', count: 54, size: [6, 13], fall: [20, 58], drift: 18, spin: 0, alpha: 1, colors: ['#ffffff', '#f4f8fc'] }
+  };
+  let season = 'off';
+
+  /* 캔버스 효과: 파문, 떠오르는 말, 흩날리는 자모 */
+  const canvas = document.getElementById('fx');
+  const ctx = canvas.getContext('2d');
+  let parts = [];
+  let raf = 0;
+  let last = 0;
+
+  function fit() {
+    const d = Math.min(devicePixelRatio || 1, 2);
+    canvas.width = innerWidth * d;
+    canvas.height = innerHeight * d;
+    ctx.setTransform(d, 0, 0, d, 0, 0);
+  }
+  fit();
+  addEventListener('resize', fit);
+
+  function add(p) {
+    if (!motionOK) return;
+    parts.push({ age: 0, vx: 0, vy: 0, g: 0, rot: 0, spin: 0, ...p });
+    if (!raf) {
+      last = performance.now();
+      raf = requestAnimationFrame(tick);
+    }
+  }
+
+  function tick(now) {
+    const dt = Math.max(0, Math.min((now - last) / 1000, 0.05));
+    last = now;
+    ctx.clearRect(0, 0, innerWidth, innerHeight);
+    parts = parts.filter((p) => {
+      p.age += dt;
+      const t = p.age / p.life;
+      if (t >= 1) return false;
+      p.x += p.vx * dt;
+      p.y += p.vy * dt;
+      p.vy += p.g * dt;
+      p.rot += p.spin * dt;
+      ctx.globalAlpha = p.kind === 'ring' ? 1 - t : Math.min(1, (1 - t) * 2.5);
+      if (p.kind === 'ring') {
+        ctx.strokeStyle = p.color;
+        ctx.lineWidth = p.width * (1 - t) + 0.5;
+        ctx.beginPath();
+        ctx.arc(p.x, p.y, p.r * (1 - (1 - t) * (1 - t)), 0, Math.PI * 2);
+        ctx.stroke();
+      } else if (p.kind === 'shape') {
+        drawShape(ctx, p.shape, p.x, p.y, p.size, p.rot, p.color);
+      } else {
+        ctx.save();
+        ctx.translate(p.x, p.y);
+        ctx.rotate(p.rot);
+        ctx.fillStyle = p.color;
+        ctx.font =`800 ${p.size}px Hahmlet, "Apple SD Gothic Neo", serif`;
+        ctx.textAlign = 'center';
+        ctx.textBaseline = 'middle';
+        ctx.fillText(p.text, 0, 0);
+        ctx.restore();
+      }
+      return true;
+    });
+    ctx.globalAlpha = 1;
+    raf = parts.length ? requestAnimationFrame(tick) : 0;
+    if (!raf) ctx.clearRect(0, 0, innerWidth, innerHeight);
+  }
+
+  function ripple(x, y, r = 46, width = 2) {
+    add({ kind: 'ring', x, y, r, width, life: 0.6, color: token('--accent') });
+  }
+
+  function floatWord(x, y, text, size = 30) {
+    add({ kind: 'text', x, y, text: spoken(text), size, vy: -95, g: 40, life: 1.1, rot: rand(-0.08, 0.08), color: token('--accent') });
+  }
+
+  function burst(x, y) {
+    ripple(x, y, 90, 5);
+    ripple(x, y, 150, 3);
+    const colors = [token('--accent'), token('--ink')];
+    for (let i = 0; i < 12; i++) {
+      const a = (i / 12) * Math.PI * 2 + rand(-0.2, 0.2);
+      const speed = rand(150, 340);
+      add({
+        kind: 'text', x, y, text: 'ㅇ', size: rand(14, 28), life: rand(0.6, 1),
+        vx: Math.cos(a) * speed, vy: Math.sin(a) * speed, g: 420,
+        spin: rand(-4, 4), color: colors[i % 2]
+      });
+    }
+    const look = SEASONS[season];
+    if (!look) return;
+    for (let i = 0; i < 10; i++) {
+      const a = rand(0, Math.PI * 2);
+      const speed = rand(120, 300);
+      add({
+        kind: 'shape', shape: look.burst, x, y, size: rand(9, 16), life: rand(0.7, 1.1),
+        vx: Math.cos(a) * speed, vy: Math.sin(a) * speed, g: 300, rot: rand(0, 6),
+        spin: rand(-5, 5), color: look.colors[i % look.colors.length]
+      });
+    }
+  }
+
+  function confetti() {
+    const bits = ['ㅇ', 'ㅏ', 'ㄴ', 'ㅕ', '안', '녕'];
+    const colors = [token('--accent'), token('--ink'), token('--muted')];
+    for (let i = 0; i < 70; i++) {
+      add({
+        kind: 'text', x: rand(0, innerWidth), y: rand(-160, -10), text: bits[i % bits.length],
+        size: rand(18, 44), life: rand(1.6, 2.8), vx: rand(-50, 50), vy: rand(80, 240), g: 260,
+        spin: rand(-3, 3), color: colors[i % 3]
+      });
+    }
+  }
+
+  /* 알림은 겹치지 않게 차례로 보여 준다 */
+  const toastEl = document.getElementById('toast');
+  const toastQueue = [];
+  let toastBusy = false;
+  let toastTimer = 0;
+  /* replace가 참이면 밀린 알림을 버리고 바로 보여 준다 */
+  function toast(text, replace) {
+    if (replace) {
+      toastQueue.length = 0;
+      clearTimeout(toastTimer);
+      toastBusy = false;
+    }
+    toastQueue.push(text);
+    if (!toastBusy) nextToast();
+  }
+  function nextToast() {
+    const text = toastQueue.shift();
+    if (text === undefined) {
+      toastBusy = false;
+      return;
+    }
+    toastBusy = true;
+    toastEl.textContent = text;
+    toastEl.classList.add('show');
+    toastTimer = setTimeout(() => {
+      toastEl.classList.remove('show');
+      toastTimer = setTimeout(nextToast, 240);
+    }, toastQueue.length ? 1800 : 3000);
+  }
+
+  /* 시간대별 인사 */
+  const hour = new Date().getHours();
+  document.getElementById('eyebrow').textContent =
+    hour >= 5 && hour < 11 ? '좋은 아침이에요.' :
+    hour >= 11 && hour < 14 ? '점심은 드셨어요?' :
+    hour >= 14 && hour < 18 ? '오후도 편안하게 보내세요.' :
+    hour >= 18 && hour < 23 ? '오늘 하루 어떠셨어요?' :
+    '늦은 시간이네요. 아직 안 주무셨군요.';
+
+  /* 큰 글자: 누르면 인사, 포인터를 따라 살짝 움직임 */
+  const hello = document.getElementById('hello');
+  const letters = hello.querySelectorAll('.letter');
+  const hero = document.querySelector('.hero');
+  const countEl = document.getElementById('count');
+  const words = ['안녕!', '안녕하세요', '반가워요', '또 봐요', '잘 지냈어요?', '좋은 하루요'];
+  const milestones = {
+    1: '첫인사네요. 반가워요!',
+    5: '벌써 다섯 번째예요. 우리 조금 친해졌네요.',
+    10: '열 번째 안녕! 이제 말 놓아도 될까요?',
+    30: '서른 번째 안녕! 동네에서 제일 인사성이 밝으시네요.',
+    100: '백 번째 안녕! 안녕 명예 홍보대사로 임명합니다.'
+  };
+  let count = store.get('annyeong-count');
+  countEl.textContent = count;
+
+  function boing() {
+    letters.forEach((l) => replay(l, 'boing'));
+  }
+
+  function greet(x, y) {
+    count += 1;
+    store.set('annyeong-count', count);
+    countEl.textContent = count;
+    document.getElementById('cam-count').textContent = count;
+    replay(countEl, 'bump');
+    stamp('first');
+    if (count >= 10) stamp('ten');
+    boing();
+    burst(x, y);
+    floatWord(x, y - 24, words[Math.floor(Math.random() * words.length)], 34);
+    if (milestones[count]) {
+      toast(milestones[count]);
+      if (count >= 5) confetti();
+    }
+  }
+
+  hello.addEventListener('click', (e) => {
+    const box = hello.getBoundingClientRect();
+    const x = e.detail ? e.clientX : box.left + box.width / 2;
+    const y = e.detail ? e.clientY : box.top + box.height / 2;
+    greet(x, y);
+  });
+
+  if (motionOK && matchMedia('(hover: hover)').matches) {
+    hero.addEventListener('pointermove', (e) => {
+      const box = hero.getBoundingClientRect();
+      hello.style.setProperty('--px', ((e.clientX - box.left) / box.width - 0.5) * 2);
+      hello.style.setProperty('--py', ((e.clientY - box.top) / box.height - 0.5) * 2);
+    });
+    hero.addEventListener('pointerleave', () => {
+      hello.style.setProperty('--px', 0);
+      hello.style.setProperty('--py', 0);
+    });
+  }
+
+  /* 어디를 눌러도 작은 파문 */
+  document.addEventListener('pointerdown', (e) => ripple(e.clientX, e.clientY));
+
+  /* 스크롤하면 섹션이 올라옴. 관찰이 실패해도 내용은 그대로 보인다. */
+  const seen = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (!entry.isIntersecting) return;
+      entry.target.classList.add('in');
+      seen.unobserve(entry.target);
+    });
+  }, { threshold: 0.15 });
+  document.querySelectorAll('.picker, .game, .world, .lucky, .meaning, .rule').forEach((s) => seen.observe(s));
+
+  /* 작별 인사를 누르면 처음으로 돌아가 다시 만남 */
+  const smooth = motionOK ? 'smooth' : 'auto';
+  document.getElementById('bye').addEventListener('click', (e) => {
+    const box = e.currentTarget.getBoundingClientRect();
+    burst(box.left + box.width / 2, box.top);
+    stamp('bye');
+    scrollTo({ top: 0, behavior: smooth });
+    setTimeout(() => {
+      boing();
+      toast('다시 만났네요. 안녕하세요!');
+    }, motionOK ? 700 : 0);
+  });
+
+  /* 20초 인사 챌린지 */
+  const QUESTIONS = [
+    ['가게를 나오면서 주인에게', '안녕히 계세요', ['안녕히 가세요', '안녕히 주무세요']],
+    ['집에 오신 손님이 돌아가실 때', '안녕히 가세요', ['안녕히 계세요', '안녕하세요']],
+    ['아침에 선생님을 만났을 때', '안녕하세요', ['안녕히 가세요', '잘 자']],
+    ['밤에 할머니가 주무시러 들어가실 때', '안녕히 주무세요', ['안녕히 계세요', '잘 자']],
+    ['학교 앞에서 친구를 만났을 때', '안녕!', ['안녕히 계세요', '안녕히 주무세요']],
+    ['밤늦게 동생이 자러 갈 때', '잘 자', ['안녕히 주무세요', '안녕하세요']],
+    ['먼저 집에 가는 친구에게', '잘 가', ['잘 있어', '안녕히 계세요']],
+    ['먼저 집에 가면서 남아 있는 친구에게', '잘 있어', ['잘 가', '안녕히 가세요']],
+    ['먼저 퇴근하면서 사무실에 남은 어른들께', '안녕히 계세요', ['안녕히 가세요', '잘 있어']],
+    ['길에서 함께 걷다가 헤어져 각자 가는 어른께', '안녕히 가세요', ['안녕히 계세요', '잘 가']],
+    ['이사 온 날 처음 만난 이웃에게', '안녕하세요', ['안녕!', '잘 가']]
+  ];
+  /* 한글을 못 읽는 사람도 풀 수 있게 다른 언어에서는 발음을 함께 보여 준다 */
+  const ROMAN = {
+    '안녕하세요': 'annyeonghaseyo', '안녕히 계세요': 'annyeonghi gyeseyo', '안녕히 가세요': 'annyeonghi gaseyo',
+    '안녕히 주무세요': 'annyeonghi jumuseyo', '안녕!': 'annyeong', '잘 자': 'jal ja', '잘 가': 'jal ga', '잘 있어': 'jal isseo'
+  };
+  const LENGTH = 20;
+  const $ = (id) => document.getElementById(id);
+  const answers = [$('answer-1'), $('answer-2'), $('answer-3')];
+  const stage = $('stage');
+  const scene = $('scene');
+  const statusEl = $('status');
+  const startBtn = $('start');
+  let running = false;
+  let left = LENGTH;
+  let score = 0;
+  let combo = 0;
+  let best = store.get('annyeong-best');
+  let queue = [];
+  let current = null;
+  let clockLast = 0;
+  $('best').textContent = best;
+
+  function shuffle(list) {
+    for (let i = list.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [list[i], list[j]] = [list[j], list[i]];
+    }
+    return list;
+  }
+
+  function drawClock() {
+    $('bar').style.transform = `scaleX(${left / LENGTH})`;
+    $('left').textContent = `${left.toFixed(1)}초`;
+    stage.classList.toggle('low', running && left <= 5);
+  }
+
+  function drawScore() {
+    $('score').textContent = score;
+    $('combo').textContent = combo;
+  }
+
+  function setRoman(button, word) {
+    let rom = button.querySelector('.rom');
+    if (!rom) {
+      rom = document.createElement('span');
+      rom.className = 'rom';
+      button.append(rom);
+    }
+    rom.textContent = ROMAN[word] || '';
+  }
+  answers.forEach((b) => setRoman(b, b.querySelector('.txt').textContent));
+
+  function nextQuestion() {
+    if (!queue.length) queue = shuffle(QUESTIONS.slice());
+    current = queue.pop();
+    scene.textContent = current[0];
+    replay(scene, 'next');
+    const options = shuffle([current[1], ...current[2]]);
+    answers.forEach((b, i) => {
+      b.querySelector('.txt').textContent = options[i];
+      b.dataset.value = options[i];
+      setRoman(b, options[i]);
+    });
+  }
+
+  function choose(button) {
+    if (!running) return;
+    const box = button.getBoundingClientRect();
+    const x = box.left + box.width / 2;
+    const y = box.top;
+    if (button.dataset.value === current[1]) {
+      combo += 1;
+      const gain = 10 * Math.min(combo, 5);
+      score += gain;
+      ripple(x, y + box.height / 2, 80, 4);
+      floatWord(x, y, `+${gain}`, 36);
+      statusEl.textContent = combo > 1 ? `${combo}번 연속 정답!` : '맞아요!';
+      if (combo % 5 === 0) burst(x, y);
+    } else {
+      combo = 0;
+      left = Math.max(0, left - 2);
+      replay(stage, 'shake');
+      statusEl.textContent = `정답은 “${current[1]}”이에요. 2초 줄었어요.`;
+    }
+    drawScore();
+    drawClock();
+    nextQuestion();
+  }
+
+  function clock(now) {
+    if (!running) return;
+    left = Math.max(0, left - Math.max(0, Math.min((now - clockLast) / 1000, 0.1)));
+    clockLast = now;
+    drawClock();
+    if (left <= 0) endGame();
+    else requestAnimationFrame(clock);
+  }
+
+  function startGame() {
+    track('game-quiz');
+    running = true;
+    left = LENGTH;
+    score = 0;
+    combo = 0;
+    queue = shuffle(QUESTIONS.slice());
+    answers.forEach((b) => { b.disabled = false; });
+    startBtn.hidden = true;
+    statusEl.textContent = '시작!';
+    drawScore();
+    drawClock();
+    nextQuestion();
+    answers[0].focus({ preventScroll: true });
+    clockLast = performance.now();
+    requestAnimationFrame(clock);
+  }
+
+  function endGame() {
+    running = false;
+    answers.forEach((b) => { b.disabled = true; });
+    combo = 0;
+    drawScore();
+    drawClock();
+    if (score >= 100) stamp('quiz');
+    const rank = score >= 300 ? '안녕 명인' : score >= 150 ? '동네 인사왕' : score >= 50 ? '인사성 밝은 이웃' : '첫인사 단계';
+    scene.textContent = `${score}점, ${rank}`;
+    replay(scene, 'next');
+    if (score > best) {
+      best = score;
+      store.set('annyeong-best', best);
+      $('best').textContent = best;
+      statusEl.textContent = '최고 기록을 새로 세웠어요!';
+      toast(`새 기록 ${score}점! 등급은 ${rank}입니다.`);
+      confetti();
+    } else {
+      statusEl.textContent = `최고 기록은 ${best}점이에요. 한 번 더 해 볼까요?`;
+    }
+    startBtn.textContent = '다시 도전하기';
+    startBtn.hidden = false;
+    startBtn.focus({ preventScroll: true });
+  }
+
+  startBtn.addEventListener('click', startGame);
+  answers.forEach((b) => b.addEventListener('click', () => choose(b)));
+  document.addEventListener('keydown', (e) => {
+    if (running && !e.repeat && ['1', '2', '3'].includes(e.key)) choose(answers[Number(e.key) - 1]);
+  });
+  $('to-game').addEventListener('click', () => {
+    $('game').scrollIntoView({ behavior: smooth });
+  });
+
+  /* 도장판 */
+  function loadList(key) {
+    try { return JSON.parse(localStorage.getItem(key)) || []; } catch { return []; }
+  }
+  function saveList(key, list) {
+    try { localStorage.setItem(key, JSON.stringify(list)); } catch {}
+  }
+  const STAMPS = [
+    ['first', '첫인사'], ['ten', '인사 열 번'], ['quiz', '챌린지 100점'],
+    ['pop', 'ㅇ 잡기 200점'], ['jamo', '자모 5단어'], ['world', '세계 인사 6개'],
+    ['draw', '뽑기 3번'], ['seasons', '사계절 구경'], ['bye', '작별 인사']
+  ];
+  const earned = new Set(loadList('annyeong-stamps'));
+
+  function drawStamps(fresh) {
+    $('stamps').replaceChildren(...STAMPS.map(([id, label]) => {
+      const li = document.createElement('li');
+      li.className = (earned.has(id) ? 'got' : '') + (id === fresh ? ' new' : '');
+      const seal = document.createElement('span');
+      seal.className = 'seal';
+      seal.textContent = '안녕';
+      seal.setAttribute('aria-hidden', 'true');
+      const name = document.createElement('span');
+      name.textContent = label + (earned.has(id) ? ' (획득)' : '');
+      li.append(seal, name);
+      return li;
+    }));
+    $('stamp-count').textContent = `${earned.size}/${STAMPS.length}`;
+  }
+
+  function stamp(id) {
+    if (earned.has(id)) return;
+    earned.add(id);
+    saveList('annyeong-stamps', [...earned]);
+    drawStamps(id);
+    toast(`도장을 받았어요: ${STAMPS.find((s) => s[0] === id)[1]}`);
+    if (earned.size === STAMPS.length) {
+      toast('도장판을 다 채웠어요! 축하합니다.');
+      confetti();
+    }
+  }
+  drawStamps();
+
+  /* 계절 배경: 꽃잎, 비, 낙엽, 눈. 누를 때 터지는 조각도 계절을 따른다. */
+  const bgCanvas = $('bg-fx');
+  const bgCtx = bgCanvas.getContext('2d');
+  const chips = document.querySelectorAll('.chip[data-season]');
+  let flakes = [];
+  let bgRaf = 0;
+  let bgLast = 0;
+
+  function drawShape(c, shape, x, y, size, rot, color) {
+    c.save();
+    c.translate(x, y);
+    c.rotate(rot);
+    c.fillStyle = color;
+    c.strokeStyle = color;
+    c.beginPath();
+    if (shape === 'petal') {
+      c.ellipse(0, 0, size * 0.42, size * 0.7, 0, 0, Math.PI * 2);
+      c.fill();
+    } else if (shape === 'rain') {
+      c.lineWidth = 2;
+      c.lineCap = 'round';
+      c.moveTo(0, -size);
+      c.lineTo(0, size);
+      c.stroke();
+    } else if (shape === 'leaf') {
+      c.moveTo(0, -size);
+      c.quadraticCurveTo(size * 0.8, 0, 0, size);
+      c.quadraticCurveTo(-size * 0.8, 0, 0, -size);
+      c.fill();
+    } else {
+      c.arc(0, 0, size * 0.4, 0, Math.PI * 2);
+      c.fill();
+    }
+    c.restore();
+  }
+
+  function fitBg() {
+    const d = Math.min(devicePixelRatio || 1, 2);
+    bgCanvas.width = innerWidth * d;
+    bgCanvas.height = innerHeight * d;
+    bgCtx.setTransform(d, 0, 0, d, 0, 0);
+  }
+  fitBg();
+  addEventListener('resize', () => {
+    fitBg();
+    if (!motionOK) paintFlakes(0);
+  });
+
+  function makeFlake(look, anywhere) {
+    return {
+      x: rand(0, innerWidth),
+      y: anywhere ? rand(0, innerHeight) : rand(-40, -10),
+      size: rand(look.size[0], look.size[1]),
+      vy: rand(look.fall[0], look.fall[1]),
+      sway: rand(0, 6),
+      rot: look.spin ? rand(0, 6) : 0.12,
+      spin: look.spin ? rand(-look.spin, look.spin) : 0,
+      color: look.colors[Math.floor(rand(0, look.colors.length))]
+    };
+  }
+
+  /* dt가 0이면 움직이지 않고 한 장면만 그린다. 동작 줄이기 설정에서 쓴다. */
+  function paintFlakes(dt) {
+    const look = SEASONS[season];
+    bgCtx.clearRect(0, 0, innerWidth, innerHeight);
+    if (!look) return false;
+    bgCtx.globalAlpha = look.alpha;
+    flakes.forEach((f, i) => {
+      f.y += f.vy * dt;
+      f.sway += dt;
+      f.rot += f.spin * dt;
+      const x = f.x + Math.sin(f.sway) * look.drift - (look.slant || 0) * f.y;
+      drawShape(bgCtx, look.shape, x, f.y, f.size, f.rot, f.color);
+      if (f.y > innerHeight + 40) flakes[i] = makeFlake(look, false);
+    });
+    bgCtx.globalAlpha = 1;
+    return true;
+  }
+
+  function bgTick(now) {
+    const dt = Math.max(0, Math.min((now - bgLast) / 1000, 0.05));
+    bgLast = now;
+    bgRaf = paintFlakes(dt) ? requestAnimationFrame(bgTick) : 0;
+  }
+
+  function gust(look) {
+    for (let i = 0; i < 36; i++) {
+      add({
+        kind: 'shape', shape: look.shape, x: rand(0, innerWidth), y: rand(-140, -10),
+        size: rand(look.size[0] * 1.4, look.size[1] * 1.8), life: rand(1.4, 2.4),
+        vx: rand(-60, 60), vy: rand(look.fall[1], look.fall[1] * 3), g: 120,
+        rot: rand(0, 6), spin: look.spin ? rand(-3, 3) : 0,
+        color: look.colors[i % look.colors.length]
+      });
+    }
+  }
+
+  function setSeason(name) {
+    season = name;
+    document.documentElement.dataset.season = name;
+    parts = parts.filter((p) => p.kind !== 'shape');
+    chips.forEach((c) => c.setAttribute('aria-pressed', String(c.dataset.season === name)));
+    const look = SEASONS[name];
+    flakes = look ? Array.from({ length: look.count }, () => makeFlake(look, true)) : [];
+    if (!motionOK) {
+      paintFlakes(0);
+      return;
+    }
+    if (!bgRaf) {
+      bgLast = performance.now();
+      bgRaf = requestAnimationFrame(bgTick);
+    }
+  }
+
+  const visited = new Set(loadList('annyeong-seasons'));
+  chips.forEach((chip) => chip.addEventListener('click', () => {
+    const name = chip.dataset.season;
+    setSeason(name);
+    const box = chip.getBoundingClientRect();
+    ripple(box.left + box.width / 2, box.top + box.height / 2, 60, 3);
+    if (!SEASONS[name]) return;
+    gust(SEASONS[name]);
+    toast(SEASONS[name].line, true);
+    visited.add(name);
+    saveList('annyeong-seasons', [...visited]);
+    if (visited.size === 4) stamp('seasons');
+  }));
+
+  const month = new Date().getMonth() + 1;
+  setSeason(month >= 3 && month <= 5 ? 'spring' : month >= 6 && month <= 8 ? 'summer' : month >= 9 && month <= 11 ? 'autumn' : 'winter');
+
+  /* 놀이터 탭 */
+  const tabs = ['quiz', 'pop', 'jamo'];
+  function showTab(name, focus) {
+    if (running) endGame();
+    if (popRunning) endPop();
+    if (jamoRunning) stopJamo();
+    tabs.forEach((t) => {
+      const on = t === name;
+      $(`tab-${t}`).setAttribute('aria-selected', String(on));
+      $(`tab-${t}`).tabIndex = on ? 0 : -1;
+      $(`panel-${t}`).hidden = !on;
+    });
+    if (focus) $(`tab-${name}`).focus();
+  }
+  tabs.forEach((t, i) => {
+    $(`tab-${t}`).addEventListener('click', () => showTab(t));
+    $(`tab-${t}`).addEventListener('keydown', (e) => {
+      if (e.key === 'ArrowRight') showTab(tabs[(i + 1) % tabs.length], true);
+      if (e.key === 'ArrowLeft') showTab(tabs[(i + tabs.length - 1) % tabs.length], true);
+    });
+  });
+
+  /* ㅇ 잡기 */
+  const sky = $('sky');
+  const skyMsg = $('sky-msg');
+  const GOOD_WORDS = ['안녕', '반가워', '또 봐', '잘 가'];
+  let popRunning = false;
+  let popLeft = LENGTH;
+  let popScore = 0;
+  let popBest = store.get('annyeong-pop-best');
+  let balloons = [];
+  let popLast = 0;
+  let spawnIn = 0;
+  $('pop-best').textContent = popBest;
+
+  function clearBalloons() {
+    sky.querySelectorAll('.balloon').forEach((b) => b.remove());
+    balloons = [];
+  }
+
+  function popBalloon(o) {
+    if (!popRunning || o.gone) return;
+    o.gone = true;
+    const box = o.el.getBoundingClientRect();
+    const x = box.left + box.width / 2;
+    const y = box.top + box.height / 2;
+    o.el.remove();
+    balloons = balloons.filter((b) => b !== o);
+    popScore = Math.max(0, popScore + o.points);
+    $('pop-score').textContent = popScore;
+    if (o.points < 0) {
+      replay(sky, 'shake');
+      floatWord(x, y, `${o.points}`, 32);
+    } else {
+      floatWord(x, y - 10, `+${o.points}`, o.points > 10 ? 40 : 30);
+      if (o.points > 10) burst(x, y);
+      else ripple(x, y, 70, 4);
+    }
+  }
+
+  function spawnBalloon() {
+    const roll = Math.random();
+    const type = roll < 0.13 ? 'gold' : roll < 0.3 ? 'bad' : 'good';
+    const size = rand(66, 84);
+    const el = document.createElement('button');
+    el.type = 'button';
+    el.className = `balloon ${type}`;
+    el.dataset.word = type === 'gold' ? 'ㅇ' : type === 'bad' ? '메롱' : GOOD_WORDS[Math.floor(rand(0, GOOD_WORDS.length))];
+    el.textContent = balloonLabel(el.dataset.word);
+    el.style.width = el.style.height = `${size}px`;
+    const o = {
+      el,
+      x: rand(0, Math.max(0, sky.clientWidth - size)),
+      y: sky.clientHeight + 8,
+      speed: rand(70, 125) * (1 + (LENGTH - popLeft) / LENGTH) * (type === 'gold' ? 1.4 : 1),
+      sway: rand(0, 6),
+      points: type === 'gold' ? 30 : type === 'bad' ? -15 : 10
+    };
+    el.addEventListener('pointerdown', (e) => {
+      e.preventDefault();
+      popBalloon(o);
+    });
+    el.addEventListener('click', (e) => {
+      if (!e.detail) popBalloon(o);
+    });
+    sky.append(el);
+    balloons.push(o);
+  }
+
+  function popFrame(now) {
+    if (!popRunning) return;
+    const dt = Math.max(0, Math.min((now - popLast) / 1000, 0.1));
+    popLast = now;
+    popLeft = Math.max(0, popLeft - dt);
+    $('pop-left').textContent = Math.ceil(popLeft);
+    spawnIn -= dt;
+    if (spawnIn <= 0) {
+      spawnBalloon();
+      spawnIn = 0.28 + 0.3 * (popLeft / LENGTH);
+    }
+    balloons = balloons.filter((o) => {
+      o.y -= o.speed * dt;
+      o.sway += dt * 2;
+      o.el.style.transform = `translate(${o.x + Math.sin(o.sway) * 10}px, ${o.y}px)`;
+      if (o.y < -100) {
+        o.el.remove();
+        return false;
+      }
+      return true;
+    });
+    if (popLeft <= 0) endPop();
+    else requestAnimationFrame(popFrame);
+  }
+
+  function startPop() {
+    track('game-pop');
+    clearBalloons();
+    popRunning = true;
+    popLeft = LENGTH;
+    popScore = 0;
+    spawnIn = 0;
+    $('pop-score').textContent = 0;
+    skyMsg.hidden = true;
+    popLast = performance.now();
+    requestAnimationFrame(popFrame);
+  }
+
+  function endPop() {
+    popRunning = false;
+    clearBalloons();
+    $('pop-left').textContent = 0;
+    skyMsg.hidden = false;
+    let line = `${popScore}점이에요. 최고 기록은 ${popBest}점입니다.`;
+    if (popScore > popBest) {
+      popBest = popScore;
+      store.set('annyeong-pop-best', popBest);
+      $('pop-best').textContent = popBest;
+      line = `${popScore}점, 새 기록이에요!`;
+      confetti();
+    }
+    if (popScore >= 200) stamp('pop');
+    $('pop-msg').textContent = line;
+    $('pop-start').textContent = '다시 도전하기';
+    $('pop-start').focus({ preventScroll: true });
+  }
+  $('pop-start').addEventListener('click', startPop);
+
+  /* 자모 맞추기 */
+  const WORDS = [
+    ['안녕', 'ㅇㅏㄴㄴㅕㅇ', '편안함을 묻는 인사'],
+    ['인사', 'ㅇㅣㄴㅅㅏ', '만나고 헤어질 때 건네는 말'],
+    ['친구', 'ㅊㅣㄴㄱㅜ', '오래 사귄 벗'],
+    ['하루', 'ㅎㅏㄹㅜ', '아침부터 밤까지'],
+    ['우리', 'ㅇㅜㄹㅣ', '나와 너를 함께 부르는 말'],
+    ['오늘', 'ㅇㅗㄴㅡㄹ', '지금 지나가는 이날'],
+    ['반가워', 'ㅂㅏㄴㄱㅏㅇㅝ', '만나서 기쁠 때 하는 말'],
+    ['사랑', 'ㅅㅏㄹㅏㅇ', '아끼고 위하는 마음'],
+    ['가족', 'ㄱㅏㅈㅗㄱ', '함께 사는 가까운 사람들']
+  ];
+  const JAMO_POOL = [...'ㄱㄴㄷㄹㅁㅂㅅㅇㅈㅎㅏㅓㅗㅜㅣㅕ'];
+  const ROUNDS = 5;
+  let jamoRunning = false;
+  let jamoQueue = [];
+  let jamoNeed = [];
+  let jamoIndex = 0;
+  let jamoDoneCount = 0;
+  let jamoPenalty = 0;
+  let jamoStart = 0;
+  let jamoTimer = 0;
+  let jamoBest = store.get('annyeong-jamo-best');
+  const jamoBestText = () => (jamoBest ? (jamoBest / 10).toFixed(1) : '없음');
+  $('jamo-best').textContent = jamoBestText();
+
+  function renderJamo(word, enabled) {
+    $('jamo-word').textContent = word[0];
+    $('jamo-hint').textContent = word[2];
+    $('jamo-roman').textContent = I18N_DATA.roman[word[0]] || '';
+    jamoNeed = [...word[1]];
+    jamoIndex = 0;
+    $('jamo-slots').replaceChildren(...jamoNeed.map((j) => {
+      const s = document.createElement('span');
+      s.className = 'slot';
+      s.dataset.hint = j;
+      return s;
+    }));
+    const extras = shuffle(JAMO_POOL.filter((j) => !jamoNeed.includes(j))).slice(0, 3);
+    $('jamo-tiles').replaceChildren(...shuffle([...jamoNeed, ...extras]).map((j) => {
+      const t = document.createElement('button');
+      t.type = 'button';
+      t.className = 'tile';
+      t.textContent = j;
+      t.disabled = !enabled;
+      t.addEventListener('click', () => pressTile(t));
+      return t;
+    }));
+  }
+
+  function jamoElapsed() {
+    return (performance.now() - jamoStart) / 1000 + jamoPenalty;
+  }
+
+  function pressTile(tile) {
+    if (!jamoRunning) return;
+    const box = tile.getBoundingClientRect();
+    if (tile.textContent !== jamoNeed[jamoIndex]) {
+      jamoPenalty += 2;
+      replay($('jamo-slots'), 'shake');
+      $('jamo-status').textContent = `‘${tile.textContent}’ 차례가 아니에요. 2초가 더해졌어요.`;
+      return;
+    }
+    tile.disabled = true;
+    const slot = $('jamo-slots').children[jamoIndex];
+    slot.textContent = tile.textContent;
+    slot.classList.add('on');
+    jamoIndex += 1;
+    ripple(box.left + box.width / 2, box.top + box.height / 2, 50, 3);
+    if (jamoIndex < jamoNeed.length) return;
+    jamoDoneCount += 1;
+    $('jamo-done').textContent = `${jamoDoneCount}/${ROUNDS}`;
+    floatWord(box.left + box.width / 2, box.top, $('jamo-word').textContent, 38);
+    $('jamo-status').textContent = `‘${$('jamo-word').textContent}’ 완성!`;
+    if (jamoDoneCount === ROUNDS) finishJamo();
+    else renderJamo(jamoQueue.pop(), true);
+  }
+
+  function startJamo() {
+    track('game-jamo');
+    jamoRunning = true;
+    jamoQueue = shuffle(WORDS.slice());
+    jamoDoneCount = 0;
+    jamoPenalty = 0;
+    $('jamo-done').textContent = `0/${ROUNDS}`;
+    $('jamo-start').hidden = true;
+    $('jamo-status').textContent = '시작!';
+    renderJamo(jamoQueue.pop(), true);
+    jamoStart = performance.now();
+    jamoTimer = setInterval(() => {
+      $('jamo-time').textContent = jamoElapsed().toFixed(1);
+    }, 100);
+  }
+
+  function stopJamo() {
+    jamoRunning = false;
+    clearInterval(jamoTimer);
+    $('jamo-tiles').querySelectorAll('.tile').forEach((t) => { t.disabled = true; });
+    $('jamo-start').textContent = '다시 도전하기';
+    $('jamo-start').hidden = false;
+  }
+
+  function finishJamo() {
+    const time = jamoElapsed();
+    const tenths = Math.round(time * 10);
+    stopJamo();
+    $('jamo-time').textContent = time.toFixed(1);
+    stamp('jamo');
+    const box = $('jamo-slots').getBoundingClientRect();
+    burst(box.left + 60, box.top + 20);
+    if (!jamoBest || tenths < jamoBest) {
+      jamoBest = tenths;
+      store.set('annyeong-jamo-best', jamoBest);
+      $('jamo-best').textContent = jamoBestText();
+      $('jamo-status').textContent = `${time.toFixed(1)}초, 새 기록이에요!`;
+      confetti();
+    } else {
+      $('jamo-status').textContent = `${time.toFixed(1)}초에 끝냈어요. 최고 기록은 ${jamoBestText()}초입니다.`;
+    }
+    $('jamo-start').focus({ preventScroll: true });
+  }
+  $('jamo-start').addEventListener('click', startJamo);
+  renderJamo(WORDS[0], false);
+
+  /* 세계의 안녕 */
+  const WORLD = [
+    ['Hola', '스페인어', '올라', 'es', false],
+    ['Bonjour', '프랑스어', '봉주르', 'fr', false],
+    ['こんにちは', '일본어', '곤니치와', 'ja', false],
+    ['你好', '중국어', '니하오', 'zh', false],
+    ['Xin chào', '베트남어', '신짜오', 'vi', false],
+    ['สวัสดี', '태국어', '사왓디', 'th', true],
+    ['مرحبا', '아랍어', '마르하바', 'ar', false],
+    ['नमस्ते', '힌디어', '나마스테', 'hi', true],
+    ['Привет', '러시아어', '프리벳', 'ru', false],
+    ['Ciao', '이탈리아어', '차오', 'it', true],
+    ['Aloha', '하와이어', '알로하', 'haw', true],
+    ['שלום', '히브리어', '샬롬', 'he', true]
+  ];
+  const flipped = new Set();
+
+  function renderWorld(onlyBoth) {
+    $('cards').replaceChildren(...WORLD.filter((w) => !onlyBoth || w[4]).map(([word, language, reading, code, both]) => {
+      const card = document.createElement('button');
+      card.type = 'button';
+      card.className = 'card';
+      card.setAttribute('aria-label', `${language} 인사 ${reading}`);
+      const inner = document.createElement('span');
+      inner.className = 'card-inner';
+      const front = document.createElement('span');
+      front.className = 'face';
+      const big = document.createElement('span');
+      big.className = 'word-big';
+      big.lang = code;
+      big.dir = 'auto';
+      big.textContent = word;
+      const lang = document.createElement('span');
+      lang.className = 'lang';
+      lang.textContent = language;
+      if (both) {
+        const tag = document.createElement('span');
+        tag.className = 'both';
+        tag.textContent = ' · 헤어질 때도';
+        lang.append(tag);
+      }
+      front.append(big, lang);
+      const back = document.createElement('span');
+      back.className = 'face back';
+      const read = document.createElement('span');
+      read.className = 'word-big';
+      read.textContent = reading;
+      const backLang = document.createElement('span');
+      backLang.className = 'lang';
+      backLang.textContent = `${language}로 읽으면`;
+      back.append(read, backLang);
+      inner.append(front, back);
+      card.append(inner);
+      card.addEventListener('click', () => {
+        card.classList.toggle('flip');
+        const box = card.getBoundingClientRect();
+        floatWord(box.left + box.width / 2, box.top, reading, 28);
+        ripple(box.left + box.width / 2, box.top + box.height / 2, 90, 3);
+        flipped.add(word);
+        if (flipped.size >= 6) stamp('world');
+      });
+      return card;
+    }));
+  }
+  renderWorld(false);
+  function filterWorld(onlyBoth) {
+    $('world-all').setAttribute('aria-pressed', String(!onlyBoth));
+    $('world-both').setAttribute('aria-pressed', String(onlyBoth));
+    renderWorld(onlyBoth);
+  }
+  $('world-all').addEventListener('click', () => filterWorld(false));
+  $('world-both').addEventListener('click', () => filterWorld(true));
+
+  /* 오늘의 안녕 뽑기 */
+  const MISSIONS = [
+    ['미션', '오늘은 내가 먼저 인사해 보세요.'],
+    ['미션', '엘리베이터에서 만난 이웃에게 인사해 보세요.'],
+    ['미션', '오래 연락 못 한 친구에게 “잘 지내?”를 보내 보세요.'],
+    ['미션', '가게를 나올 때 “안녕히 계세요”를 또렷하게 말해 보세요.'],
+    ['미션', '오늘 만나는 사람의 이름을 불러서 인사해 보세요.'],
+    ['미션', '부모님께 안부 전화를 한 통 드려 보세요.'],
+    ['귀한 미션', '오늘 처음 보는 사람에게 웃으며 인사해 보세요.'],
+    ['귀한 미션', '어제 고마웠던 사람에게 고맙다고 말해 보세요.'],
+    ['아주 귀한 미션', '오늘은 인사 세 번마다 스스로를 칭찬해 주세요.']
+  ];
+  let draws = store.get('annyeong-draws');
+  let lastMission = -1;
+  const drawBtn = $('draw-btn');
+  const drawText = $('draw-text');
+  const drawGrade = $('draw-grade');
+
+  function pickMission() {
+    const roll = Math.random();
+    const pool = roll < 0.06 ? [8] : roll < 0.26 ? [6, 7] : [0, 1, 2, 3, 4, 5];
+    const options = pool.filter((i) => i !== lastMission);
+    lastMission = options[Math.floor(Math.random() * options.length)];
+    return MISSIONS[lastMission];
+  }
+
+  function showMission([grade, text]) {
+    drawText.classList.remove('rolling');
+    drawGrade.textContent = grade;
+    drawText.textContent = text;
+    drawBtn.disabled = false;
+    drawBtn.textContent = '다시 뽑기';
+    const box = drawBtn.getBoundingClientRect();
+    burst(box.left + box.width / 2, box.top);
+    if (grade !== '미션') confetti();
+    draws += 1;
+    store.set('annyeong-draws', draws);
+    if (draws >= 3) stamp('draw');
+  }
+
+  drawBtn.addEventListener('click', () => {
+    const result = pickMission();
+    if (!motionOK) {
+      showMission(result);
+      return;
+    }
+    drawBtn.disabled = true;
+    drawText.classList.add('rolling');
+    let turns = 0;
+    const roll = setInterval(() => {
+      drawText.textContent = MISSIONS[Math.floor(Math.random() * MISSIONS.length)][1];
+      turns += 1;
+      if (turns < 12) return;
+      clearInterval(roll);
+      showMission(result);
+    }, 70);
+  });
+
+  /* 세계의 인사 제스처: 안내 내용. 그림은 거울처럼 보이도록 그린다. */
+  const GESTURES = [
+    {
+      id: 'wave', name: '손 흔들기', where: '세계 곳곳',
+      steps: ['손바닥을 펴서 어깨 높이로 올립니다.', '좌우로 크게 세 번 흔듭니다.'],
+      tip: '그리스에서는 손바닥을 상대에게 불쑥 내미는 동작이 모욕이 될 수 있어요. 흔드는 동작으로 해 주세요.',
+      fig: { head: [50, 24], body: [[[38, 42], [62, 42]], [[50, 42], [50, 78]]], arms: [[[38, 42], [26, 34], [22, 20]], [[62, 42], [68, 58], [66, 72]]], marks: [[20, 13, '👋', 15]] }
+    },
+    {
+      id: 'bow', name: '절', where: '한국 · 일본',
+      steps: ['먼저 정면을 보고 바로 섭니다.', '허리와 고개를 앞으로 숙입니다.', '잠깐 멈췄다가 천천히 일어납니다.'],
+      tip: '일본에서는 숙이는 각도가 깊을수록 더 공손한 인사가 됩니다.',
+      fig: { head: [24, 46], body: [[[60, 76], [32, 52]], [[60, 76], [60, 96]]], arms: [[[38, 57], [40, 78]]], marks: [] }
+    },
+    {
+      id: 'wai', name: '와이', where: '태국',
+      steps: ['두 손바닥을 붙입니다.', '손끝을 코 높이까지 올립니다.', '고개를 살짝 숙입니다.'],
+      tip: '손을 높이 올릴수록 상대를 더 높이는 뜻이 됩니다.',
+      fig: { head: [50, 24], body: [[[38, 42], [62, 42]], [[50, 42], [50, 78]]], arms: [[[38, 42], [32, 56], [48, 36]], [[62, 42], [68, 56], [52, 36]]], marks: [[50, 32, '🙏', 13]] }
+    },
+    {
+      id: 'namaste', name: '나마스테', where: '인도 · 네팔',
+      steps: ['두 손바닥을 붙입니다.', '가슴 앞에 두고 손끝이 위를 향하게 합니다.', '고개를 살짝 숙입니다.'],
+      tip: '주로 만날 때 쓰고, 헤어질 때 쓰기도 해요.',
+      fig: { head: [50, 24], body: [[[38, 42], [62, 42]], [[50, 42], [50, 78]]], arms: [[[38, 42], [30, 62], [48, 56]], [[62, 42], [70, 62], [52, 56]]], marks: [[50, 52, '🙏', 13]] }
+    },
+    {
+      id: 'baoquan', name: '포권', where: '중국 전통',
+      steps: ['오른손으로 주먹을 쥡니다.', '왼손으로 주먹을 감쌉니다.', '가슴 앞에 두고 살짝 앞뒤로 흔듭니다.'],
+      tip: '요즘은 명절이나 무술에서 주로 볼 수 있어요. 어느 손이 주먹인지는 카메라가 구분하지 않아요.',
+      fig: { head: [50, 24], body: [[[38, 42], [62, 42]], [[50, 42], [50, 78]]], arms: [[[38, 42], [30, 62], [46, 56]], [[62, 42], [70, 62], [54, 56]]], marks: [[46, 54, '✊', 12], [54, 54, '🫲', 12]] }
+    },
+    {
+      id: 'heart', name: '가슴에 손 얹기', where: '말레이시아 · 중동 일부',
+      steps: ['오른손을 폅니다.', '가슴 위에 가볍게 얹습니다.', '다른 손은 아래로 내립니다.'],
+      tip: '반갑고 진심이라는 뜻을 담아요. 말레이시아에서는 손을 가볍게 맞잡은 뒤 가슴에 얹기도 해요.',
+      fig: { head: [50, 24], body: [[[38, 42], [62, 42]], [[50, 42], [50, 78]]], arms: [[[38, 42], [28, 58], [46, 54]], [[62, 42], [68, 58], [66, 72]]], marks: [[48, 52, '🖐', 12]] }
+    },
+    {
+      id: 'shaka', name: '샤카', where: '하와이',
+      steps: ['엄지와 새끼손가락만 폅니다.', '나머지 세 손가락은 접습니다.', '손등이나 손바닥을 카메라에 보여 줍니다.'],
+      tip: '여유롭게 잘 지내자는 알로하 정신을 담은 인사예요.',
+      fig: { head: [50, 24], body: [[[38, 42], [62, 42]], [[50, 42], [50, 78]]], arms: [[[38, 42], [24, 54], [22, 36]], [[62, 42], [68, 58], [66, 72]]], marks: [[20, 28, '🤙', 15]] }
+    },
+    {
+      id: 'fist', name: '주먹 인사', where: '미국 등 여러 나라',
+      steps: ['주먹을 쥡니다.', '카메라 쪽으로 쭉 내밉니다.', '주먹이 크게 보이면 그대로 잠깐 멈춥니다.'],
+      tip: '서로 주먹을 살짝 맞대는 가벼운 인사예요.',
+      fig: { head: [50, 24], body: [[[38, 42], [62, 42]], [[50, 42], [50, 78]]], arms: [[[38, 42], [30, 56], [44, 60]], [[62, 42], [68, 58], [66, 72]]], marks: [[50, 62, '✊', 24]] }
+    },
+    {
+      id: 'salute', name: '거수경례', where: '세계 여러 나라의 군대',
+      steps: ['오른손을 곧게 폅니다.', '손끝을 눈썹 옆에 붙입니다.', '팔꿈치를 옆으로 들고 잠깐 멈춥니다.'],
+      tip: '손의 각도와 방식은 나라와 군대마다 조금씩 달라요.',
+      fig: { head: [50, 24], body: [[[38, 42], [62, 42]], [[50, 42], [50, 78]]], arms: [[[38, 42], [20, 40], [40, 20]], [[62, 42], [68, 58], [66, 72]]], marks: [[38, 17, '✋', 10]] }
+    }
+  ];
+
+  function gestureFigure(g) {
+    const line = (points, cls) => `<polyline class="${cls}" points="${points.map((p) => p.join(',')).join(' ')}"/>`;
+    return `<svg viewBox="0 0 100 100" role="img" aria-label="${g.name} 동작 그림">`
+      + g.fig.body.map((p) => line(p, 'fig-body')).join('')
+      + g.fig.arms.map((p) => line(p, 'fig-arm')).join('')
+      + `<circle class="fig-head" cx="${g.fig.head[0]}" cy="${g.fig.head[1]}" r="10"/>`
+      + g.fig.marks.map(([x, y, mark, size]) => `<text x="${x}" y="${y}" font-size="${size}" text-anchor="middle" dominant-baseline="middle">${mark}</text>`).join('')
+      + '</svg>';
+  }
+
+  /* 관절 좌표를 읽어 인사를 판단한다. 카메라와 분리해 두어 합성 좌표로도 시험할 수 있다. */
+  const gapOf = (a, b) => Math.hypot(a.x - b.x, a.y - b.y);
+
+  function readHand(landmarks, aspect) {
+    const p = landmarks.map((l) => ({ x: l.x * aspect, y: l.y }));
+    const wrist = p[0];
+    const palm = gapOf(p[0], p[9]);
+    const tips = [8, 12, 16, 20];
+    const joints = [6, 10, 14, 18];
+    const out = tips.map((t, i) => gapOf(p[t], wrist) > gapOf(p[joints[i]], wrist) * 1.12);
+    const curled = tips.map((t, i) => gapOf(p[t], wrist) < gapOf(p[joints[i]], wrist) * 1.02);
+    return {
+      points: p,
+      palm,
+      center: { x: (p[0].x + p[5].x + p[17].x) / 3, y: (p[0].y + p[5].y + p[17].y) / 3 },
+      out,
+      curled,
+      thumbOut: gapOf(p[4], p[5]) > palm * 0.62,
+      open: out.filter(Boolean).length >= 4,
+      flat: out.filter(Boolean).length >= 3,
+      fist: curled.every(Boolean)
+    };
+  }
+
+  function readPose(landmarks, aspect) {
+    if (!landmarks || landmarks[11].visibility < 0.5 || landmarks[12].visibility < 0.5) return null;
+    const at = (i) => ({ x: landmarks[i].x * aspect, y: landmarks[i].y });
+    const mid = (a, b) => ({ x: (a.x + b.x) / 2, y: (a.y + b.y) / 2 });
+    const lShoulder = at(11);
+    const rShoulder = at(12);
+    return {
+      nose: at(0),
+      eye: mid(at(2), at(5)),
+      mouth: mid(at(9), at(10)),
+      shoulder: mid(lShoulder, rShoulder),
+      size: Math.max(gapOf(lShoulder, rShoulder), 0.01),
+      wristGap: gapOf(at(15), at(16)),
+      indexGap: gapOf(at(19), at(20)),
+      wrist: mid(at(15), at(16)),
+      index: mid(at(19), at(20)),
+      wristSeen: landmarks[15].visibility > 0.4 && landmarks[16].visibility > 0.4
+    };
+  }
+
+  function createGestureReader({ needTurns = 3, turnWindowMs = 1800 } = {}) {
+    let smooth = null;
+    let extreme = null;
+    let dir = 0;
+    let turns = [];
+    let lastOpen = -Infinity;
+    let bowBase = 0;
+    let baseAt = -Infinity;
+
+    return function read(handMarks, poseMarks, aspect, now) {
+      const hands = handMarks.map((m) => readHand(m, aspect));
+      const pose = readPose(poseMarks, aspect);
+      const anyFist = hands.some((h) => h.fist);
+      const S = pose ? pose.size : 0;
+      const joined = !!pose && pose.wristSeen && pose.wristGap < S * 0.5 && pose.indexGap < S * 0.38;
+      const tipsUp = !!pose && pose.index.y < pose.wrist.y - S * 0.05;
+      const tipsAtFace = !!pose && pose.index.y < pose.mouth.y + S * 0.15;
+      const handsAtChest = !!pose && pose.wrist.y > pose.shoulder.y - S * 0.15 && pose.wrist.y < pose.shoulder.y + S * 1.3;
+
+      /* 손 흔들기: 편 손의 가로 위치가 좌우로 꺾인 횟수를 센다 */
+      const openHand = hands.find((h) => h.open);
+      let waved = false;
+      if (openHand) {
+        if (now - lastOpen > 400) {
+          smooth = null;
+          extreme = null;
+          dir = 0;
+          turns = [];
+        }
+        lastOpen = now;
+        const swing = openHand.palm * 0.55;
+        smooth = smooth === null ? openHand.center.x : smooth + (openHand.center.x - smooth) * 0.5;
+        if (extreme === null) {
+          extreme = smooth;
+        } else if (dir === 0) {
+          if (Math.abs(smooth - extreme) >= swing) {
+            dir = Math.sign(smooth - extreme);
+            extreme = smooth;
+          }
+        } else if ((smooth - extreme) * dir > 0) {
+          extreme = smooth;
+        } else if (Math.abs(smooth - extreme) >= swing) {
+          dir = -dir;
+          extreme = smooth;
+          turns.push(now);
+        }
+        turns = turns.filter((t) => now - t <= turnWindowMs);
+        if (turns.length >= needTurns) {
+          waved = true;
+          turns = [];
+        }
+      }
+
+      /* 절: 평소 코와 어깨의 간격을 기억해 두고, 그 간격이 크게 줄면 숙인 것으로 본다 */
+      let bowed = false;
+      let upright = false;
+      if (pose) {
+        const gap = (pose.shoulder.y - pose.nose.y) / S;
+        if (gap >= bowBase * 0.9 || now - baseAt > 6000) {
+          if (gap > 0.25) {
+            bowBase = Math.max(gap, now - baseAt > 6000 ? gap : bowBase);
+            baseAt = now;
+          }
+        }
+        upright = bowBase > 0.25;
+        bowed = upright && gap < bowBase * 0.55;
+      }
+
+      const body = !!pose;
+      const heartHand = pose && hands.find((h) => !h.fist && h.flat
+        && Math.abs(h.center.x - pose.shoulder.x) < S * 0.6
+        && h.center.y > pose.shoulder.y + S * 0.05 && h.center.y < pose.shoulder.y + S * 1.05);
+      const saluteHand = pose && hands.find((h) => {
+        if (!h.flat) return false;
+        const tip = h.points[12];
+        const side = Math.abs(tip.x - pose.nose.x);
+        return Math.abs(tip.y - pose.eye.y) < S * 0.4 && side > S * 0.08 && side < S * 0.9;
+      });
+      const shakaHand = hands.find((h) => h.thumbOut && h.out[3] && h.curled[0] && h.curled[1] && h.curled[2]);
+      const fistHand = hands.find((h) => h.fist);
+      const fistNear = !!fistHand && (pose ? fistHand.palm > S * 0.5 : fistHand.palm > 0.2);
+
+      const table = (checks) => ({ checks, ok: checks.every((c) => c[1]) });
+      return {
+        wave: { ...table([['손바닥을 폈어요', !!openHand], [`좌우로 흔들었어요 (${Math.min(turns.length, needTurns)}/${needTurns})`, waved]]), turns: turns.length },
+        bow: table([['상반신이 보여요', body], ['바로 선 자세를 기억했어요', upright], ['허리를 숙였어요', bowed]]),
+        wai: table([['상반신이 보여요', body], ['두 손을 붙였어요', joined && !anyFist], ['손끝이 위를 향해요', tipsUp], ['손끝이 얼굴 높이예요', tipsAtFace]]),
+        namaste: table([['상반신이 보여요', body], ['두 손을 붙였어요', joined && !anyFist], ['손끝이 위를 향해요', tipsUp], ['가슴 앞에 있어요', handsAtChest && !tipsAtFace]]),
+        baoquan: table([['상반신이 보여요', body], ['주먹을 쥐었어요', anyFist], ['두 손이 붙어 있어요', !!pose && pose.wristSeen && pose.wristGap < S * 0.55], ['가슴 앞에 있어요', handsAtChest]]),
+        heart: table([['상반신이 보여요', body], ['손을 폈어요', hands.some((h) => h.flat)], ['가슴 위에 있어요', !!heartHand && !joined]]),
+        shaka: table([['손이 보여요', hands.length > 0], ['엄지와 새끼만 폈어요', !!shakaHand]]),
+        fist: table([['주먹을 쥐었어요', !!fistHand && !joined], ['카메라 가까이 내밀었어요', fistNear]]),
+        salute: table([['상반신이 보여요', body], ['손을 곧게 폈어요', hands.some((h) => h.flat)], ['손끝이 눈썹 옆에 있어요', !!saluteHand && !joined]])
+      };
+    };
+  }
+
+  /* 판단을 잠깐 유지해야 인정한다. 손 흔들기는 흔든 순간 바로 인정한다. */
+  const GESTURE_ORDER = ['wai', 'namaste', 'baoquan', 'salute', 'heart', 'shaka', 'fist', 'bow', 'wave'];
+  function createGestureJudge({ holdMs = 650, bowHoldMs = 350, cooldownMs = 1500 } = {}) {
+    let holdId = null;
+    let holdStart = 0;
+    let coolUntil = -Infinity;
+    const armed = {};
+
+    return function judge(results, target, now) {
+      Object.keys(results).forEach((id) => {
+        if (!results[id].ok) armed[id] = true;
+      });
+      const ids = target ? [target] : GESTURE_ORDER;
+      const current = ids.find((id) => results[id].ok) || null;
+      if (current !== holdId) {
+        holdId = current;
+        holdStart = now;
+      }
+      if (!current) return { current: null, progress: 0, fired: null };
+      const need = current === 'wave' ? 0 : current === 'bow' ? bowHoldMs : holdMs;
+      const progress = need ? Math.min(1, (now - holdStart) / need) : 1;
+      let fired = null;
+      if (progress >= 1 && now >= coolUntil && armed[current] !== false) {
+        fired = current;
+        armed[current] = false;
+        coolUntil = now + cooldownMs;
+      }
+      return { current, progress, fired };
+    };
+  }
+
+  /* 모델을 못 불러올 때 쓰는 대체 방법: 영상의 움직임만으로 손 흔들기를 센다 */
+  function createWaveDetector({ need = 3, minSwing = 0.13, smoothing = 0.5, idleResetMs = 400, windowMs = 1800, cooldownMs = 1200, pixelDelta = 28, minMotion = 0.004, maxMotion = 0.45 } = {}) {
+    let prev = null;
+    let dir = 0;
+    let extreme = null;
+    let smooth = null;
+    let lastMotion = -Infinity;
+    let turns = [];
+    let lastWave = -Infinity;
+    const resetTrack = () => {
+      dir = 0;
+      extreme = null;
+      smooth = null;
+    };
+    return function step(gray, width, now) {
+      if (!prev) {
+        prev = gray.slice();
+        return false;
+      }
+      let moved = 0;
+      let sumX = 0;
+      for (let i = 0; i < gray.length; i++) {
+        if (Math.abs(gray[i] - prev[i]) > pixelDelta) {
+          moved += 1;
+          sumX += i % width;
+        }
+      }
+      prev.set(gray);
+      const motion = moved / gray.length;
+      turns = turns.filter((t) => now - t <= windowMs);
+      if (motion > maxMotion) {
+        resetTrack();
+        turns = [];
+      } else if (motion >= minMotion) {
+        if (now - lastMotion > idleResetMs) resetTrack();
+        lastMotion = now;
+        const raw = sumX / moved / width;
+        smooth = smooth === null ? raw : smooth + (raw - smooth) * smoothing;
+        if (extreme === null) {
+          extreme = smooth;
+        } else if (dir === 0) {
+          if (Math.abs(smooth - extreme) >= minSwing) {
+            dir = Math.sign(smooth - extreme);
+            extreme = smooth;
+          }
+        } else if ((smooth - extreme) * dir > 0) {
+          extreme = smooth;
+        } else if (Math.abs(smooth - extreme) >= minSwing) {
+          dir = -dir;
+          extreme = smooth;
+          turns.push(now);
+        }
+      }
+      if (turns.length >= need && now - lastWave >= cooldownMs) {
+        lastWave = now;
+        turns = [];
+        return true;
+      }
+      return false;
+    };
+  }
+
+  /* 가이드 화면 */
+  const gestureById = Object.fromEntries(GESTURES.map((g) => [g.id, g]));
+  const doneGestures = new Set(loadList('annyeong-gestures'));
+  let gestureTarget = GESTURES.find((g) => !doneGestures.has(g.id))?.id || null;
+  let lastChecks = '';
+  const camEl = (id) => document.getElementById(id);
+
+  function renderGestureGrid() {
+    camEl('gesture-grid').replaceChildren(...GESTURES.map((g) => {
+      const card = document.createElement('button');
+      card.type = 'button';
+      card.id = `gesture-${g.id}`;
+      card.className = `gesture-card${doneGestures.has(g.id) ? ' done' : ''}`;
+      card.setAttribute('aria-pressed', String(gestureTarget === g.id));
+      card.innerHTML = gestureFigure(g);
+      const name = document.createElement('b');
+      name.textContent = g.name;
+      const where = document.createElement('small');
+      where.textContent = g.where;
+      card.append(name, where);
+      card.addEventListener('click', () => setGestureTarget(g.id));
+      return card;
+    }));
+    camEl('gesture-done').textContent = `${doneGestures.size}/${GESTURES.length}`;
+    camEl('gesture-free').setAttribute('aria-pressed', String(gestureTarget === null));
+  }
+
+  function renderCoach() {
+    lastChecks = '';
+    camEl('coach-checks').replaceChildren();
+    const g = gestureById[gestureTarget];
+    if (!g) {
+      camEl('coach-fig').hidden = true;
+      camEl('coach-where').textContent = '자유 모드';
+      camEl('coach-title').textContent = '아무 인사나 해 보세요';
+      camEl('coach-steps').replaceChildren(...['9가지 인사 중 무엇이든 하면 알아서 찾아 줍니다.', '같은 인사를 다시 하려면 손을 내렸다가 하세요.'].map((text) => {
+        const li = document.createElement('li');
+        li.textContent = text;
+        return li;
+      }));
+      camEl('coach-tip').textContent = '';
+      return;
+    }
+    camEl('coach-fig').hidden = false;
+    camEl('coach-fig').innerHTML = gestureFigure(g);
+    camEl('coach-where').textContent = g.where;
+    camEl('coach-title').textContent = g.name;
+    camEl('coach-steps').replaceChildren(...g.steps.map((text) => {
+      const li = document.createElement('li');
+      li.textContent = text;
+      return li;
+    }));
+    camEl('coach-tip').textContent = g.tip;
+  }
+
+  function renderChecks(checks) {
+    const key = JSON.stringify(checks);
+    if (key === lastChecks) return;
+    lastChecks = key;
+    camEl('coach-checks').replaceChildren(...checks.map(([label, ok]) => {
+      const li = document.createElement('li');
+      li.textContent = label;
+      if (ok) li.className = 'ok';
+      return li;
+    }));
+  }
+
+  function setGestureTarget(id) {
+    gestureTarget = id;
+    renderGestureGrid();
+    renderCoach();
+  }
+  camEl('gesture-free').addEventListener('click', () => setGestureTarget(null));
+
+  function gestureSucceeded(id) {
+    track(`gesture-${id}`);
+    const g = gestureById[id];
+    const box = camEl('cam-video').getBoundingClientRect();
+    greet(box.left + box.width / 2, box.top + box.height / 2);
+    toast(`${g.name} 성공! (${g.where})`);
+    camEl('cam-status').textContent = `${g.name} 성공!`;
+    const first = !doneGestures.has(id);
+    doneGestures.add(id);
+    saveList('annyeong-gestures', [...doneGestures]);
+    if (first && doneGestures.size === GESTURES.length) {
+      toast('9가지 인사를 모두 해 봤어요! 축하합니다.');
+      confetti();
+    }
+    renderGestureGrid();
+    if (gestureTarget === id) {
+      const next = GESTURES.find((n) => !doneGestures.has(n.id));
+      setTimeout(() => {
+        if (gestureTarget === id) setGestureTarget(next ? next.id : null);
+      }, 1400);
+    }
+  }
+
+  /* 카메라와 모델 */
+  const camBtn = camEl('cam-toggle');
+  const camVideo = camEl('cam-video');
+  const camOverlay = camEl('cam-overlay');
+  const camEmpty = camEl('cam-empty');
+  const camStatus = camEl('cam-status');
+  const camLive = camEl('cam-live');
+  const TASKS_URL = new URL('/vendor/tasks-vision', location.href).href;
+  const HAND_MODEL = new URL('/vendor/models/hand_landmarker.task', location.href).href;
+  const POSE_MODEL = new URL('/vendor/models/pose_landmarker_lite.task', location.href).href;
+  const HAND_LINKS = [[0, 1], [1, 2], [2, 3], [3, 4], [0, 5], [5, 6], [6, 7], [7, 8], [5, 9], [9, 10], [10, 11], [11, 12], [9, 13], [13, 14], [14, 15], [15, 16], [13, 17], [17, 18], [18, 19], [19, 20], [0, 17]];
+  const POSE_LINKS = [[11, 12], [11, 13], [13, 15], [12, 14], [14, 16]];
+  let camStream = null;
+  let camLoop = 0;
+  let modelsPromise = null;
+  let camTick = 0;
+  let handMarks = [];
+  let poseMarks = null;
+  let lastVideoTime = -1;
+  let gestureReader = null;
+  let gestureJudge = null;
+  let fallbackStep = null;
+  let fallbackCtx = null;
+  camEl('cam-count').textContent = count;
+
+  function loadModels() {
+    if (modelsPromise) return modelsPromise;
+    modelsPromise = (async () => {
+      const vision = await import(`${TASKS_URL}/vision_bundle.mjs`);
+      const files = await vision.FilesetResolver.forVisionTasks(`${TASKS_URL}/wasm`);
+      const make = async (Task, model, extra) => {
+        try {
+          return await Task.createFromOptions(files, { baseOptions: { modelAssetPath: model, delegate: 'GPU' }, runningMode: 'VIDEO', ...extra });
+        } catch {
+          return Task.createFromOptions(files, { baseOptions: { modelAssetPath: model, delegate: 'CPU' }, runningMode: 'VIDEO', ...extra });
+        }
+      };
+      const [hand, pose] = await Promise.all([
+        make(vision.HandLandmarker, HAND_MODEL, { numHands: 2 }),
+        make(vision.PoseLandmarker, POSE_MODEL, { numPoses: 1 })
+      ]);
+      return { hand, pose };
+    })();
+    modelsPromise.catch(() => { modelsPromise = null; });
+    return modelsPromise;
+  }
+
+  function drawSkeleton() {
+    const w = camVideo.videoWidth;
+    const h = camVideo.videoHeight;
+    if (camOverlay.width !== w || camOverlay.height !== h) {
+      camOverlay.width = w;
+      camOverlay.height = h;
+    }
+    const c = camOverlay.getContext('2d');
+    c.clearRect(0, 0, w, h);
+    c.lineWidth = Math.max(2, w / 200);
+    c.lineCap = 'round';
+    const links = (points, pairs, color) => {
+      c.strokeStyle = color;
+      c.beginPath();
+      pairs.forEach(([a, b]) => {
+        c.moveTo(points[a].x * w, points[a].y * h);
+        c.lineTo(points[b].x * w, points[b].y * h);
+      });
+      c.stroke();
+    };
+    if (poseMarks) links(poseMarks, POSE_LINKS, '#ffffff');
+    handMarks.forEach((m) => links(m, HAND_LINKS, '#ff5c74'));
+  }
+
+  function bodyHint() {
+    if (!poseMarks) return '상반신이 보이도록 뒤로 물러나 주세요';
+    if (poseMarks[11].visibility < 0.5 || poseMarks[12].visibility < 0.5) return '어깨까지 화면에 들어오게 해 주세요';
+    return '동작을 찾는 중';
+  }
+
+  function gestureFrame(models) {
+    if (camVideo.readyState < 2 || camVideo.currentTime === lastVideoTime) return;
+    lastVideoTime = camVideo.currentTime;
+    const now = performance.now();
+    /* 두 모델을 번갈아 돌려 컴퓨터 부담을 줄인다 */
+    camTick += 1;
+    if (camTick % 2) handMarks = models.hand.detectForVideo(camVideo, now).landmarks || [];
+    else poseMarks = (models.pose.detectForVideo(camVideo, now).landmarks || [])[0] || null;
+    drawSkeleton();
+    const aspect = camVideo.videoWidth / camVideo.videoHeight;
+    const results = gestureReader(handMarks, poseMarks, aspect, now);
+    const seen = gestureJudge(results, gestureTarget, now);
+    if (gestureTarget) renderChecks(results[gestureTarget].checks);
+    camEl('cam-live-text').textContent = seen.current ? gestureById[seen.current].name : bodyHint();
+    camEl('cam-hold-bar').style.transform = `scaleX(${seen.progress})`;
+    if (seen.fired) gestureSucceeded(seen.fired);
+  }
+
+  function fallbackFrame() {
+    if (camVideo.readyState < 2) return;
+    fallbackCtx.drawImage(camVideo, 0, 0, 64, 48);
+    const rgba = fallbackCtx.getImageData(0, 0, 64, 48).data;
+    const gray = new Uint8ClampedArray(64 * 48);
+    for (let i = 0; i < gray.length; i++) {
+      gray[i] = (rgba[i * 4] * 77 + rgba[i * 4 + 1] * 150 + rgba[i * 4 + 2] * 29) >> 8;
+    }
+    if (fallbackStep(gray, 64, performance.now())) gestureSucceeded('wave');
+  }
+
+  function stopCamera(message) {
+    clearInterval(camLoop);
+    if (camStream) camStream.getTracks().forEach((t) => t.stop());
+    camStream = null;
+    camVideo.srcObject = null;
+    camVideo.hidden = true;
+    camOverlay.hidden = true;
+    camLive.hidden = true;
+    camEmpty.hidden = false;
+    camVideo.parentElement.style.aspectRatio = '';
+    handMarks = [];
+    poseMarks = null;
+    camBtn.textContent = '카메라 켜기';
+    camBtn.disabled = false;
+    if (message) camStatus.textContent = message;
+  }
+
+  function cameraError(err) {
+    if (!navigator.mediaDevices) return '이 브라우저에서는 카메라를 쓸 수 없어요. 최신 브라우저의 https 주소로 열어 주세요.';
+    if (err && err.name === 'NotAllowedError') return '카메라 권한이 막혀 있어요. 브라우저 주소창의 권한 설정에서 허용한 뒤 다시 눌러 주세요.';
+    if (err && err.name === 'NotFoundError') return '연결된 카메라를 찾지 못했어요.';
+    if (err && err.name === 'NotReadableError') return '다른 앱이 카메라를 쓰고 있어요. 그 앱을 닫고 다시 눌러 주세요.';
+    return '카메라를 켜지 못했어요. 브라우저를 새로 고친 뒤 다시 눌러 주세요.';
+  }
+
+  /* 폰의 세로 영상도 잘리지 않게 칸 비율을 실제 영상에 맞춘다 */
+  function fitCamView() {
+    if (camStream && camVideo.videoWidth) camVideo.parentElement.style.aspectRatio = `${camVideo.videoWidth} / ${camVideo.videoHeight}`;
+  }
+  camVideo.addEventListener('resize', fitCamView);
+
+  async function startCamera() {
+    camBtn.disabled = true;
+    camStatus.textContent = '카메라를 켜는 중이에요. 권한을 물으면 허용해 주세요.';
+    try {
+      camStream = await navigator.mediaDevices.getUserMedia({
+        video: { width: 640, height: 480, facingMode: 'user' },
+        audio: false
+      });
+      camVideo.srcObject = camStream;
+      await camVideo.play();
+      fitCamView();
+      track('camera-on');
+    } catch (err) {
+      stopCamera(cameraError(err));
+      return;
+    }
+    camVideo.hidden = false;
+    camOverlay.hidden = false;
+    camLive.hidden = false;
+    camEmpty.hidden = true;
+    camBtn.textContent = '카메라 끄기';
+    camBtn.disabled = false;
+    camEl('cam-live-text').textContent = '인식 준비 중';
+    camStatus.textContent = '처음에는 인식 모델을 받느라 조금 걸려요. 잠시만 기다려 주세요.';
+    gestureReader = createGestureReader();
+    gestureJudge = createGestureJudge();
+    lastVideoTime = -1;
+    let models = null;
+    try {
+      models = await loadModels();
+    } catch {
+      models = null;
+    }
+    if (!camStream) return;
+    if (models) {
+      camStatus.textContent = '준비됐어요. 안내를 보며 따라 해 보세요.';
+      camLoop = setInterval(() => gestureFrame(models), 40);
+      return;
+    }
+    const grab = document.createElement('canvas');
+    grab.width = 64;
+    grab.height = 48;
+    fallbackCtx = grab.getContext('2d', { willReadFrequently: true });
+    fallbackStep = createWaveDetector();
+    camEl('cam-live-text').textContent = '손 흔들기만 인식 중';
+    camStatus.textContent = '인식 모델을 받지 못했어요. 인터넷 연결을 확인하고 새로 고쳐 주세요. 지금은 손 흔들기만 셉니다.';
+    camLoop = setInterval(fallbackFrame, 66);
+  }
+
+  camBtn.addEventListener('click', () => {
+    if (camStream) stopCamera('카메라를 껐어요.');
+    else startCamera();
+  });
+  document.addEventListener('visibilitychange', () => {
+    if (document.hidden && camStream) stopCamera('다른 화면으로 나가서 카메라를 껐어요.');
+  });
+  renderGestureGrid();
+  renderCoach();
+
+  /* 자동 작업이 만든 나라별 합계를 보여 준다. 합계가 없으면 칸을 숨긴 채로 둔다 */
+  let visitorRows = [];
+  function renderVisitors() {
+    const list = document.getElementById('visitor-list');
+    const code = document.documentElement.lang || 'ko';
+    const names = new Intl.DisplayNames([code], { type: 'region' });
+    const top = visitorRows[0] ? visitorRows[0].count : 1;
+    list.replaceChildren(...visitorRows.map((row, i) => {
+      const li = document.createElement('li');
+      const bar = document.createElement('span');
+      bar.className = 'bar';
+      bar.style.width = `${row.count / top * 100}%`;
+      const name = document.createElement('span');
+      name.className = 'name';
+      name.textContent = `${i + 1}. ${names.of(row.code) || row.code}`;
+      const num = document.createElement('span');
+      num.className = 'num';
+      num.textContent = row.count.toLocaleString(code);
+      li.append(bar, name, num);
+      return li;
+    }));
+    document.getElementById('visitors').hidden = !visitorRows.length;
+  }
+  fetch('/visitors.json', { cache: 'no-cache' })
+    .then((r) => (r.ok ? r.json() : null))
+    .then((data) => {
+      visitorRows = (data && Array.isArray(data.countries) ? data.countries : [])
+        .filter((row) => /^[A-Z]{2}$/.test(row.code) && Number.isFinite(row.count) && row.count > 0)
+        .slice(0, 10);
+      renderVisitors();
+      new MutationObserver(renderVisitors).observe(document.documentElement, { attributes: true, attributeFilter: ['lang'] });
+    })
+    .catch(() => {});
+</script>
+
+</body></html>
