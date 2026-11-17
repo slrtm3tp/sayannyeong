@@ -2,11 +2,15 @@
   "countries": [
     {
       "code": "KR",
-      "count": 29
+      "count": 30
     },
     {
       "code": "US",
       "count": 29
+    },
+    {
+      "code": "TW",
+      "count": 3
     }
   ]
 }
